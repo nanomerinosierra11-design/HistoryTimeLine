@@ -1,0 +1,1100 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only">
+<title>Línea del Tiempo · Historia Universal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IM+Fell+English+SC&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme: light only;
+  --perg:#f3e7c9; --perg2:#ead9b0; --perg3:#dcc694; --caja:#f8efd9;
+  --tinta:#2a1c0e; --tinta2:#5b4329; --tinta3:#8a7150;
+  --rubrica:#9c2617; --oro:#b88a2c; --oro2:#d9b25a; --lapis:#1f3f7a; --verde:#3f6b4a;
+  --linea:rgba(92,64,28,.32); --linea2:rgba(92,64,28,.18);
+  --fraktur:'UnifrakturMaguntia', 'EB Garamond', serif;
+  --sc:'IM Fell English SC', 'EB Garamond', serif;
+  --texto:'EB Garamond', Georgia, serif;
+}
+*{box-sizing:border-box}
+html{background:#d9c59a}
+body{
+  margin:0; color:var(--tinta); font-family:var(--texto); font-size:18px; line-height:1.5;
+  background-color:var(--perg);
+  background-image:
+    radial-gradient(ellipse at 50% 40%, rgba(255,250,235,.55), rgba(255,250,235,0) 60%),
+    radial-gradient(ellipse at 0% 0%, rgba(140,96,40,.22), rgba(140,96,40,0) 38%),
+    radial-gradient(ellipse at 100% 100%, rgba(140,96,40,.24), rgba(140,96,40,0) 40%),
+    radial-gradient(ellipse at 100% 0%, rgba(140,96,40,.14), rgba(140,96,40,0) 30%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .35  0 0 0 0 .24  0 0 0 0 .1  0 0 0 .16 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  background-attachment:fixed;
+  min-height:100vh;
+}
+a{color:var(--rubrica)}
+button,select,input{font-family:var(--texto);font-size:16px;color:var(--tinta)}
+.oculto{display:none!important}
+
+/* ---------- marco y cabecera ---------- */
+.marco{max-width:1500px;margin:0 auto;padding:18px 22px 40px;position:relative}
+.cabecera{text-align:center;padding:14px 0 6px;position:relative}
+.cabecera .pre{font-family:var(--sc);letter-spacing:.22em;font-size:14px;color:var(--rubrica);margin:0}
+.cabecera h1{font-family:var(--fraktur);font-weight:400;font-size:clamp(34px,5.4vw,64px);line-height:1.05;margin:4px 0 2px;color:var(--tinta)}
+.cabecera h1 .cap{color:var(--rubrica)}
+.cabecera .sub{font-style:italic;color:var(--tinta2);margin:0;font-size:17px}
+.filete{border:0;height:9px;margin:12px auto 0;max-width:640px;
+  background:
+    linear-gradient(var(--rubrica),var(--rubrica)) center 0/100% 1px no-repeat,
+    linear-gradient(var(--oro),var(--oro)) center 4px/100% 1px no-repeat,
+    linear-gradient(var(--rubrica),var(--rubrica)) center 8px/100% 1px no-repeat}
+.floron{display:block;text-align:center;color:var(--oro);font-size:18px;line-height:1;margin-top:-13px}
+.floron span{background:var(--perg);padding:0 10px}
+
+nav.pestanas{display:flex;justify-content:center;gap:6px;margin:18px 0 18px;flex-wrap:wrap}
+nav.pestanas a{font-family:var(--sc);font-size:17px;letter-spacing:.08em;text-decoration:none;color:var(--tinta);
+  padding:7px 20px 6px;border:1px solid var(--linea);background:rgba(248,239,217,.6);position:relative}
+nav.pestanas a::first-letter{color:var(--rubrica);font-size:1.25em}
+nav.pestanas a[aria-current="page"]{background:var(--tinta);color:var(--caja);border-color:var(--tinta)}
+nav.pestanas a[aria-current="page"]::first-letter{color:var(--oro2)}
+
+/* controles genéricos */
+.b{cursor:pointer;background:var(--caja);border:1px solid var(--tinta2);padding:5px 14px;border-radius:2px;
+  font-family:var(--sc);letter-spacing:.05em;font-size:15px;line-height:1.2}
+.b:hover{background:var(--perg2)}
+.b.on,.b[aria-pressed="true"]{background:var(--rubrica);border-color:var(--rubrica);color:#fff6e4}
+select,input[type=search]{background:var(--caja);border:1px solid var(--linea);padding:5px 8px;border-radius:2px}
+input[type=search]{min-width:220px}
+input[type=range]{accent-color:var(--rubrica)}
+.barra{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center}
+.k{font-family:var(--sc);font-size:14px;letter-spacing:.06em;color:var(--tinta3)}
+
+/* ---------- ÍNDICE ---------- */
+.letras{display:flex;flex-wrap:wrap;justify-content:center;gap:3px;margin:14px 0 6px}
+.letras a{font-family:var(--fraktur);font-size:22px;width:34px;height:36px;display:grid;place-items:center;text-decoration:none;
+  color:var(--tinta);border:1px solid var(--linea2);background:rgba(248,239,217,.5)}
+.letras a:hover{background:var(--lapis);color:var(--oro2)}
+.letras a.vacia{opacity:.3;pointer-events:none}
+.resumen-ind{text-align:center;color:var(--tinta2);font-style:italic;margin:4px 0 10px}
+.seccion-letra{margin:26px 0 0;scroll-margin-top:12px}
+.seccion-letra h2{display:flex;align-items:center;gap:14px;margin:0 0 10px;font-weight:400}
+.inicial{font-family:var(--fraktur);font-size:38px;width:56px;height:56px;display:grid;place-items:center;flex:none;
+  border:2px solid var(--oro);box-shadow:inset 0 0 0 3px var(--perg),inset 0 0 0 4px var(--oro)}
+.inicial.a{background:var(--lapis);color:var(--oro2)}
+.inicial.b{background:var(--oro2);color:var(--lapis)}
+.seccion-letra h2 .r{flex:1;height:1px;background:var(--linea)}
+.seccion-letra h2 .n{font-family:var(--sc);font-size:15px;color:var(--tinta3)}
+/* modo índice */
+.lista-ind{columns:3 300px;column-gap:34px;column-rule:1px solid var(--linea2)}
+.ent{display:flex;align-items:baseline;gap:6px;break-inside:avoid;padding:2px 0;cursor:pointer;text-decoration:none;color:var(--tinta)}
+.ent .nm{font-weight:500}
+.ent .pt{flex:1;border-bottom:1.5px dotted var(--tinta3);transform:translateY(-4px);min-width:12px}
+.ent .fe{font-size:15px;color:var(--tinta2);white-space:nowrap;font-variant-numeric:oldstyle-nums}
+.ent:hover .nm{color:var(--rubrica)}
+.ca2{display:block;font-family:var(--sc);font-size:13px;color:var(--tinta3);letter-spacing:.04em;margin-top:-2px;line-height:1.2}
+.ent-w{break-inside:avoid;margin-bottom:5px}
+/* modo láminas */
+.rejilla{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px}
+.lam{display:block;text-decoration:none;color:var(--tinta);background:rgba(250,244,228,.75);border:1px solid var(--linea);
+  padding:8px 8px 10px;text-align:center;transition:transform .15s, box-shadow .15s}
+.lam:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(92,64,28,.25)}
+.lam .im{aspect-ratio:3/5;display:grid;place-items:center;overflow:hidden;background:#fffaf0;border:1px solid var(--linea2)}
+.lam img{width:100%;height:100%;object-fit:contain}
+.lam .nm{font-weight:600;font-size:16px;line-height:1.2;margin-top:6px}
+.lam .fe{font-size:14px;color:var(--tinta2)}
+.lam .ca{font-family:var(--sc);font-size:12.5px;color:var(--rubrica);letter-spacing:.05em}
+.medallon{width:70%;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;font-family:var(--fraktur);font-size:44px;
+  background:var(--lapis);color:var(--oro2);border:3px solid var(--oro)}
+
+/* ---------- ATLAS ---------- */
+.atlas{display:grid;grid-template-columns:1fr 300px;gap:14px}
+.caja{background:rgba(250,244,228,.62);border:1px solid var(--linea);box-shadow:inset 0 0 40px rgba(92,64,28,.10)}
+.mapa-caja{position:relative;padding:6px}
+#mapa{display:block;width:100%;height:46vh;min-height:320px;cursor:grab}
+#mapa:active{cursor:grabbing}
+.mapa-tit{position:absolute;left:16px;top:12px;pointer-events:none;font-family:var(--sc);font-size:15px;letter-spacing:.08em;color:var(--rubrica);
+  background:rgba(248,239,217,.85);padding:2px 10px;border:1px solid var(--linea2)}
+.mapa-ctl{position:absolute;right:14px;top:12px;display:flex;flex-direction:column;gap:4px}
+.mapa-ctl .b{width:34px;padding:4px 0;text-align:center;font-size:18px}
+.aviso-mapa{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:30px;color:var(--tinta2);font-style:italic}
+.lateral{display:flex;flex-direction:column;min-height:0;max-height:calc(46vh + 12px);}
+.lateral h3{font-family:var(--sc);font-weight:400;font-size:16px;letter-spacing:.07em;margin:0;padding:10px 12px 6px;color:var(--rubrica);border-bottom:1px solid var(--linea2)}
+.lateral h3 .n{color:var(--tinta2);float:right}
+.vivos{overflow:auto;flex:1;padding:4px 0}
+.vivo{display:flex;gap:8px;align-items:center;padding:4px 10px;cursor:pointer;border-bottom:1px solid rgba(92,64,28,.07)}
+.vivo:hover,.vivo.sel{background:rgba(185,138,44,.18)}
+.vivo img,.vivo .mini{width:30px;height:46px;object-fit:cover;object-position:top;flex:none;background:#fffaf0;border:1px solid var(--linea2)}
+.vivo .mini{display:grid;place-items:center;font-family:var(--fraktur);color:var(--oro2);background:var(--lapis)}
+.vivo .t{line-height:1.2;font-size:15.5px}
+.vivo .t small{display:block;color:var(--tinta3);font-size:13px}
+.punto-cat{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:1px}
+
+.consola{margin:14px 0 0;padding:10px 14px 12px}
+.anio-fila{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+.anio{font-family:var(--texto);font-size:40px;font-weight:600;line-height:1;color:var(--tinta);font-variant-numeric:oldstyle-nums;min-width:200px}
+.anio-sub{font-family:var(--sc);color:var(--rubrica);letter-spacing:.06em;font-size:16px}
+.anio-n{margin-left:auto;font-style:italic;color:var(--tinta2)}
+#deslizador{width:100%;margin:8px 0 6px}
+.consola .barra + .barra{margin-top:8px}
+
+.tl-caja{margin-top:14px;position:relative}
+#tl{display:block;width:100%;height:58vh;min-height:360px;touch-action:none;cursor:grab}
+.tl-ctl{position:absolute;right:16px;bottom:10px;display:flex;gap:4px;box-shadow:0 2px 8px rgba(92,64,28,.25)}
+.tl-ctl .b{padding:3px 10px}
+.ayuda{font-size:14.5px;color:var(--tinta3);font-style:italic;margin:6px 2px 0}
+.leyenda{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:14.5px;margin:10px 2px 0;color:var(--tinta2)}
+.leyenda label{cursor:pointer;user-select:none}
+.leyenda input{display:none}
+.leyenda input:not(:checked) + span{opacity:.35;text-decoration:line-through}
+
+.tip{position:fixed;z-index:50;pointer-events:none;background:var(--caja);border:1px solid var(--tinta2);
+  box-shadow:0 4px 14px rgba(60,40,15,.35);padding:8px 10px;display:flex;gap:10px;max-width:330px;font-size:15px;line-height:1.35}
+.tip img{width:54px;height:88px;object-fit:cover;object-position:top;border:1px solid var(--linea2);background:#fffaf0}
+.tip b{display:block;font-size:16.5px}
+.tip .c{font-family:var(--sc);color:var(--rubrica);font-size:13px;letter-spacing:.05em}
+
+.tarjeta{padding:12px 12px 14px;border-top:1px solid var(--linea2)}
+.tarjeta .tt{display:flex;gap:10px}
+.tarjeta img{width:64px;height:104px;object-fit:cover;object-position:top;border:1px solid var(--linea2);background:#fffaf0}
+.tarjeta b{font-size:18px;line-height:1.2;display:block}
+.tarjeta p{margin:6px 0 8px;font-size:15px;line-height:1.4}
+.tarjeta .b{font-size:13.5px;padding:4px 10px}
+
+/* ---------- FICHA ---------- */
+.migas{font-family:var(--sc);font-size:15px;letter-spacing:.05em;color:var(--tinta3);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.migas a{text-decoration:none}
+.migas .sp{flex:1}
+.ficha{display:grid;grid-template-columns:minmax(220px,340px) 1fr;gap:34px;margin-top:14px}
+.retrato{position:sticky;top:14px;align-self:start}
+.retrato .im{background:#fffaf0;border:1px solid var(--linea);padding:10px;box-shadow:0 0 0 6px rgba(248,239,217,.8),0 0 0 7px var(--oro),0 8px 22px rgba(92,64,28,.25)}
+.retrato img{display:block;width:100%;height:auto}
+.retrato .pie{text-align:center;font-size:14px;margin-top:14px;color:var(--tinta3);font-style:italic}
+.ficha h1{font-family:var(--texto);font-weight:600;font-size:clamp(32px,4vw,48px);line-height:1.08;margin:0}
+.ficha .alias{font-style:italic;color:var(--tinta2);font-size:19px}
+.ficha .fechas{font-family:var(--sc);font-size:20px;letter-spacing:.06em;color:var(--rubrica);margin:6px 0 2px}
+.ficha .resumen{font-size:21px;font-style:italic;color:var(--tinta2);margin:10px 0 18px;line-height:1.4}
+.datos{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:0;border-top:1px solid var(--linea);border-left:1px solid var(--linea);margin:0 0 22px}
+.datos div{padding:7px 12px;border-right:1px solid var(--linea);border-bottom:1px solid var(--linea);background:rgba(250,244,228,.5)}
+.datos dt{font-family:var(--sc);font-size:13px;letter-spacing:.07em;color:var(--tinta3)}
+.datos dd{margin:0;font-size:17px;font-weight:500}
+.bio{font-size:20px;line-height:1.62;text-align:justify;hyphens:auto}
+.bio::first-letter{float:left;font-family:var(--fraktur);font-size:64px;line-height:.9;padding:8px 10px 6px;margin:4px 12px 0 0;
+  background:var(--lapis);color:var(--oro2);border:2px solid var(--oro)}
+.bio.b2::first-letter{background:var(--oro2);color:var(--lapis)}
+.rubro{font-family:var(--sc);font-weight:400;font-size:20px;letter-spacing:.08em;color:var(--rubrica);margin:28px 0 8px;display:flex;align-items:center;gap:12px}
+.rubro::after{content:"";flex:1;height:1px;background:var(--linea)}
+.hitos{list-style:none;padding:0;margin:0}
+.hitos li{display:flex;gap:16px;padding:5px 0;border-bottom:1px dotted var(--linea)}
+.hitos .a{font-weight:600;color:var(--rubrica);min-width:110px;font-variant-numeric:oldstyle-nums}
+.su-tiempo{display:grid;grid-template-columns:1.25fr 1fr;gap:16px}
+.contemp{padding:10px 12px}
+#miniTL{display:block;width:100%}
+#miniMapa{display:block;width:100%;height:260px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:flex;gap:8px;align-items:center;text-decoration:none;color:var(--tinta);border:1px solid var(--linea);background:rgba(250,244,228,.7);padding:3px 10px 3px 3px;font-size:15.5px}
+.chip img{width:28px;height:42px;object-fit:cover;object-position:top;background:#fffaf0}
+.chip:hover{border-color:var(--rubrica)}
+.acciones{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 0}
+
+.colofon{text-align:center;margin-top:46px;color:var(--tinta3);font-size:14.5px;font-style:italic}
+.colofon .floron span{background:transparent}
+
+@media (max-width:980px){
+  .atlas{grid-template-columns:1fr}
+  .lateral{max-height:300px}
+  .ficha{grid-template-columns:1fr}
+  .retrato{position:static;max-width:320px;margin:0 auto}
+  .su-tiempo{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .marco{padding:10px 16px 30px}
+  body{font-size:17px}
+  .anio{font-size:30px;min-width:0}
+  input[type=search]{min-width:0;flex:1}
+  #tl{height:62vh}
+  .bio{font-size:18px;text-align:left}
+}
+</style>
+</head>
+<body>
+<div class="marco">
+  <header class="cabecera">
+    <p class="pre">Historia Universal · Enciclopedia de personajes</p>
+    <h1><span class="cap">L</span>ínea del <span class="cap">T</span>iempo</h1>
+    <p class="sub" id="subtitulo">—</p>
+    <hr class="filete"><span class="floron"><span>✠</span></span>
+  </header>
+
+  <nav class="pestanas" aria-label="Secciones">
+    <a href="#/atlas" data-v="atlas">Atlas del tiempo</a>
+    <a href="#/indice" data-v="indice">Índice de personajes</a>
+  </nav>
+
+  <!-- ================= ATLAS ================= -->
+  <section id="vAtlas" class="oculto">
+    <div class="atlas">
+      <div class="caja mapa-caja">
+        <svg id="mapa" role="img" aria-label="Mapa del mundo con los personajes activos en el año elegido"></svg>
+        <span class="mapa-tit" id="mapaTit">El mundo en este momento</span>
+        <div class="mapa-ctl">
+          <button class="b" id="mz+" title="Acercar">+</button>
+          <button class="b" id="mz-" title="Alejar">−</button>
+          <button class="b" id="mz0" title="Ver el mundo entero">◯</button>
+        </div>
+        <div class="aviso-mapa oculto" id="avisoMapa">El mapa necesita conexión a internet para cargar los contornos del mundo.<br>La línea del tiempo y el índice funcionan sin ella.</div>
+      </div>
+      <aside class="caja lateral">
+        <h3>En este momento <span class="n" id="nVivos">0</span></h3>
+        <div class="vivos" id="vivos"></div>
+        <div class="tarjeta oculto" id="tarjeta"></div>
+      </aside>
+    </div>
+
+    <div class="caja consola">
+      <div class="anio-fila">
+        <span class="anio" id="anio">—</span>
+        <span class="anio-sub" id="anioSub"></span>
+        <span class="anio-n" id="anioN"></span>
+      </div>
+      <input type="range" id="deslizador" min="0" max="10000" step="1" aria-label="Año">
+      <div class="barra">
+        <button class="b" id="play" aria-pressed="false">▶ Avanzar</button>
+        <select id="vel" aria-label="Velocidad"><option value="0.5">Lento</option><option value="1" selected>Normal</option><option value="2.5">Rápido</option></select>
+        <span class="k">Mostrar</span>
+        <select id="ventana" aria-label="Quiénes aparecen en el mapa">
+          <option value="vida" selected>vivos en ese año</option>
+          <option value="activo">en su apogeo ese año</option>
+          <option value="25">± 25 años</option>
+          <option value="100">± 100 años</option>
+          <option value="500">± 500 años</option>
+        </select>
+        <span class="k">Saltar a</span>
+        <select id="saltos" aria-label="Saltar a una época">
+          <option value="">— época —</option>
+        </select>
+      </div>
+      <div class="barra">
+        <input type="search" id="qA" placeholder="Buscar personaje, ciudad, civilización…" autocomplete="off">
+        <select id="fReg" aria-label="Región"></select>
+        <select id="fTipo" aria-label="Tipo">
+          <option value="">Todos los tipos</option>
+          <option value="histórico">Históricos</option>
+          <option value="otros">Bíblicos, míticos y de ficción</option>
+        </select>
+        <select id="fAgr" aria-label="Agrupar línea por">
+          <option value="region">Agrupar por región</option>
+          <option value="categoria">Agrupar por oficio</option>
+          <option value="">Sin agrupar</option>
+        </select>
+      </div>
+      <div class="leyenda" id="leyenda"></div>
+    </div>
+
+    <div class="caja tl-caja">
+      <canvas id="tl" aria-label="Línea del tiempo"></canvas>
+      <div class="tl-ctl">
+        <button class="b" id="tz+" title="Acercar">+</button>
+        <button class="b" id="tz-" title="Alejar">−</button>
+        <button class="b" id="tzH" title="Toda la historia escrita">Historia</button>
+        <button class="b" id="tzT" title="Desde la prehistoria">Todo</button>
+      </div>
+    </div>
+    <p class="ayuda">Arrastra la regla superior para cambiar el año · arrastra el pergamino para desplazarte · rueda o pellizco con <b>Ctrl</b> para acercar · un clic sobre un personaje lo sitúa en el mapa, doble clic abre su ficha.</p>
+  </section>
+
+  <!-- ================= ÍNDICE ================= -->
+  <section id="vIndice" class="oculto">
+    <div class="barra" style="justify-content:center">
+      <input type="search" id="qI" placeholder="Buscar en el índice…" autocomplete="off">
+      <select id="iEra" aria-label="Época"></select>
+      <select id="iCat" aria-label="Oficio"></select>
+      <select id="iReg" aria-label="Región"></select>
+      <select id="iOrden" aria-label="Orden">
+        <option value="az">Orden alfabético</option>
+        <option value="cr">Orden cronológico</option>
+      </select>
+      <button class="b" id="iModoL" aria-pressed="true">Índice</button>
+      <button class="b" id="iModoG" aria-pressed="false">Láminas</button>
+    </div>
+    <div class="letras" id="letras"></div>
+    <p class="resumen-ind" id="iRes"></p>
+    <div id="indice"></div>
+  </section>
+
+  <!-- ================= FICHA ================= -->
+  <section id="vFicha" class="oculto"></section>
+
+  <footer class="colofon">
+    <span class="floron"><span>❦</span></span>
+    <p>Línea del Tiempo de la Historia Universal · José Ricardo Merino Collado<br>
+    Datos en <code>datos/personajes.js</code> · retratos en esta carpeta, miniaturas en <code>miniaturas/</code></p>
+  </footer>
+</div>
+
+<div class="tip oculto" id="tip"></div>
+
+<script src="datos/personajes.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script>
+"use strict";
+/* =========================================================
+   DATOS
+   ========================================================= */
+const P = (window.PERSONAJES||[]).slice();
+const SIN = window.LAMINAS_SIN_CATALOGAR||[];
+const HOY = 2026;
+const $ = id => document.getElementById(id);
+const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const norm = s => String(s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+
+const CATS = {
+  "Gobernante":"#9c2617","Político":"#c0612b","Militar":"#5e2414","Revolucionario":"#d23c22",
+  "Religioso":"#1f3f7a","Filósofo":"#5872a8","Jurista":"#5b3e7a","Escritor":"#3f6b4a",
+  "Científico":"#2b7a73","Artista":"#b88a2c","Explorador":"#2a86a8","Economía y comercio":"#8a6a12",
+  "Pueblo y oficios":"#7a6a55","Mito y leyenda":"#9a5a92","Cultura popular":"#b06a55"
+};
+const REGS = ["Mesopotamia y Levante","Egipto y Norte de África","África subsahariana","Persia y Asia central",
+  "Grecia y Bizancio","Roma e Italia","Península Ibérica","Europa occidental","Islas Británicas","Europa central",
+  "Escandinavia","Europa del este y Rusia","Mundo árabe e islámico","Asia meridional","Asia oriental",
+  "Sudeste asiático y Oceanía","Mesoamérica y México","Sudamérica y Caribe","Norteamérica"];
+const ERAS = [
+  {n:"Prehistoria", a:-1e7, b:-3200},
+  {n:"Edad Antigua", a:-3200, b:476},
+  {n:"Edad Media", a:476, b:1492},
+  {n:"Edad Moderna", a:1492, b:1789},
+  {n:"Edad Contemporánea", a:1789, b:1e7}
+];
+const SALTOS = [
+  ["-40000","Paleolítico superior"],["-3200","Escritura en Sumer"],["-2300","Imperio acadio"],["-1750","Hammurabi"],
+  ["-1250","Ramsés II y Troya"],["-1000","David y Salomón"],["-500","Era axial"],["-430","Atenas de Pericles"],
+  ["-330","Alejandro Magno"],["-221","Primer emperador de China"],["-44","Muerte de César"],["30","Jesús de Nazaret"],
+  ["117","Roma en su apogeo"],["410","Saqueo de Roma"],["535","Justiniano"],["632","Muerte de Mahoma"],["800","Carlomagno"],
+  ["1000","Año mil"],["1095","Primera Cruzada"],["1220","Gengis Kan"],["1348","Peste negra"],["1450","Gutenberg"],
+  ["1492","Colón"],["1521","Caída de Tenochtitlan"],["1517","Reforma"],["1600","Siglo de Oro"],["1648","Westfalia"],
+  ["1776","Independencias"],["1789","Revolución francesa"],["1810","Independencia de México"],["1848","Revoluciones de 1848"],
+  ["1860","Reforma liberal"],["1910","Revolución mexicana"],["1917","Revolución rusa"],["1940","Segunda Guerra Mundial"],
+  ["1962","Guerra Fría"],["1989","Caída del Muro"],["2025","Hoy"]
+];
+
+P.forEach((p,i)=>{
+  p.i=i;
+  p.a0=p.activo[0]; p.a1=p.activo[1];
+  p.v0=(p.nacimiento??p.a0); p.v1=(p.muerte??(p.vive?HOY:p.a1));
+  if(p.v0>p.a0) p.v0=p.a0; if(p.v1<p.a1) p.v1=p.a1;
+  if(p.v1-p.v0<1) p.v1=p.v0+1;
+  p.mid=Math.round((p.a0+p.a1)/2);
+  p.era=eraDe(p.mid).n;
+  p.col=CATS[p.categoria]||"#7a6a55";
+  p.key=norm([p.nombre,p.alias,p.lugar,p.pais,p.civilizacion,p.categoria,p.region].join(" "));
+  p.letra=letraDe(p.nombre);
+});
+const BY = Object.fromEntries(P.map(p=>[p.slug,p]));
+const ALFA = P.slice().sort((a,b)=>a.nombre.localeCompare(b.nombre,"es",{sensitivity:"base"}));
+ALFA.forEach((p,i)=>p.ia=i);
+
+function letraDe(n){ const c=norm(n).replace(/[^a-z]/g,"")[0]||"#"; return c.toUpperCase(); }
+function eraDe(y){ return ERAS.find(e=>y>=e.a && y<e.b) || ERAS[4]; }
+const nf = n => { n=Math.abs(n); return n>=10000 ? n.toLocaleString("es-MX") : String(n); };
+function fa(y){ y=Math.round(y); return y<0 ? nf(y)+" a.C." : nf(y)+" d.C."; }
+function faCorto(y){ y=Math.round(y); return y<0 ? nf(y)+" a.C." : String(y); }
+const ROM=n=>{const v=[[1000,"M"],[900,"CM"],[500,"D"],[400,"CD"],[100,"C"],[90,"XC"],[50,"L"],[40,"XL"],[10,"X"],[9,"IX"],[5,"V"],[4,"IV"],[1,"I"]];let r="";for(const[a,s]of v)while(n>=a){r+=s;n-=a;}return r;};
+function siglo(y){
+  y=Math.round(y);
+  if(y<-10000) return "hace unos "+nf(Math.round((HOY-y)/1000))+" mil años";
+  if(y<0){ const s=Math.ceil(-y/100); return (s>40? "milenio "+ROM(Math.ceil(-y/1000))+" a.C." : "siglo "+ROM(s)+" a.C."); }
+  return "siglo "+ROM(Math.max(1,Math.ceil(y/100)));
+}
+const miniSrc = p => "miniaturas/"+p.slug+".jpg";
+const origSrc = p => encodeURIComponent(p.archivo);
+function imgTag(p,cls=""){
+  return `<img ${cls?`class="${cls}"`:""} loading="lazy" src="${miniSrc(p)}" alt="" onerror="this.onerror=null;this.replaceWith(medallon('${p.letra}'))">`;
+}
+window.medallon = (l)=>{ const d=document.createElement("div"); d.className="mini"; d.textContent=l; return d; };
+
+/* =========================================================
+   ESTADO COMPARTIDO (mapa ⇄ línea)
+   ========================================================= */
+const S = {
+  anio: 1492, ventana:"vida", q:"", reg:"", tipo:"", agr:"region",
+  cats:new Set(Object.keys(CATS)), sel:null, hover:null
+};
+function pasaFiltro(p){
+  if(!S.cats.has(p.categoria)) return false;
+  if(S.reg && p.region!==S.reg) return false;
+  if(S.tipo==="histórico" && p.tipo!=="histórico") return false;
+  if(S.tipo==="otros" && p.tipo==="histórico") return false;
+  if(S.q && !p.key.includes(S.q)) return false;
+  return true;
+}
+function enMomento(p,y){
+  const w=S.ventana;
+  if(w==="vida") return y>=p.v0 && y<=p.v1;
+  if(w==="activo") return y>=p.a0 && y<=p.a1;
+  const d=+w; return p.v1>=y-d && p.v0<=y+d;
+}
+let FILTRADOS=P.slice(), VISIBLES=[];
+
+/* =========================================================
+   ESCALA (comprime la prehistoria)
+   ========================================================= */
+const K=3000, M=420;
+const T = y => y>=-K ? y : -K - M*Math.log2(-y/K);
+const Ti = t => t>=-K ? t : -K*Math.pow(2,(-K-t)/M);
+const TMIN = T(-420000), TMAX = T(HOY+14);
+
+/* =========================================================
+   LÍNEA DEL TIEMPO (canvas)
+   ========================================================= */
+const tl = { cv:$("tl"), ctx:null, W:0, H:0, dpr:1, t0:T(-3300), t1:T(HOY+20), sy:0, filas:[], grupos:[], alto:0, hits:[] };
+const HDR=50, FILA=21, GH=22;
+
+function empacar(){
+  const L=FILTRADOS;
+  const claves = S.agr==="region" ? REGS : S.agr==="categoria" ? Object.keys(CATS) : ["Todos"];
+  const grupos=[]; let y=0;
+  for(const g of claves){
+    const items=L.filter(p=> S.agr==="region"?p.region===g : S.agr==="categoria"?p.categoria===g : true)
+                 .sort((a,b)=>a.v0-b.v0||a.v1-b.v1);
+    if(!items.length) continue;
+    const ult=[];  // fin (en T) de cada fila
+    for(const p of items){
+      const s=T(p.v0), e=Math.max(T(p.v1), s+ (S.agr?28:22));
+      let f=ult.findIndex(x=>x+6<=s);
+      if(f<0){ f=ult.length; ult.push(e);} else ult[f]=e;
+      p._f=f;
+    }
+    grupos.push({n:g, y, h:GH+ult.length*FILA+8, items, filas:ult.length});
+    y+=GH+ult.length*FILA+8;
+  }
+  tl.grupos=grupos; tl.alto=y;
+  tl.sy=Math.max(0,Math.min(tl.sy, Math.max(0,tl.alto-(tl.H-HDR))));
+}
+
+function tamTL(){
+  const r=tl.cv.getBoundingClientRect();
+  tl.dpr=window.devicePixelRatio||1;
+  tl.W=r.width; tl.H=r.height;
+  tl.cv.width=Math.round(r.width*tl.dpr); tl.cv.height=Math.round(r.height*tl.dpr);
+  tl.ctx=tl.cv.getContext("2d");
+  pintarTL();
+}
+const xDeT = t => (t-tl.t0)/(tl.t1-tl.t0)*tl.W;
+const tDeX = x => tl.t0 + x/tl.W*(tl.t1-tl.t0);
+const xDeA = y => xDeT(T(y));
+
+function pasoTicks(){
+  const aPorPx=(tl.t1-tl.t0)/tl.W;  // años por pixel (zona lineal)
+  const pasos=[1,2,5,10,20,25,50,100,200,250,500,1000,2000,5000];
+  return pasos.find(s=>s/aPorPx>=78)||5000;
+}
+let rafTL=0;
+function pintarTL(){ if(!rafTL) rafTL=requestAnimationFrame(()=>{rafTL=0;_pintarTL();}); }
+function _pintarTL(){
+  const c=tl.ctx; if(!c) return;
+  const W=tl.W,H=tl.H;
+  c.setTransform(tl.dpr,0,0,tl.dpr,0,0);
+  c.clearRect(0,0,W,H);
+  tl.hits=[];
+  // franjas de época
+  ERAS.forEach((e,i)=>{
+    const x0=Math.max(0,xDeA(Math.max(e.a,-420000))), x1=Math.min(W,xDeA(Math.min(e.b,HOY+14)));
+    if(x1<=x0) return;
+    c.fillStyle= i%2? "rgba(185,138,44,.10)" : "rgba(255,250,235,.25)";
+    c.fillRect(x0,0,x1-x0,H);
+    c.fillStyle= i%2? "rgba(31,63,122,.12)":"rgba(156,38,23,.10)";
+    c.fillRect(x0,0,x1-x0,18);
+    c.save(); c.beginPath(); c.rect(x0,0,x1-x0,18); c.clip();
+    c.fillStyle="#5b4329"; c.font="14px 'IM Fell English SC', serif"; c.textBaseline="middle";
+    const tw=c.measureText(e.n).width, cx=Math.max(x0+6, Math.min((x0+x1)/2-tw/2, x1-tw-6));
+    c.fillText(e.n, Math.max(x0+6,cx), 10); c.restore();
+  });
+  // regla
+  c.strokeStyle="rgba(92,64,28,.55)"; c.lineWidth=1;
+  c.beginPath(); c.moveTo(0,HDR-.5); c.lineTo(W,HDR-.5); c.stroke();
+  const ticks=[];
+  const yA=Ti(tl.t0), yB=Ti(tl.t1);
+  const prehist=[-400000,-200000,-100000,-60000,-40000,-20000,-10000,-6000,-4000];
+  prehist.forEach(y=>{ if(y>=yA && y<=yB) ticks.push(y); });
+  if(yB>-K){
+    const st=pasoTicks(); let y=Math.ceil(Math.max(yA,-K)/st)*st;
+    for(;y<=yB;y+=st) ticks.push(y);
+  }
+  c.font="15px 'EB Garamond', serif"; c.textBaseline="alphabetic"; c.fillStyle="#3a2814";
+  let ultX=-1e9;
+  ticks.sort((a,b)=>a-b).forEach(y=>{
+    const x=xDeA(y); if(x<-40||x>W+40) return;
+    c.strokeStyle="rgba(92,64,28,.55)"; c.beginPath(); c.moveTo(x+.5,HDR-8); c.lineTo(x+.5,HDR); c.stroke();
+    c.strokeStyle="rgba(92,64,28,.10)"; c.beginPath(); c.moveTo(x+.5,HDR); c.lineTo(x+.5,H); c.stroke();
+    const lab= y<=-10000 ? nf(y/1000)+" mil a.C." : (y<0? nf(y)+" a.C." : (y===0?"1 d.C.":String(y)));
+    const tw=c.measureText(lab).width;
+    if(x-tw/2>ultX+10){ c.fillText(lab,x-tw/2,HDR-12); ultX=x+tw/2; }
+  });
+  // carriles
+  c.save(); c.beginPath(); c.rect(0,HDR,W,H-HDR); c.clip();
+  const oy=HDR-tl.sy;
+  for(const g of tl.grupos){
+    const gy=oy+g.y; if(gy>H || gy+g.h<HDR) continue;
+    c.fillStyle="rgba(92,64,28,.07)"; c.fillRect(0,gy,W,GH-2);
+    c.strokeStyle="rgba(92,64,28,.22)"; c.beginPath(); c.moveTo(0,gy+.5); c.lineTo(W,gy+.5); c.stroke();
+    c.fillStyle="#9c2617"; c.font="15px 'IM Fell English SC', serif"; c.textBaseline="middle";
+    c.fillText(g.n+"  ·  "+g.items.length, 8, gy+GH/2);
+    // barras
+    const filasFin=[];
+    for(const p of g.items){
+      const y=gy+GH+p._f*FILA;
+      if(y>H||y+FILA<HDR) continue;
+      const xv0=xDeA(p.v0), xv1=xDeA(p.v1), xa0=xDeA(p.a0), xa1=Math.max(xDeA(p.a1),xa0+3);
+      if(Math.max(xv1,xa1)<0||xv0>W+10) { continue; }
+      const sel=S.sel===p, hov=S.hover===p, viv=enMomento(p,S.anio);
+      c.globalAlpha= viv||sel ? 1 : .55;
+      // vida (fuera del apogeo)
+      c.strokeStyle=p.col; c.lineWidth=1.6;
+      if(p.aprox) c.setLineDash([3,3]);
+      const ym=y+FILA/2;
+      c.beginPath();
+      if(xa0-xv0>1){ c.moveTo(xv0,ym); c.lineTo(xa0,ym); }
+      if(xv1-xa1>1){ c.moveTo(xa1,ym); c.lineTo(xv1,ym); }
+      c.stroke(); c.setLineDash([]);
+      if(p.aprox){ c.fillStyle=p.col; c.fillRect(xv0-1,ym-3,1.5,6); }
+      // apogeo
+      c.fillStyle=p.col; c.fillRect(xa0,y+3,xa1-xa0,FILA-6);
+      if(sel||hov){ c.globalAlpha=1; c.strokeStyle="#b88a2c"; c.lineWidth=2.4; c.strokeRect(Math.min(xv0,xa0)-3,y+.5,Math.max(xv1,xa1)-Math.min(xv0,xa0)+6,FILA-1); }
+      // etiqueta: dentro de la barra si cabe; si no, a la derecha
+      c.font=(sel?"600 ":"")+"14px 'EB Garamond', serif"; c.textBaseline="middle";
+      const sig = siguienteInicio(g,p);
+      const lim = (sig==null? W : xDeA(sig)) - 6;
+      let txt=p.nombre, tw=c.measureText(txt).width, tx, dentro=false, ancho;
+      const ia=Math.max(xa0,2), anchoDentro=Math.min(xa1,W)-ia-10;
+      const txR=Math.max(xa1,xv1,2)+5, anchoR=lim-txR;
+      if(anchoDentro>=tw || (anchoR<tw && anchoDentro>anchoR && anchoDentro>50)){ dentro=true; tx=ia+5; ancho=anchoDentro; }
+      else { tx=txR; ancho=anchoR; }
+      if(ancho>22){
+        if(tw>ancho){ while(txt.length>3 && c.measureText(txt+"…").width>ancho) txt=txt.slice(0,-1); txt+="…"; }
+        c.globalAlpha= dentro ? 1 : (viv||sel?1:.75);
+        c.fillStyle= dentro ? "#fff8e6" : (sel? "#9c2617" : "#2a1c0e");
+        c.fillText(txt,tx,ym+1);
+      }
+      c.globalAlpha=1;
+      tl.hits.push({p,x0:Math.min(xv0,xa0)-2,x1:Math.max(xv1,xa1,(tx||0)+Math.min(c.measureText(txt).width,Math.max(0,ancho||0)))+2,y0:y,y1:y+FILA});
+    }
+  }
+  c.restore();
+  // cursor del año
+  const xc=xDeA(S.anio);
+  if(xc>=-2&&xc<=W+2){
+    c.strokeStyle="#9c2617"; c.lineWidth=2; c.beginPath(); c.moveTo(xc,22); c.lineTo(xc,H); c.stroke();
+    c.fillStyle="#9c2617"; c.beginPath(); c.moveTo(xc,HDR-2); c.lineTo(xc-7,HDR-11); c.lineTo(xc,HDR-20); c.lineTo(xc+7,HDR-11); c.closePath(); c.fill();
+    const lab=fa(S.anio); c.font="600 14px 'EB Garamond', serif";
+    const tw=c.measureText(lab).width, bx=Math.min(W-tw-10,Math.max(4,xc+10));
+    c.fillStyle="rgba(250,244,228,.95)"; c.fillRect(bx-4,22,tw+8,18);
+    c.fillStyle="#9c2617"; c.textBaseline="middle"; c.fillText(lab,bx,31);
+  }
+  // barra de desplazamiento vertical
+  const vis=H-HDR;
+  if(tl.alto>vis){
+    const h=Math.max(30,vis*vis/tl.alto), y=HDR+(vis-h)*tl.sy/(tl.alto-vis);
+    c.fillStyle="rgba(92,64,28,.28)"; c.fillRect(W-7,y,5,h);
+  }
+}
+const _sigCache=new WeakMap();
+function siguienteInicio(g,p){
+  // inicio de la siguiente barra en la misma fila
+  let m=_sigCache.get(g);
+  if(!m){ m=new Map(); const porFila={}; g.items.forEach(q=>(porFila[q._f]=porFila[q._f]||[]).push(q));
+    Object.values(porFila).forEach(arr=>{arr.sort((a,b)=>a.v0-b.v0); arr.forEach((q,i)=>m.set(q, arr[i+1]?Math.min(arr[i+1].v0,arr[i+1].a0):null));});
+    _sigCache.set(g,m); }
+  return m.get(p);
+}
+function hitTL(x,y){
+  for(let i=tl.hits.length-1;i>=0;i--){ const h=tl.hits[i]; if(x>=h.x0&&x<=h.x1&&y>=h.y0&&y<=h.y1) return h.p; }
+  return null;
+}
+function zoomTL(f,cx){
+  const tc=tDeX(cx??tl.W/2);
+  let span=(tl.t1-tl.t0)*f; span=Math.max(12,Math.min(TMAX-TMIN+200,span));
+  const r=(tc-tl.t0)/(tl.t1-tl.t0);
+  tl.t0=tc-r*span; tl.t1=tl.t0+span; acotarTL(); pintarTL();
+}
+function acotarTL(){
+  const span=tl.t1-tl.t0;
+  if(tl.t0<TMIN-60){tl.t0=TMIN-60;tl.t1=tl.t0+span;}
+  if(tl.t1>TMAX+60){tl.t1=TMAX+60;tl.t0=tl.t1-span;}
+  tl.sy=Math.max(0,Math.min(tl.sy,Math.max(0,tl.alto-(tl.H-HDR))));
+}
+function verRango(a,b){ tl.t0=T(a); tl.t1=T(b); acotarTL(); pintarTL(); }
+function asegurarVisible(y){
+  const x=xDeA(y);
+  if(x<tl.W*.08||x>tl.W*.92){ const span=tl.t1-tl.t0, t=T(y); tl.t0=t-span*.5; tl.t1=tl.t0+span; acotarTL(); }
+}
+function asegurarFila(p){
+  for(const g of tl.grupos){ if(g.items.includes(p)){ const y=g.y+GH+p._f*FILA, vis=tl.H-HDR;
+      if(y<tl.sy+10||y>tl.sy+vis-30){ tl.sy=Math.max(0,y-vis/3); acotarTL(); } return; } }
+}
+
+// interacción línea
+(function(){
+  const cv=tl.cv; let drag=null;
+  cv.addEventListener("pointerdown",e=>{
+    const r=cv.getBoundingClientRect(), x=e.clientX-r.left, y=e.clientY-r.top;
+    cv.setPointerCapture(e.pointerId);
+    if(y<HDR){ drag={modo:"cursor"}; ponerAnio(Ti(tDeX(x)),{desde:"tl"}); }
+    else drag={modo:"pan",x0:e.clientX,y0:e.clientY,t0:tl.t0,t1:tl.t1,sy:tl.sy,mov:0};
+  });
+  cv.addEventListener("pointermove",e=>{
+    const r=cv.getBoundingClientRect(), x=e.clientX-r.left, y=e.clientY-r.top;
+    if(drag&&drag.modo==="cursor"){ ponerAnio(Ti(tDeX(x)),{desde:"tl"}); return; }
+    if(drag&&drag.modo==="pan"){
+      const dx=e.clientX-drag.x0, dy=e.clientY-drag.y0; drag.mov=Math.max(drag.mov,Math.abs(dx)+Math.abs(dy));
+      const dt=dx/tl.W*(drag.t1-drag.t0); tl.t0=drag.t0-dt; tl.t1=drag.t1-dt; tl.sy=drag.sy-dy; acotarTL(); pintarTL(); ocultarTip(); return;
+    }
+    cv.style.cursor = y<HDR ? "ew-resize" : "grab";
+    const p= y>HDR? hitTL(x,y):null;
+    if(p!==S.hover){ S.hover=p; pintarTL(); resaltarMapa(); }
+    if(p) mostrarTip(p,e.clientX,e.clientY); else ocultarTip();
+  });
+  cv.addEventListener("pointerup",e=>{
+    const r=cv.getBoundingClientRect(), x=e.clientX-r.left, y=e.clientY-r.top;
+    if(drag&&drag.modo==="pan"&&drag.mov<5){ const p=hitTL(x,y); if(p) seleccionar(p,{desde:"tl"}); }
+    drag=null;
+  });
+  cv.addEventListener("dblclick",e=>{
+    const r=cv.getBoundingClientRect(), p=hitTL(e.clientX-r.left,e.clientY-r.top);
+    if(p) location.hash="#/p/"+p.slug; else zoomTL(.5,e.clientX-r.left);
+  });
+  cv.addEventListener("pointerleave",()=>{ if(S.hover){S.hover=null;pintarTL();resaltarMapa();} ocultarTip(); });
+  cv.addEventListener("wheel",e=>{
+    const r=cv.getBoundingClientRect();
+    const maxSy=Math.max(0,tl.alto-(tl.H-HDR));
+    if(!(e.ctrlKey||e.metaKey||e.shiftKey) && Math.abs(e.deltaY)>Math.abs(e.deltaX) &&
+       ((e.deltaY<0&&tl.sy<=0)||(e.deltaY>0&&tl.sy>=maxSy))) return;  // deja pasar el scroll de la página
+    e.preventDefault();
+    if(e.ctrlKey||e.metaKey){ zoomTL(Math.exp(e.deltaY*0.0025), e.clientX-r.left); return; }
+    if(Math.abs(e.deltaX)>Math.abs(e.deltaY)||e.shiftKey){ const d=(e.shiftKey?e.deltaY:e.deltaX); const dt=d/tl.W*(tl.t1-tl.t0); tl.t0+=dt; tl.t1+=dt; }
+    else tl.sy+=e.deltaY;
+    acotarTL(); pintarTL();
+  },{passive:false});
+  $("tz+").onclick=()=>zoomTL(.6,xDeA(S.anio));
+  $("tz-").onclick=()=>zoomTL(1/.6,xDeA(S.anio));
+  $("tzH").onclick=()=>verRango(-3300,HOY+20);
+  $("tzT").onclick=()=>{ tl.t0=TMIN-40; tl.t1=TMAX+40; pintarTL(); };
+  new ResizeObserver(()=>tamTL()).observe(cv);
+})();
+
+/* =========================================================
+   MAPA (d3)
+   ========================================================= */
+const mapa={ svg:null, g:null, proy:null, zoom:null, k:1, listo:false, mundo:null };
+let promesaMundo=null;
+function cargarMundo(){
+  if(promesaMundo) return promesaMundo;
+  if(!window.d3||!window.topojson) return promesaMundo=Promise.reject("sin d3");
+  promesaMundo=d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/land-50m.json")
+    .then(w=>topojson.feature(w,w.objects.land));
+  return promesaMundo;
+}
+function defsPergamino(svg){
+  const d=svg.append("defs");
+  const f=d.append("filter").attr("id","aspero").attr("x","-5%").attr("y","-5%").attr("width","110%").attr("height","110%");
+  f.append("feTurbulence").attr("type","fractalNoise").attr("baseFrequency",".9").attr("numOctaves",2).attr("result","r");
+  f.append("feDisplacementMap").attr("in","SourceGraphic").attr("in2","r").attr("scale",1.6);
+  const rg=d.append("radialGradient").attr("id","mar").attr("cx","50%").attr("cy","45%").attr("r","70%");
+  rg.append("stop").attr("offset","0%").attr("stop-color","#efe2c0");
+  rg.append("stop").attr("offset","100%").attr("stop-color","#d9c391");
+  const pt=d.append("pattern").attr("id","olas").attr("width",22).attr("height",10).attr("patternUnits","userSpaceOnUse");
+  pt.append("path").attr("d","M0 6 Q5.5 2 11 6 T22 6").attr("fill","none").attr("stroke","rgba(92,64,28,.09)").attr("stroke-width",.8);
+}
+function rosa(g,x,y,r){
+  const R=g.append("g").attr("transform",`translate(${x},${y})`).attr("opacity",.75).attr("pointer-events","none");
+  R.append("circle").attr("r",r).attr("fill","none").attr("stroke","#7a5a2a").attr("stroke-width",.8);
+  R.append("circle").attr("r",r*.78).attr("fill","none").attr("stroke","#7a5a2a").attr("stroke-width",.5);
+  for(let i=0;i<8;i++){
+    const a=i*Math.PI/4, L=(i%2?r*.62:r*1.12), w=r*.13;
+    const p=[[0,-L],[w,0],[0,w*.5],[-w,0]].map(([px,py])=>[px*Math.cos(a)-py*Math.sin(a),px*Math.sin(a)+py*Math.cos(a)]);
+    R.append("path").attr("d","M"+p.map(q=>q.join(",")).join("L")+"Z").attr("fill",i%2?"#b88a2c":(i===0?"#9c2617":"#5b4329")).attr("stroke","#5b4329").attr("stroke-width",.4);
+  }
+  R.append("text").attr("y",-r*1.22).attr("text-anchor","middle").attr("font-family","IM Fell English SC").attr("font-size",r*.42).attr("fill","#9c2617").text("N");
+}
+function iniciarMapa(){
+  if(mapa.svg) return;
+  const svg=d3.select("#mapa"); mapa.svg=svg;
+  const W=1000,H=520; svg.attr("viewBox",`0 0 ${W} ${H}`).attr("preserveAspectRatio","xMidYMid meet");
+  defsPergamino(svg);
+  const g=svg.append("g"); mapa.g=g;
+  const proy=d3.geoNaturalEarth1().fitExtent([[10,10],[W-10,H-10]],{type:"Sphere"});
+  mapa.proy=proy; const path=d3.geoPath(proy); mapa.path=path;
+  g.append("path").datum({type:"Sphere"}).attr("d",path).attr("fill","url(#mar)");
+  g.append("path").datum({type:"Sphere"}).attr("d",path).attr("fill","url(#olas)").attr("stroke","rgba(92,64,28,.55)").attr("stroke-width",1.4);
+  g.append("path").datum(d3.geoGraticule10()).attr("class","grat").attr("d",path).attr("fill","none").attr("stroke","rgba(120,90,45,.16)").attr("stroke-width",.6);
+  mapa.gTierra=g.append("g");
+  mapa.gPts=g.append("g");
+  mapa.gEtq=g.append("g").attr("pointer-events","none");
+  rosa(svg,W-70,H-74,34);
+  mapa.zoom=d3.zoom().scaleExtent([1,48]).translateExtent([[0,0],[W,H]]).on("zoom",ev=>{
+    mapa.k=ev.transform.k; g.attr("transform",ev.transform); escalarPuntos();
+    mapa.gTierra.selectAll(".costa").attr("filter",mapa.k>2.2?null:"url(#aspero)").attr("stroke-width",.75/mapa.k);
+    g.select(".grat").attr("stroke-width",.6/mapa.k);
+  });
+  svg.call(mapa.zoom).on("dblclick.zoom",null);
+  $("mz+").onclick=()=>svg.transition().duration(350).call(mapa.zoom.scaleBy,1.8);
+  $("mz-").onclick=()=>svg.transition().duration(350).call(mapa.zoom.scaleBy,1/1.8);
+  $("mz0").onclick=()=>svg.transition().duration(500).call(mapa.zoom.transform,d3.zoomIdentity);
+  cargarMundo().then(land=>{
+    mapa.gTierra.append("path").datum(land).attr("d",path).attr("fill","rgba(198,165,104,.55)").attr("stroke","none").attr("transform","translate(1.6,2)").attr("opacity",.35).attr("fill","#7a5a2a");
+    mapa.gTierra.append("path").datum(land).attr("d",path).attr("fill","#e3cf9c").attr("stroke","#5b4329").attr("stroke-width",.75).attr("filter","url(#aspero)").attr("class","costa");
+    mapa.listo=true; actualizarMapa();
+  }).catch(()=>{ $("avisoMapa").classList.remove("oculto"); mapa.listo=true; actualizarMapa(); });
+}
+function posiciones(L){
+  const grupos={}; const pos=new Map();
+  L.forEach(p=>{ const k=(Math.round(p.lat*4)/4)+","+(Math.round(p.lon*4)/4); (grupos[k]=grupos[k]||[]).push(p); });
+  Object.values(grupos).forEach(arr=>{
+    arr.sort((a,b)=>a.v0-b.v0);
+    const [x,y]=mapa.proy([arr[0].lon,arr[0].lat]);
+    arr.forEach((p,i)=>{ if(i===0){pos.set(p,[x,y,0,0]);return;}
+      const a=i*2.399963, r=1.0*Math.sqrt(i); pos.set(p,[x,y,Math.cos(a)*r,Math.sin(a)*r]); });
+  });
+  return pos;
+}
+function actualizarMapa(){
+  if(!mapa.svg||!window.d3) return;
+  const L=VISIBLES;
+  const pos=posiciones(L); mapa.pos=pos;
+  const sel=mapa.gPts.selectAll("circle").data(L,d=>d.slug);
+  sel.exit().transition().duration(250).attr("r",0).remove();
+  const ent=sel.enter().append("circle").attr("r",0).style("cursor","pointer")
+    .on("mouseenter",(ev,d)=>{S.hover=d; mostrarTip(d,ev.clientX,ev.clientY); resaltarMapa(); pintarTL(); resaltarLista();})
+    .on("mousemove",(ev,d)=>mostrarTip(d,ev.clientX,ev.clientY))
+    .on("mouseleave",()=>{S.hover=null; ocultarTip(); resaltarMapa(); pintarTL(); resaltarLista();})
+    .on("click",(ev,d)=>{ev.stopPropagation(); seleccionar(d,{desde:"mapa"});})
+    .on("dblclick",(ev,d)=>{ev.stopPropagation(); location.hash="#/p/"+d.slug;});
+  ent.merge(sel).attr("fill",d=>d.col).attr("data-s",d=>d.slug);
+  escalarPuntos(true);
+  // etiquetas
+  const et=mapa.gEtq.selectAll("text").data(L,d=>d.slug);
+  et.exit().remove();
+  et.enter().append("text").attr("font-family","EB Garamond").attr("fill","#2a1c0e")
+    .attr("paint-order","stroke").attr("stroke","rgba(248,239,217,.9)").text(d=>d.nombre)
+    .merge(et);
+  escalarPuntos();
+  resaltarMapa();
+  $("mapaTit").textContent = (S.ventana==="vida"?"Vivos en ":S.ventana==="activo"?"En su apogeo en ":"Alrededor de ")+fa(S.anio);
+}
+function escalarPuntos(anim){
+  if(!mapa.pos) return;
+  const k=mapa.k, r=4.6/Math.sqrt(k)+0.6/k;
+  const cs=mapa.gPts.selectAll("circle");
+  (anim?cs.transition().duration(300):cs)
+    .attr("cx",d=>{const q=mapa.pos.get(d);return q?q[0]+q[2]*r*1.25:0;})
+    .attr("cy",d=>{const q=mapa.pos.get(d);return q?q[1]+q[3]*r*1.25:0;})
+    .attr("r",d=> (S.sel===d? r*1.7 : r))
+    .attr("stroke",d=> S.sel===d? "#b88a2c":"#f8efd9").attr("stroke-width",d=>(S.sel===d?2.2:1)/k);
+  const mostrar = k>=4 || VISIBLES.length<=18;
+  mapa.gEtq.selectAll("text")
+    .attr("x",d=>{const q=mapa.pos.get(d);return q?q[0]+q[2]*r*1.25+r+2/k:0;})
+    .attr("y",d=>{const q=mapa.pos.get(d);return q?q[1]+q[3]*r*1.25+3.5/k:0;})
+    .attr("font-size",12.5/k).attr("stroke-width",3/k)
+    .attr("display",d=> (mostrar||S.sel===d||S.hover===d)?null:"none")
+    .attr("font-weight",d=>S.sel===d?700:400);
+}
+function resaltarMapa(){
+  if(!mapa.gPts) return;
+  mapa.gPts.selectAll("circle").attr("opacity",d=> (S.hover&&S.hover!==d&&S.sel!==d)? .45:.92);
+  escalarPuntos();
+  if(S.sel){ const n=mapa.gPts.select(`circle[data-s="${S.sel.slug}"]`).node(); if(n) n.parentNode.appendChild(n); }
+}
+function enfocarMapa(p){
+  if(!mapa.svg||!mapa.pos) return;
+  const q=mapa.pos.get(p); if(!q) return;
+  const k=Math.max(mapa.k,3.2), [W,H]=[1000,520];
+  mapa.svg.transition().duration(700).call(mapa.zoom.transform, d3.zoomIdentity.translate(W/2-k*q[0],H/2-k*q[1]).scale(k));
+}
+
+/* =========================================================
+   TIP
+   ========================================================= */
+const tip=$("tip");
+function mostrarTip(p,x,y){
+  tip.innerHTML=`${imgTag(p)}<div><span class="c">${esc(p.categoria)}</span><b>${esc(p.nombre)}</b>${esc(p.fechas)}<br><i>${esc(p.lugar)}${p.pais&&p.pais!==p.lugar?", "+esc(p.pais):""}</i></div>`;
+  tip.classList.remove("oculto");
+  const w=tip.offsetWidth,h=tip.offsetHeight;
+  tip.style.left=Math.min(innerWidth-w-8,x+14)+"px"; tip.style.top=Math.min(innerHeight-h-8,y+14)+"px";
+}
+function ocultarTip(){ tip.classList.add("oculto"); }
+
+/* =========================================================
+   SINCRONÍA
+   ========================================================= */
+function aplicarFiltros(){
+  FILTRADOS=P.filter(pasaFiltro);
+  empacar(); calcVisibles(); pintarTL(); actualizarMapa(); pintarLista();
+}
+function calcVisibles(){ VISIBLES=FILTRADOS.filter(p=>enMomento(p,S.anio)); }
+let tFin=0;
+function ponerAnio(y,{desde}={}){
+  y=Math.round(Math.max(-420000,Math.min(HOY,y)));
+  if(y===0) y=1;
+  S.anio=y;
+  $("anio").textContent=fa(y);
+  $("anioSub").textContent=siglo(y)+" · "+eraDe(y).n;
+  if(desde!=="slider") $("deslizador").value=Math.round((T(y)-TMIN)/(T(HOY)-TMIN)*10000);
+  calcVisibles();
+  $("anioN").textContent=VISIBLES.length+(VISIBLES.length===1?" personaje":" personajes")+" en el mapa";
+  if(desde!=="tl") asegurarVisible(y);
+  pintarTL();
+  clearTimeout(tFin); tFin=setTimeout(()=>{ actualizarMapa(); pintarLista(); guardarHash(); }, desde==="play"?0:40);
+}
+function seleccionar(p,{desde,mover=true}={}){
+  S.sel=p;
+  if(mover && !enMomento(p,S.anio)) ponerAnio(p.mid,{desde});
+  else { pintarTL(); actualizarMapa(); pintarLista(); }
+  asegurarFila(p); if(desde!=="tl") asegurarVisible(S.anio);
+  pintarTL();
+  setTimeout(()=>enfocarMapa(p),60);
+  pintarTarjeta();
+}
+function pintarTarjeta(){
+  const p=S.sel, t=$("tarjeta");
+  if(!p){t.classList.add("oculto");return;}
+  t.classList.remove("oculto");
+  t.innerHTML=`<div class="tt">${imgTag(p)}<div><span class="k" style="color:${p.col}">${esc(p.categoria)}</span><b>${esc(p.nombre)}</b><span style="font-size:14.5px">${esc(p.fechas)}</span></div></div>
+    <p>${esc(p.resumen)}</p>
+    <a class="b" href="#/p/${p.slug}">Abrir ficha</a> <button class="b" id="tVer">Su época</button> <button class="b" id="tX">✕</button>`;
+  $("tVer").onclick=()=>{ verRango(p.v0-(p.v1-p.v0)*1.5-20, p.v1+(p.v1-p.v0)*1.5+20); ponerAnio(p.mid,{desde:"tl"}); };
+  $("tX").onclick=()=>{ S.sel=null; pintarTarjeta(); pintarTL(); actualizarMapa(); pintarLista(); };
+}
+function pintarLista(){
+  const L=VISIBLES.slice().sort((a,b)=> (b===S.sel)-(a===S.sel) || a.v0-b.v0);
+  $("nVivos").textContent=L.length;
+  const cont=$("vivos");
+  if(!L.length){ cont.innerHTML=`<p style="padding:10px 12px;font-style:italic;color:var(--tinta3)">Nadie del índice en este momento con estos filtros.</p>`; return; }
+  cont.innerHTML=L.slice(0,400).map(p=>`<div class="vivo${S.sel===p?" sel":""}" data-s="${p.slug}">${imgTag(p)}<div class="t"><span class="punto-cat" style="background:${p.col}"></span>${esc(p.nombre)}<small>${esc(p.fechas)} · ${esc(p.lugar)}</small></div></div>`).join("");
+}
+function resaltarLista(){
+  document.querySelectorAll(".vivo").forEach(n=>n.style.background= S.hover&&n.dataset.s===S.hover.slug?"rgba(185,138,44,.25)":"");
+}
+$("vivos").addEventListener("click",e=>{ const n=e.target.closest(".vivo"); if(n) seleccionar(BY[n.dataset.s],{desde:"lista",mover:false}); });
+$("vivos").addEventListener("dblclick",e=>{ const n=e.target.closest(".vivo"); if(n) location.hash="#/p/"+n.dataset.s; });
+
+/* controles del atlas */
+(function(){
+  $("deslizador").addEventListener("input",e=>{ const t=TMIN+(+e.target.value)/10000*(T(HOY)-TMIN); ponerAnio(Ti(t),{desde:"slider"}); });
+  $("ventana").onchange=e=>{S.ventana=e.target.value; ponerAnio(S.anio);};
+  const sj=$("saltos"); SALTOS.forEach(([y,n])=>sj.insertAdjacentHTML("beforeend",`<option value="${y}">${n} · ${fa(+y)}</option>`));
+  sj.onchange=e=>{ if(e.target.value){ const y=+e.target.value; ponerAnio(y); const span=Math.min(tl.t1-tl.t0,1200); tl.t0=T(y)-span/2; tl.t1=tl.t0+span; acotarTL(); pintarTL(); e.target.value=""; } };
+  const fr=$("fReg"); fr.innerHTML=`<option value="">Todas las regiones</option>`+REGS.map(r=>`<option>${r}</option>`).join("");
+  fr.onchange=e=>{S.reg=e.target.value; aplicarFiltros();};
+  $("fTipo").onchange=e=>{S.tipo=e.target.value; aplicarFiltros();};
+  $("fAgr").onchange=e=>{S.agr=e.target.value; tl.sy=0; aplicarFiltros();};
+  let tq; $("qA").addEventListener("input",e=>{clearTimeout(tq); tq=setTimeout(()=>{S.q=norm(e.target.value.trim()); aplicarFiltros();
+    if(S.q && FILTRADOS.length && FILTRADOS.length<=3) seleccionar(FILTRADOS[0],{desde:"busca"}); },160);});
+  const ley=$("leyenda");
+  ley.innerHTML=Object.entries(CATS).map(([c,col])=>`<label><input type="checkbox" checked value="${c}"><span><span class="punto-cat" style="background:${col}"></span>${c}</span></label>`).join("")
+    +` <button class="b" id="todasC" style="font-size:13px;padding:2px 8px">todas</button>`;
+  ley.addEventListener("change",e=>{ if(e.target.checked) S.cats.add(e.target.value); else S.cats.delete(e.target.value); aplicarFiltros(); });
+  ley.addEventListener("dblclick",e=>{ const i=e.target.closest("label")?.querySelector("input"); if(!i) return; e.preventDefault();
+    S.cats=new Set([i.value]); ley.querySelectorAll("input").forEach(x=>x.checked=x.value===i.value); aplicarFiltros(); });
+  $("todasC").onclick=()=>{ S.cats=new Set(Object.keys(CATS)); ley.querySelectorAll("input").forEach(x=>x.checked=true); aplicarFiltros(); };
+  // reproducir
+  let jugando=false, last=0;
+  function paso(ts){
+    if(!jugando) return;
+    const dt=Math.min(.1,(ts-(last||ts))/1000); last=ts;
+    const span=Ti(tl.t1)-Ti(tl.t0);
+    const vel=(+$("vel").value)*Math.max(2,span/24);
+    let y=S.anio+vel*dt; if(y>=HOY){y=HOY; parar();}
+    S._acc=(S._acc||0)+ (y-S.anio);
+    ponerAnio(S.anio+ (Math.abs(S._acc)>=1? Math.trunc(S._acc):0),{desde:"play"});
+    if(Math.abs(S._acc)>=1) S._acc-=Math.trunc(S._acc);
+    requestAnimationFrame(paso);
+  }
+  function parar(){ jugando=false; $("play").setAttribute("aria-pressed","false"); $("play").textContent="▶ Avanzar"; }
+  $("play").onclick=()=>{ if(jugando){parar();return;} jugando=true; last=0; $("play").setAttribute("aria-pressed","true"); $("play").textContent="❚❚ Detener"; requestAnimationFrame(paso); };
+})();
+
+/* =========================================================
+   ÍNDICE
+   ========================================================= */
+const I={ q:"", era:"", cat:"", reg:"", orden:"az", modo:"lista" };
+(function(){
+  $("iEra").innerHTML=`<option value="">Todas las épocas</option>`+ERAS.map(e=>`<option>${e.n}</option>`).join("");
+  $("iCat").innerHTML=`<option value="">Todos los oficios</option>`+Object.keys(CATS).map(c=>`<option>${c}</option>`).join("");
+  $("iReg").innerHTML=`<option value="">Todas las regiones</option>`+REGS.map(c=>`<option>${c}</option>`).join("");
+  let tq; $("qI").addEventListener("input",e=>{clearTimeout(tq);tq=setTimeout(()=>{I.q=norm(e.target.value.trim());pintarIndice();},140);});
+  $("iEra").onchange=e=>{I.era=e.target.value;pintarIndice();};
+  $("iCat").onchange=e=>{I.cat=e.target.value;pintarIndice();};
+  $("iReg").onchange=e=>{I.reg=e.target.value;pintarIndice();};
+  $("iOrden").onchange=e=>{I.orden=e.target.value;pintarIndice();};
+  $("iModoL").onclick=()=>{I.modo="lista";$("iModoL").setAttribute("aria-pressed","true");$("iModoG").setAttribute("aria-pressed","false");pintarIndice();};
+  $("iModoG").onclick=()=>{I.modo="laminas";$("iModoG").setAttribute("aria-pressed","true");$("iModoL").setAttribute("aria-pressed","false");pintarIndice();};
+})();
+function pintarIndice(){
+  const L=ALFA.filter(p=>(!I.q||p.key.includes(I.q))&&(!I.era||p.era===I.era)&&(!I.cat||p.categoria===I.cat)&&(!I.reg||p.region===I.reg));
+  $("iRes").textContent=`${L.length.toLocaleString("es-MX")} de ${P.length.toLocaleString("es-MX")} personajes`;
+  let secciones=[];
+  if(I.orden==="az"){
+    const m={}; L.forEach(p=>(m[p.letra]=m[p.letra]||[]).push(p));
+    secciones=Object.keys(m).sort().map(l=>({id:"L-"+l, t:l, items:m[l]}));
+    $("letras").innerHTML="ABCDEFGHIJKLMNÑOPQRSTUVWXYZ".split("").map(l=>`<a href="#L-${l}" class="${m[l]?"":"vacia"}" data-l="${l}">${l}</a>`).join("");
+  } else {
+    const m={}; L.slice().sort((a,b)=>a.mid-b.mid).forEach(p=>(m[p.era]=m[p.era]||[]).push(p));
+    secciones=ERAS.filter(e=>m[e.n]).map(e=>({id:"E-"+e.n.replace(/\s/g,"_"), t:e.n, items:m[e.n]}));
+    $("letras").innerHTML=secciones.map(s=>`<a href="#${s.id}" data-l="${s.id}" style="width:auto;padding:0 12px;font-size:19px">${s.t.replace("Edad ","")}</a>`).join("");
+  }
+  const html=secciones.map((s,i)=>{
+    const ini = I.orden==="az" ? `<span class="inicial ${i%2?"b":"a"}">${s.t}</span>` : `<span class="inicial ${i%2?"b":"a"}">${s.t.replace("Edad ","")[0]}</span><span style="font-family:var(--fraktur);font-size:30px">${s.t}</span>`;
+    const cuerpo = I.modo==="lista"
+      ? `<div class="lista-ind">${s.items.map(p=>`<div class="ent-w"><a class="ent" href="#/p/${p.slug}"><span class="nm">${esc(p.nombre)}</span><span class="pt"></span><span class="fe">${esc(p.fechas)}</span></a><span class="ca2">${esc(p.categoria)} · ${esc(p.lugar)}</span></div>`).join("")}</div>`
+      : `<div class="rejilla">${s.items.map(p=>`<a class="lam" href="#/p/${p.slug}"><div class="im"><img loading="lazy" src="${miniSrc(p)}" alt="${esc(p.nombre)}" onerror="this.onerror=null;this.replaceWith(Object.assign(medallon('${p.letra}'),{className:'medallon'}))"></div><div class="ca">${esc(p.categoria)}</div><div class="nm">${esc(p.nombre)}</div><div class="fe">${esc(p.fechas)}</div></a>`).join("")}</div>`;
+    return `<section class="seccion-letra" id="${s.id}"><h2>${ini}<span class="r"></span><span class="n">${s.items.length}</span></h2>${cuerpo}</section>`;
+  }).join("");
+  const sinCat = (!I.q&&!I.era&&!I.cat&&!I.reg&&SIN.length) ? `<section class="seccion-letra" id="L-sin"><h2><span class="inicial a">?</span><span style="font-family:var(--fraktur);font-size:28px">Láminas por catalogar</span><span class="r"></span><span class="n">${SIN.length}</span></h2>
+     <div class="rejilla">${SIN.map(s=>`<a class="lam" href="${encodeURIComponent(s.archivo)}" target="_blank"><div class="im"><img loading="lazy" src="miniaturas/${s.slug}.jpg" alt=""></div><div class="fe">${esc(s.archivo)}</div></a>`).join("")}</div></section>` : "";
+  $("indice").innerHTML=html+sinCat || `<p class="resumen-ind">Nada coincide con esa búsqueda.</p>`;
+}
+$("letras").addEventListener("click",e=>{ const a=e.target.closest("a"); if(!a) return; e.preventDefault(); const t=document.getElementById(a.getAttribute("href").slice(1)); if(t) t.scrollIntoView({behavior:"smooth"}); });
+
+/* =========================================================
+   FICHA
+   ========================================================= */
+function contemporaneos(p,n=14){
+  const a=p.v0, b=p.v1;
+  return P.filter(q=>q!==p && q.v1>=a && q.v0<=b)
+    .map(q=>{ const ov=Math.min(b,q.v1)-Math.max(a,q.v0); const dist=Math.hypot(q.lat-p.lat,q.lon-p.lon);
+      return {q, s: ov/Math.max(1,(b-a)) + (q.region===p.region?.6:0) + (p.relacionados||[]).includes(q.slug)*2 + Math.max(0,.5-dist/60)}; })
+    .sort((x,y)=>y.s-x.s).slice(0,n).map(x=>x.q);
+}
+function pintarFicha(slug){
+  const p=BY[slug], v=$("vFicha");
+  if(!p){ v.innerHTML=`<p class="resumen-ind">No encontré ese personaje. <a href="#/indice">Volver al índice</a></p>`; return; }
+  const ant=ALFA[(p.ia-1+ALFA.length)%ALFA.length], sig=ALFA[(p.ia+1)%ALFA.length];
+  const con=contemporaneos(p);
+  const rel=(p.relacionados||[]).map(s=>BY[s]).filter(Boolean);
+  const tipoTxt={"histórico":"Personaje histórico","legendario":"Figura legendaria","mitológico":"Figura mitológica","bíblico":"Figura bíblica","ficticio":"Personaje de ficción","arquetipo":"Arquetipo de su tiempo"}[p.tipo]||p.tipo;
+  const dd=(t,v)=> v?`<div><dt>${t}</dt><dd>${esc(v)}</dd></div>`:"";
+  v.innerHTML=`
+  <div class="migas"><a href="#/indice">Índice</a> › <a href="#/indice" data-letra="${p.letra}">${p.letra}</a> › <span>${esc(p.nombre)}</span>
+    <span class="sp"></span><a href="#/p/${ant.slug}">‹ ${esc(ant.nombre)}</a> · <a href="#/p/${sig.slug}">${esc(sig.nombre)} ›</a></div>
+  <article class="ficha">
+    <div class="retrato">
+      <div class="im"><a href="${origSrc(p)}" target="_blank" title="Abrir el retrato en alta resolución">
+        <img src="${origSrc(p)}" alt="Retrato de ${esc(p.nombre)}" onerror="this.onerror=null;this.src='${miniSrc(p)}'"></a></div>
+      <p class="pie">${esc(tipoTxt)} · ${esc(p.civilizacion)}</p>
+    </div>
+    <div>
+      <span class="k" style="color:${p.col}">${esc(p.categoria)} · ${esc(p.region)}</span>
+      <h1>${esc(p.nombre)}</h1>
+      ${p.alias?`<div class="alias">${esc(p.alias)}</div>`:""}
+      <div class="fechas">${esc(p.fechas)}${p.aprox?" · fechas aproximadas":""}</div>
+      <p class="resumen">${esc(p.resumen)}</p>
+      <dl class="datos">
+        ${dd("Nacimiento", p.nacimiento!=null? fa(p.nacimiento):"")}
+        ${dd(p.vive?"Vive":"Muerte", p.vive? "—" : (p.muerte!=null? fa(p.muerte):""))}
+        ${dd("Periodo de actuación", fa(p.a0)+" – "+fa(p.a1))}
+        ${dd("Lugar", p.lugar)}${dd("País actual", p.pais)}
+        ${dd("Época", p.era+" · "+siglo(p.mid))}
+      </dl>
+      <p class="bio ${p.ia%2?"b2":""}">${esc(p.bio)}</p>
+      ${p.hitos&&p.hitos.length?`<h3 class="rubro">Hitos</h3><ul class="hitos">${p.hitos.slice().sort((a,b)=>a.a-b.a).map(h=>`<li><span class="a">${fa(h.a)}</span><span>${esc(h.t)}</span></li>`).join("")}</ul>`:""}
+      <div class="acciones">
+        <button class="b" id="fAtlas">Ver su tiempo en el Atlas</button>
+        <a class="b" href="${origSrc(p)}" target="_blank">Retrato original</a>
+      </div>
+      <h3 class="rubro">Su tiempo histórico</h3>
+      <div class="su-tiempo">
+        <div class="caja contemp"><svg id="miniTL"></svg></div>
+        <div class="caja"><svg id="miniMapa" viewBox="0 0 600 320"></svg></div>
+      </div>
+      ${rel.length?`<h3 class="rubro">Relacionados</h3><div class="chips">${rel.map(q=>`<a class="chip" href="#/p/${q.slug}">${imgTag(q)}${esc(q.nombre)}</a>`).join("")}</div>`:""}
+      <h3 class="rubro">Contemporáneos</h3>
+      <div class="chips">${con.map(q=>`<a class="chip" href="#/p/${q.slug}">${imgTag(q)}<span>${esc(q.nombre)}<br><small style="color:var(--tinta3)">${esc(q.fechas)}</small></span></a>`).join("")}</div>
+    </div>
+  </article>`;
+  $("fAtlas").onclick=()=>{ S.sel=p; location.hash="#/atlas/"+p.mid; setTimeout(()=>{ verRango(p.v0-(p.v1-p.v0)*2-30,p.v1+(p.v1-p.v0)*2+30); seleccionar(p,{desde:"ficha"}); },80); };
+  v.querySelector("[data-letra]").onclick=e=>{ e.preventDefault(); location.hash="#/indice"; setTimeout(()=>{const t=document.getElementById("L-"+p.letra); if(t) t.scrollIntoView();},60); };
+  miniLinea(p,con.slice(0,10));
+  miniMapa(p,con);
+  window.scrollTo({top:0});
+}
+function miniLinea(p,con){
+  if(!window.d3) return; const svg=d3.select("#miniTL");
+  const L=[p,...con].sort((a,b)=>a.v0-b.v0);
+  const a=Math.min(...L.map(q=>q.v0)), b=Math.max(...L.map(q=>q.v1));
+  const pad=(b-a)*.06+2, W=640, fh=24, H=34+L.length*fh;
+  svg.attr("viewBox",`0 0 ${W} ${H}`);
+  const x=d3.scaleLinear().domain([a-pad,b+pad]).range([10,W-10]);
+  const g=svg.append("g");
+  x.ticks(6).forEach(t=>{ g.append("line").attr("x1",x(t)).attr("x2",x(t)).attr("y1",22).attr("y2",H).attr("stroke","rgba(92,64,28,.14)");
+    g.append("text").attr("x",x(t)).attr("y",15).attr("text-anchor","middle").attr("font-family","EB Garamond").attr("font-size",14).attr("fill","#5b4329").text(faCorto(t)); });
+  L.forEach((q,i)=>{
+    const y=30+i*fh, yo=q===p;
+    const a2=g.append("a").attr("href","#/p/"+q.slug);
+    [[q.v0,q.a0],[q.a1,q.v1]].forEach(([u,w])=>{ if(w>u) a2.append("line").attr("x1",x(u)).attr("x2",x(w)).attr("y1",y+8).attr("y2",y+8).attr("stroke",q.col).attr("stroke-width",2).attr("stroke-dasharray",q.aprox?"4 3":null); });
+    a2.append("rect").attr("x",x(q.a0)).attr("y",y+3).attr("width",Math.max(3,x(q.a1)-x(q.a0))).attr("height",10).attr("fill",q.col);
+    const tw=q.nombre.length*7.6; let tx, anc="start";
+    if(x(q.v1)+6+tw<W) tx=x(q.v1)+6; else if(x(q.v0)-6-tw>0){ tx=x(q.v0)-6; anc="end"; } else tx=Math.max(4,x(q.v0)+4);
+    a2.append("text").attr("x",tx).attr("y",y+12.5).attr("text-anchor",anc).attr("paint-order","stroke").attr("stroke","rgba(250,244,228,.92)").attr("stroke-width",3).attr("font-family","EB Garamond").attr("font-size",14.5)
+      .attr("font-weight",yo?700:400).attr("fill",yo?"#9c2617":"#2a1c0e").text(q.nombre);
+  });
+}
+function miniMapa(p,con){
+  if(!window.d3) return;
+  const svg=d3.select("#miniMapa"); const W=600,H=320;
+  defsPergamino(svg);
+  svg.append("rect").attr("width",W).attr("height",H).attr("fill","url(#mar)");
+  const pts=[p,...con];
+  const lons=pts.map(q=>q.lon), lats=pts.map(q=>q.lat);
+  const feat={type:"MultiPoint",coordinates:pts.map(q=>[q.lon,q.lat])};
+  const proy=d3.geoNaturalEarth1();
+  const spanLon=Math.max(...lons)-Math.min(...lons), spanLat=Math.max(...lats)-Math.min(...lats);
+  if(spanLon<35&&spanLat<25){ proy.fitExtent([[0,0],[W,H]],{type:"MultiPoint",coordinates:[[p.lon-22,p.lat-13],[p.lon+22,p.lat+13]]}); }
+  else proy.fitExtent([[40,40],[W-40,H-40]],feat);
+  const path=d3.geoPath(proy);
+  const g=svg.append("g");
+  g.append("path").datum(d3.geoGraticule10()).attr("d",path).attr("fill","none").attr("stroke","rgba(120,90,45,.18)").attr("stroke-width",.6);
+  const gl=g.append("g");
+  cargarMundo().then(land=>{ gl.append("path").datum(land).attr("d",path).attr("fill","#e3cf9c").attr("stroke","#5b4329").attr("stroke-width",.7).attr("filter","url(#aspero)"); }).catch(()=>{});
+  const gp=g.append("g");
+  con.forEach(q=>{ const [x,y]=proy([q.lon,q.lat]); const a=gp.append("a").attr("href","#/p/"+q.slug);
+    a.append("circle").attr("cx",x).attr("cy",y).attr("r",4.5).attr("fill",q.col).attr("stroke","#f8efd9").attr("stroke-width",1).attr("opacity",.85);
+    a.append("title").text(q.nombre+" · "+q.lugar); });
+  const [x,y]=proy([p.lon,p.lat]);
+  gp.append("circle").attr("cx",x).attr("cy",y).attr("r",11).attr("fill","none").attr("stroke","#b88a2c").attr("stroke-width",2);
+  gp.append("circle").attr("cx",x).attr("cy",y).attr("r",6.5).attr("fill","#9c2617").attr("stroke","#f8efd9").attr("stroke-width",1.5);
+  gp.append("text").attr("x",x+14).attr("y",y+5).attr("font-family","EB Garamond").attr("font-weight",700).attr("font-size",16).attr("fill","#2a1c0e")
+    .attr("paint-order","stroke").attr("stroke","rgba(248,239,217,.95)").attr("stroke-width",3.5).text(p.lugar);
+}
+
+/* =========================================================
+   RUTAS
+   ========================================================= */
+let atlasIniciado=false, indicePintado=false, ultimaVista="";
+function guardarHash(){
+  if(location.hash.startsWith("#/atlas")){ const h="#/atlas/"+S.anio; if(location.hash!==h) history.replaceState(null,"",h); }
+}
+function ruta(){
+  const h=location.hash||"#/atlas";
+  const [_,v,arg]=h.split("/");
+  ["vAtlas","vIndice","vFicha"].forEach(id=>$(id).classList.add("oculto"));
+  document.querySelectorAll("nav.pestanas a").forEach(a=>a.setAttribute("aria-current", (a.dataset.v===v||(v==="p"&&a.dataset.v==="indice"))?"page":"false"));
+  ocultarTip();
+  if(v==="indice"){ $("vIndice").classList.remove("oculto"); if(!indicePintado){pintarIndice(); indicePintado=true;} }
+  else if(v==="p"){ $("vFicha").classList.remove("oculto"); pintarFicha(decodeURIComponent(arg||"")); }
+  else {
+    $("vAtlas").classList.remove("oculto");
+    if(!atlasIniciado){ atlasIniciado=true; if(window.d3) iniciarMapa(); else $("avisoMapa").classList.remove("oculto"); tamTL();
+      const y0=parseInt(arg,10); const c=isNaN(y0)?S.anio:y0; if(c>-3000){ tl.t0=T(c)-450; tl.t1=T(c)+450; acotarTL(); }
+      aplicarFiltros(); }
+    else tamTL();
+    const y=parseInt(arg,10);
+    if(!isNaN(y) && y!==S.anio) ponerAnio(y); else if(ultimaVista!=="atlas") ponerAnio(S.anio);
+  }
+  ultimaVista= v==="indice"?"indice": v==="p"?"p":"atlas";
+}
+window.addEventListener("hashchange",ruta);
+$("subtitulo").textContent=`${P.length.toLocaleString("es-MX")} personajes · de la prehistoria a nuestros días`;
+ruta();
+</script>
+</body>
+</html>

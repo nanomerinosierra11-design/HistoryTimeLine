@@ -1,0 +1,20 @@
+LÍNEA DEL TIEMPO · HISTORIA UNIVERSAL
+Enciclopedia de 1,010 personajes con mapa y línea del tiempo.
+
+CÓMO ABRIRLA
+1. Descomprime este .zip.
+2. Abre index.html con doble clic (Chrome, Safari, Edge o Firefox).
+   - Atlas del tiempo: mapa + línea del tiempo sincronizados por año.
+   - Índice de personajes: lista A–Z o láminas con retratos; cada personaje tiene su ficha.
+   El mapa usa internet para cargar los contornos del mundo.
+
+VERSIÓN PORTÁTIL
+Linea_del_Tiempo_portatil.html es un solo archivo con todo incluido
+(datos, retratos reducidos y mapa). Funciona sin internet.
+
+CONTENIDO
+index.html                      página principal
+datos/personajes.js             fichas de los personajes (editable)
+datos/personajes.json           las mismas fichas en JSON
+miniaturas/                     retratos reducidos para la web
+*.png                           retratos originales en alta resolución
