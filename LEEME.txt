@@ -1,5 +1,5 @@
 LÍNEA DEL TIEMPO · HISTORIA UNIVERSAL
-Enciclopedia de 1,010 personajes con mapa y línea del tiempo.
+Enciclopedia de 1,005 personajes con mapa y línea del tiempo.
 
 CÓMO ABRIRLA
 1. Descomprime este .zip.
@@ -14,7 +14,8 @@ Linea_del_Tiempo_portatil.html es un solo archivo con todo incluido
 
 CONTENIDO
 index.html                      página principal
-datos/personajes.js             fichas de los personajes (editable)
+datos/personajes.js             fichas básicas (editable)
+datos/fichas_extensas.js        biografías extensas, contexto, legado, obras, lecturas
 datos/personajes.json           las mismas fichas en JSON
 miniaturas/                     retratos reducidos para la web
 *.png                           retratos originales en alta resolución
