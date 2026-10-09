@@ -533,8 +533,8 @@ function siglo(y){
   return "siglo "+ROM(Math.max(1,Math.ceil(y/100)));
 }
 const miniSrc = p => "miniaturas/"+p.slug+".jpg";
-const origSrc = p => encodeURIComponent(p.archivo);
-const extraSrc = (r,full) => full ? encodeURIComponent(r.archivo) : "miniaturas/"+r.slug+".jpg";
+const origSrc = p => "miniaturas/"+p.slug+".jpg";
+const extraSrc = (r,full) => "miniaturas/"+r.slug+".jpg";
 function imgTag(p,cls=""){
   return `<img ${cls?`class="${cls}"`:""} loading="lazy" src="${miniSrc(p)}" alt="" onerror="this.onerror=null;this.replaceWith(medallon('${p.letra}'))">`;
 }
