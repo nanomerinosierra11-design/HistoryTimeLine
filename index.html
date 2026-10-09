@@ -179,7 +179,8 @@ input[type=range]{accent-color:var(--rubrica)}
 .retrato .im{background:#fffaf0;border:1px solid var(--linea);padding:10px;box-shadow:0 0 0 6px rgba(248,239,217,.8),0 0 0 7px var(--oro),0 8px 22px rgba(92,64,28,.25)}
 .retrato img{display:block;width:100%;height:auto}
 .otro{margin:16px auto 0;text-align:center}
-.otro img{display:block;width:120px;margin:4px auto 0;border:1px solid var(--linea);background:#fffaf0;padding:4px}
+.otros{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:4px}
+.otro img{display:block;width:96px;border:1px solid var(--linea);background:#fffaf0;padding:3px}
 .retrato .pie{text-align:center;font-size:14px;margin-top:14px;color:var(--tinta3);font-style:italic}
 .ficha h1{font-family:var(--texto);font-weight:600;font-size:clamp(32px,4vw,48px);line-height:1.08;margin:0}
 .ficha .alias{font-style:italic;color:var(--tinta2);font-size:19px}
@@ -532,9 +533,9 @@ function siglo(y){
   if(y<0){ const s=Math.ceil(-y/100); return (s>40? "milenio "+ROM(Math.ceil(-y/1000))+" a.C." : "siglo "+ROM(s)+" a.C."); }
   return "siglo "+ROM(Math.max(1,Math.ceil(y/100)));
 }
-const miniSrc = p => "miniaturas/"+p.slug+".jpg";
-const origSrc = p => "miniaturas/"+p.slug+".jpg";
-const extraSrc = (r,full) => "miniaturas/"+r.slug+".jpg";
+const miniSrc = p => (p.retrato&&p.retrato.mini)||("miniaturas/"+p.slug+".jpg");
+const origSrc = p => (p.retrato&&p.retrato.archivo)? encodeURIComponent(p.retrato.archivo) : miniSrc(p);
+const extraSrc = (r,full) => full ? encodeURIComponent(r.archivo) : r.mini;
 function imgTag(p,cls=""){
   return `<img ${cls?`class="${cls}"`:""} loading="lazy" src="${miniSrc(p)}" alt="" onerror="this.onerror=null;this.replaceWith(medallon('${p.letra}'))">`;
 }
@@ -1134,7 +1135,7 @@ function pintarFicha(slug){
       <div class="im"><a href="${origSrc(p)}" target="_blank" title="Abrir el retrato en alta resolución">
         <img src="${origSrc(p)}" alt="Retrato de ${esc(p.nombre)}" onerror="this.onerror=null;this.src='${miniSrc(p)}'"></a></div>
       <p class="pie">${esc(tipoTxt)} · ${esc(p.civilizacion)}</p>
-      ${(p.retratos_extra||[]).map(r=>`<div class="otro"><span class="k">Otro retrato</span><a href="${extraSrc(r,true)}" target="_blank"><img src="${extraSrc(r)}" alt="Otro retrato de ${esc(p.nombre)}"></a></div>`).join("")}
+      ${(p.otros&&p.otros.length)?`<div class="otro"><span class="k">${p.otros.length>1?"Otras versiones del retrato":"Otra versión del retrato"}</span><div class="otros">${p.otros.map(r=>`<a href="${extraSrc(r,true)}" target="_blank"><img loading="lazy" src="${extraSrc(r)}" alt="Otra versión del retrato de ${esc(p.nombre)}"></a>`).join("")}</div></div>`:""}
     </div>
     <div>
       <span class="k" style="color:${p.col}">${esc(p.categoria)} · ${esc(p.region)}</span>
