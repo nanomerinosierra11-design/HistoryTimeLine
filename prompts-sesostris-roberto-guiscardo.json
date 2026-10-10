@@ -1,0 +1,166 @@
+{
+  "mode": "built-in image_gen",
+  "basePrompt": "Use case: illustration-story. Create ONE full-body historical avatar, matching attached image STYLE ONLY, not its identity or costume. Slightly irregular black ink contours, muted flat colors, sparse hard-edged shadows. Opaque pure WHITE background, small gray ground shadow. Whole headwear feet props within frame, ample margins, natural adult proportions about seven heads tall. Face must have visible EYEBROWS NOSE MOUTH but NO EYES, pupils, eyelids, closed-eye lines or socket contours: smooth blank skin below eyebrows. Distinctive hair facial shape and physique appropriate to subject. Exactly two plausible arms and hands with correct grips. No text labels signatures watermark halo scenery additional people. Subject: ",
+  "subjects": [
+    [
+      "sesostris-iii",
+      "Senusret III (Sesostris III) mature Egyptian Middle Kingdom pharaoh, distinctive large ears gaunt lined cheeks serious mouth, striped nemes with uraeus, broad gold turquoise collar white pleated kilt gold belt sandals, royal staff."
+    ],
+    [
+      "amosis-i",
+      "Ahmose I (Amosis I) young adult Egyptian pharaoh athletic build brown skin, white royal crown uraeus, gold broad collar white pleated kilt red sash sandals, ceremonial axe held safely downward."
+    ],
+    [
+      "seti-i",
+      "Seti I mature Egyptian pharaoh brown skin elegant narrow face, blue khepresh crown uraeus gold collar white pleated linen tunic and kilt sandals, crook held naturally."
+    ],
+    [
+      "sammuramat",
+      "Sammuramat historical Assyrian queen NOT fantasy Semiramis, mature woman black curled hair, gold circlet long patterned dark red Assyrian robe fringed cream shawl gold bracelets earrings sandals, lotus-like flower. No wings."
+    ],
+    [
+      "ciaxares",
+      "Cyaxares mature Median king long dark curly beard hair soft rounded Median cap, belted purple wool tunic patterned trousers brown boots gold torque cloak, sheathed short sword."
+    ],
+    [
+      "tomiris",
+      "Tomyris adult Massagetae queen long reddish brown braided hair pointed felt cap, belted dark red tunic patterned trousers boots scale vest fur-edged cloak, sheathed sword, one spear upright."
+    ],
+    [
+      "cimon",
+      "Cimon mature Athenian general curled dark hair short beard bronze helmet worn pushed back, linen cuirass cream tunic blue mantle sandals, round shield held on forearm with hand concealed behind shield, sheathed sword."
+    ],
+    [
+      "policleto",
+      "Polykleitos mature ancient Greek sculptor curly brown hair full beard, cream chiton brown himation sandals, small bronze male figurine supported in one hand sculpting tool other."
+    ],
+    [
+      "lisandro",
+      "Lysander mature Spartan commander long dark hair pointed beard, bronze helmet worn on head, bronze cuirass crimson cloak short tunic greaves sandals, spear straight upright."
+    ],
+    [
+      "agesilao-ii",
+      "Agesilaus II older short stocky Spartan king graying beard receding gray hair, simple red mantle cream short chiton leather belt sandals, walking staff and subtle asymmetric stance but anatomically plausible, no crown."
+    ],
+    [
+      "lisipo",
+      "Lysippos mature Greek sculptor short curly dark gray hair beard, ocher work chiton belted with cream drape sandals, small bronze horse sculpture held securely and small sculpting tool."
+    ],
+    [
+      "menandro",
+      "Menander mature Greek playwright wavy short brown hair clean-shaven long face, cream chiton blue gray himation sandals, papyrus scroll."
+    ],
+    [
+      "calimaco",
+      "Callimachus older Greek Alexandrian poet scholar balding gray curly hair short beard, cream chiton russet himation sandals, papyrus scroll and reed pen."
+    ],
+    [
+      "salustio",
+      "Sallust mature Roman historian receding short gray hair clean-shaven angular face, cream Roman toga narrow burgundy trim tunic leather shoes, scroll."
+    ],
+    [
+      "marco-junio-bruto",
+      "Marcus Junius Brutus mature Roman senator short wavy dark hair clean-shaven broad jaw prominent nose, white toga with purple senatorial stripe tunic Roman shoes, scroll. No crown no imperial armor."
+    ],
+    [
+      "catulo",
+      "Catullus young adult Roman poet short curly brown hair clean-shaven, cream tunic muted green toga sandals, wax writing tablet and stylus."
+    ],
+    [
+      "vitruvio",
+      "Vitruvius older Roman architect receding gray hair short beard, cream tunic ocher mantle leather sandals, architectural plan and measuring compass with correct grip."
+    ],
+    [
+      "petronio",
+      "Petronius mature Roman aristocrat short carefully curled dark hair clean-shaven, refined ivory toga purple border tunic elegant sandals gold ring, scroll."
+    ],
+    [
+      "plinio-joven",
+      "Pliny the Younger mature Roman writer short neatly waved dark hair clean-shaven, white senatorial toga purple stripe tunic Roman shoes, letter tablets."
+    ],
+    [
+      "liu-bei",
+      "Liu Bei mature Han Chinese ruler long dark mustache pointed beard hair topknot formal black court cap, layered dark red Han robe broad sleeves gold trim belt boots, ceremonial tablet."
+    ],
+    [
+      "diofanto",
+      "Diophantus older Alexandrian mathematician curly gray hair full short beard, cream tunic dark blue Greek mantle sandals, wax tablet with simple mathematical marks and stylus."
+    ],
+    [
+      "kumarajiva",
+      "Kumarajiva mature Central Asian Buddhist monk shaved head clean-shaven, ocher robe with burgundy outer drape sandals, palm-leaf manuscript. No halo."
+    ],
+    [
+      "narses",
+      "Narses older Byzantine eunuch general slender pale clean-shaven lined face short gray hair, sixth century lamellar armor over cream long tunic purple mantle brooch boots, sheathed sword and baton."
+    ],
+    [
+      "mauricio-bizantino",
+      "Maurice Byzantine emperor mature man short brown hair short beard, jeweled diadem with hanging pendants sixth century gold-trimmed purple tunic scale cuirass red mantle red boots, orb and scepter. No halo."
+    ],
+    [
+      "18-conejo-copan",
+      "Uaxaclajuun Ubʼaah Kʼawiil known as 18 Rabbit ruler of Copan, mature Maya king brown skin black hair, elaborate Classic Maya jade feather headdress green quetzal feathers jade earspools broad jade collar richly patterned red loincloth and hip wrap sandals, ceremonial scepter. Historically inspired human ruler not monster."
+    ],
+    [
+      "han-yu",
+      "Han Yu mature Tang Chinese scholar black mustache pointed beard dark hair under black Tang official cap, muted dark green broad-sleeved Tang robe belt boots, manuscript."
+    ],
+    [
+      "bai-juyi",
+      "Bai Juyi older Tang Chinese poet thin gray beard mustache black soft cap, cream robe pale blue mantle cloth belt simple shoes, scroll."
+    ],
+    [
+      "al-tabari",
+      "Al Tabari older Persian Islamic scholar graying beard cream turban brown long robe dark green mantle leather shoes, bound manuscript. No halo."
+    ],
+    [
+      "boris-i-bulgaria",
+      "Boris I of Bulgaria mature medieval ruler brown beard dark hair gold circlet, ninth century dark red long tunic gold trim blue mantle jeweled brooch belt boots, small cross held naturally. No halo."
+    ],
+    [
+      "sugawara-michizane",
+      "Sugawara no Michizane mature Japanese Heian court scholar neat mustache slight goatee, black tall eboshi cap formal dark plum court robes broad sleeves hakama court shoes, wooden shaku tablet."
+    ],
+    [
+      "wang-geon",
+      "Wang Geon Taejo of Goryeo mature Korean ruler black beard mustache black royal headwear, tenth century red Korean royal robe broad sleeves gold patterned belt black boots, ceremonial tablet. Not Chinese Qing dress."
+    ],
+    [
+      "san-wenceslao",
+      "Saint Wenceslas mature young Bohemian duke brown hair short beard conical early medieval helmet chainmail over cream tunic red mantle boots, spear and small round shield forearm supported hand concealed behind shield. No halo."
+    ],
+    [
+      "sviatoslav-i",
+      "Sviatoslav I of Kiev mature muscular warrior shaved scalp with single long sidelock long drooping mustache no beard single gold earring, cream tunic belted dark trousers red cloak boots, sheathed sword."
+    ],
+    [
+      "rajaraja-chola-i",
+      "Rajaraja Chola I mature Tamil king brown skin black hair mustache gold conical crown broad gold necklaces armlets, white gold dhoti red silk sash sandals, sheathed curved sword."
+    ],
+    [
+      "ibn-al-haytham",
+      "Ibn al Haytham Alhazen older Arab scientist gray beard white turban cream long robe brown mantle sandals, geometric optics manuscript and small clear glass lens held securely."
+    ],
+    [
+      "fujiwara-michinaga",
+      "Fujiwara no Michinaga mature Japanese Heian aristocrat short mustache clean chin, black court kanmuri cap with upright rear element, richly patterned ocher sokutai court robe wide sleeves hakama black court shoes wooden shaku tablet."
+    ],
+    [
+      "boleslao-i-bravo",
+      "Boleslaw I the Brave mature stocky Polish king long reddish brown mustache beard shoulder-length hair simple gold crown chainmail red tunic heavy fur-trimmed mantle boots, sheathed sword."
+    ],
+    [
+      "esteban-i-hungria",
+      "Stephen I of Hungary mature king dark brown hair beard simple early medieval gold jeweled crown, eleventh century gold-trimmed cream long tunic red royal mantle belt boots, small orb and straight scepter. No halo."
+    ],
+    [
+      "anawrahta",
+      "Anawrahta mature Burmese Pagan king brown skin black mustache, gold tiered royal crown embroidered red gold long royal garment patterned lower wrap jewelry sandals, sheathed sword ceremonial staff."
+    ],
+    [
+      "roberto-guiscardo",
+      "Robert Guiscard mature tall Norman warrior shoulder-length light brown hair short beard mustache, conical nasal helmet worn on head chainmail hauberk red surcoat blue cloak leather boots, kite shield forearm-supported with hand completely hidden behind it and sword sheathed."
+    ]
+  ]
+}
