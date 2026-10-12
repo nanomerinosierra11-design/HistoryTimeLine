@@ -1,0 +1,126 @@
+{
+  "mode": "built-in image_gen",
+  "basePrompt": "Use case: illustration-story. Create ONE full-body historical avatar, matching attached image STYLE ONLY, not its identity or costume. Slightly irregular black ink contours, muted flat colors, sparse hard-edged shadows. Opaque pure WHITE background, small gray ground shadow. Whole headwear feet props within frame, ample margins, natural adult proportions about seven heads tall. Face must have visible EYEBROWS NOSE MOUTH but NO EYES, pupils, eyelids, closed-eye lines or socket contours: smooth blank skin below eyebrows. Distinctive hair facial shape and physique appropriate to subject. Exactly two plausible arms and hands with correct grips. No text labels signatures watermark halo scenery additional people. Subject: ",
+  "subjects": [
+    [
+      "sima-guang",
+      "Sima Guang, elderly Song Chinese scholar, narrow gray beard, black scholar cap, sober brown robe cream inner collar, holding a bound historical manuscript."
+    ],
+    [
+      "bohemundo-tarento",
+      "Bohemond of Taranto, tall broad Norman warrior with fair hair cropped at neck, short sandy beard, conical nasal helmet worn, chainmail cream tunic red cloak, sword sheathed, kite shield held with hand concealed behind."
+    ],
+    [
+      "li-qingzhao",
+      "Li Qingzhao, mature Song Chinese woman poet, elegant black hair bun hairpin, pale sage and cream layered Song robes, holding poetry scroll, dignified."
+    ],
+    [
+      "roger-ii-sicilia",
+      "Roger II of Sicily, dark beard, jeweled Byzantine influenced crown, rich red gold Norman Sicilian royal mantle, cream gold tunic, orb in one hand scepter in other."
+    ],
+    [
+      "emperatriz-matilde",
+      "Empress Matilda of England, mature auburn hair beneath ivory veil and gold crown, burgundy medieval gown gold trim, dark blue mantle, holding rolled charter."
+    ],
+    [
+      "esteban-nemanja",
+      "Stefan Nemanja Serbian ruler, elderly long gray beard, gold circlet, red gold Byzantine influenced tunic purple cloak, small cross in one hand."
+    ],
+    [
+      "nur-ad-din",
+      "Nur ad-Din Zengi, mature dark beard, cream turban wrapped over helmet, steel mail over dark green tunic, ocher cloak, sword sheathed hand on hilt."
+    ],
+    [
+      "muhammad-ghor",
+      "Muhammad of Ghor, mature dark beard, white turban, dark lamellar armor over burgundy Persianate tunic trousers boots, blue cloak, sword sheathed."
+    ],
+    [
+      "shinran",
+      "Shinran Japanese Buddhist monk, elderly shaved head, gray brows clean shaven, simple dark gray robes with brown patchwork kesa, wooden prayer beads held between hands, no halo."
+    ],
+    [
+      "san-sava",
+      "Saint Sava Serbian archbishop, middle aged long dark beard, black Eastern Christian monastic head covering, cream liturgical robe omophorion with dark crosses, gospel book, no halo."
+    ],
+    [
+      "iltutmish",
+      "Iltutmish Delhi sultan, mature black beard, substantial cream turban jeweled ornament, deep blue gold tunic long cream coat, trousers boots, sword sheathed."
+    ],
+    [
+      "manco-capac",
+      "Legendary Manco Capac, adult Andean man brown skin straight black hair, red royal forehead fringe gold headband, patterned Inca knee length tunic red mantle gold earspools sandals, golden staff. Human legendary founder not deity."
+    ],
+    [
+      "bela-iv-hungria",
+      "Bela IV Hungary, mature brown hair long beard streaked gray, medieval gold crown, blue tunic red fur trimmed mantle boots, rolled charter."
+    ],
+    [
+      "saadi",
+      "Saadi Shirazi elderly Persian poet, white beard and brows cream turban, simple cream robe brown mantle, holding small poetry manuscript."
+    ],
+    [
+      "wen-tianxiang",
+      "Wen Tianxiang Song Chinese scholar official, black mustache pointed beard black winged official hat burgundy Song official robes, pale tablet clasped in hands."
+    ],
+    [
+      "otakar-ii-bohemia",
+      "Otakar II Bohemia, strong mature fair man curly brown hair short beard, gold crown, chainmail and blue surcoat embroidered gold trim red cloak, shield with white lion held hand behind it sword sheathed."
+    ],
+    [
+      "ramkhamhaeng",
+      "Ramkhamhaeng Thai Sukhothai king, mature brown skin clean shaven black hair, gold pointed royal headwear, gold jewelry cream and red patterned traditional wrapped garments, sandals, small stone inscription tablet held."
+    ],
+    [
+      "ibn-taymiyya",
+      "Ibn Taymiyya mature scholar dark beard streaked gray, modest large white turban cream robe dark blue mantle, holding closed leather bound book."
+    ],
+    [
+      "gajah-mada",
+      "Gajah Mada, stocky powerful Javanese statesman brown skin broad face black hair gathered under modest traditional headcloth, mustache, patterned brown cream batik lower wrap red sash simple gold ornaments dark sleeveless upper garment, sheathed kris."
+    ],
+    [
+      "hafez",
+      "Hafez Persian poet, mature dark curly beard gray streaks cream turban, teal robe burgundy mantle, small poetry manuscript held open."
+    ],
+    [
+      "carlos-v-francia",
+      "Charles V France the Wise, slim mature king long narrow face brown shoulder length hair thin short beard, gold fleur de lis crown blue fleur de lis royal robe ermine lined mantle, scepter book."
+    ],
+    [
+      "tezozomoc",
+      "Tezozomoc Tepanec ruler of Azcapotzalco, elderly robust indigenous Mexican man brown skin gray straight hair, turquoise royal diadem, patterned cream tunic red mantle turquoise jewelry sandals, simple wooden staff no cactus."
+    ],
+    [
+      "hai-rui",
+      "Hai Rui Ming Chinese official, older thin face black gray mustache beard, black Ming winged official cap dark blue robe with bird rank badge, white belt black boots, memorial document."
+    ],
+    [
+      "lautaro",
+      "Lautaro young adult Mapuche leader, athletic brown skin long straight black hair woven headband, woven dark wool poncho red geometric trim traditional lower garment bare lower legs simple sandals, wooden spear upright, no European crown."
+    ],
+    [
+      "idris-alooma",
+      "Idris Alooma Kanem Bornu ruler, mature dark skinned African man short black beard, white wrapped turban, mail over blue robe cream cloak, boots, sheathed sword."
+    ],
+    [
+      "christopher-marlowe",
+      "Christopher Marlowe, young adult Elizabethan English playwright, wavy brown hair, fine mustache small pointed beard, black doublet gold buttons white ruff dark hose shoes, manuscript in hand no hat."
+    ],
+    [
+      "john-donne",
+      "John Donne mature English poet clergyman, lean long face receding dark hair pointed dark beard mustache, black clerical gown white ruff, closed book in hand."
+    ],
+    [
+      "pierre-corneille",
+      "Pierre Corneille French playwright, mature long brown hair receding forehead mustache small chin beard, seventeenth century black suit long coat white flat collar dark stockings buckled shoes, play manuscript."
+    ],
+    [
+      "kara-mustafa-pacha",
+      "Kara Mustafa Pasha Ottoman grand vizier, mature full dark beard, large Ottoman white turban red top, green gold long kaftan fur trimmed red outer coat sash boots, sheathed curved sword."
+    ],
+    [
+      "yongzheng",
+      "Yongzheng Qing emperor Chinese mature man thin mustache small goatee, Qing winter court hat red tassels finial, imperial yellow dragon robe blue cuffs court bead necklace dark boots, holding folded document."
+    ]
+  ]
+}
