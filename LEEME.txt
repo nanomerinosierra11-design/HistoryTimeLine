@@ -1,11 +1,10 @@
-LÍNEA DEL TIEMPO · HISTORIA UNIVERSAL — versión ligera
-1,010 personajes con mapa interactivo y línea del tiempo.
+LÍNEA DEL TIEMPO · HISTORIA UNIVERSAL — versión completa (v7, 12 oct 2026)
+1,962 personajes con mapa interactivo, línea del tiempo y fichas extensas.
 
-1. Descomprime el .zip.
-2. Abre index.html con doble clic. El mapa usa internet para los contornos del mundo.
-   La versión portátil (un solo archivo, sin internet) se descarga aparte.
+1. Abre index.html con doble clic. El mapa usa internet para los contornos del mundo.
+2. Sin internet (o en iPhone): abre Linea_del_Tiempo_portatil.html, un solo archivo autónomo.
 
 datos/personajes.js          fichas básicas (editable)
 datos/fichas_extensas.js     biografías extensas, contexto, legado, obras, lecturas
-miniaturas/           retratos de todos los personajes
-Los retratos originales en alta resolución están en el .zip completo.
+miniaturas/r/                miniaturas de todos los retratos
+*.png                        retratos originales en alta resolución
