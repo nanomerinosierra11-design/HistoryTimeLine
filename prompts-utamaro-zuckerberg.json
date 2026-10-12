@@ -1,0 +1,86 @@
+{
+  "mode": "built-in image_gen",
+  "base": "Use case: illustration-story. Create ONE full-body historical avatar matching reference STYLE ONLY, not costume or identity. Slightly irregular black ink outlines, muted flat colors, sparse hard-edged shadows. Opaque pure WHITE background small gray ground shadow. Whole headwear feet props in frame ample margins. Natural adult proportions approximately seven heads tall. Visible EYEBROWS NOSE MOUTH but NO EYES pupils eyelids closed-eye lines or socket contours: completely smooth skin beneath eyebrows, including behind spectacles. Distinctive face hair physique. Exactly two anatomically correct arms and hands, correct prop grips. No text labels signatures watermark halos scenery additional people. Subject: ",
+  "subjects": [
+    [
+      "kitagawa-utamaro",
+      "Kitagawa Utamaro, mature Japanese ukiyo-e artist, Edo period shaved crown chonmage, clean-shaven, indigo kimono gray obi straw sandals holding a woodblock print and brush."
+    ],
+    [
+      "alejandro-malaspina",
+      "Alejandro Malaspina, mature clean-shaven long face dark powdered tied hair, late18th century Spanish naval officer navy coat red facings gold trim cream waistcoat breeches white stockings buckle shoes, rolled nautical chart."
+    ],
+    [
+      "john-marshall",
+      "John Marshall, elderly American chief justice, receding gray hair long sideburns clean-shaven chin, long narrow face, black judicial robe white neckcloth black shoes, law book."
+    ],
+    [
+      "bernardo-monteagudo",
+      "Bernardo de Monteagudo, young adult South American statesman olive complexion black wavy hair prominent sideburns clean-shaven chin, early19th century dark tailcoat cream waistcoat white cravat tan trousers black boots, manuscript."
+    ],
+    [
+      "john-stuart-mill",
+      "John Stuart Mill, older lean philosopher, high receding forehead gray side hair long sideburns no beard on chin, dark Victorian suit waistcoat white shirt black necktie, book."
+    ],
+    [
+      "manuel-payno",
+      "Manuel Payno, older Mexican writer, broad face receding gray hair moustache, dark19th century frock coat waistcoat white shirt bow tie trousers shoes, book."
+    ],
+    [
+      "joseph-lister",
+      "Joseph Lister, elderly British surgeon, gray swept hair large gray side whiskers clean chin, black Victorian suit waistcoat white shirt necktie, small glass antiseptic bottle held naturally."
+    ],
+    [
+      "bertrand-russell",
+      "Bertrand Russell, elderly very slim man long narrow face prominent ears fluffy white hair clean-shaven, brown tweed suit vest white shirt tie, book."
+    ],
+    [
+      "adolfo-de-la-huerta",
+      "Adolfo de la Huerta, mature Mexican statesman long oval face receding dark hair small neat moustache, charcoal1920s threepiece suit white shirt dark tie black shoes, papers."
+    ],
+    [
+      "pascual-orozco",
+      "Pascual Orozco, tall lean Mexican revolutionary, short dark hair thick moustache, broad brim felt hat khaki jacket trousers boots leather ammunition bandolier and holstered revolver, relaxed hands."
+    ],
+    [
+      "egon-schiele",
+      "Egon Schiele, young adult Austrian painter slender angular face unruly short dark hair clean-shaven, loose brown jacket white shirt dark trousers boots, sketchbook and pencil."
+    ],
+    [
+      "alfonsina-storni",
+      "Alfonsina Storni, adult Argentine poet short wavy light brown bob hair round face, modest1920s blue dress cream collar lowheel shoes, book held with both hands."
+    ],
+    [
+      "kurt-godel",
+      "Kurt Gödel, middleaged very thin mathematician narrow face receding dark hair round spectacles with completely blank skin behind lenses no eyes, gray suit white shirt dark tie, notebook."
+    ],
+    [
+      "rachel-carson",
+      "Rachel Carson, middleaged woman soft oval face short dark wavy hair, 1950s navy skirt suit cream blouse modest heels, field notebook and small fern sprig."
+    ],
+    [
+      "gustavo-diaz-ordaz",
+      "Gustavo Díaz Ordaz, mature Mexican man slender long face prominent ears short combed dark hair thin moustache rectangular spectacles blank skin behind lenses, dark1960s suit white shirt sober tie, papers."
+    ],
+    [
+      "wernher-von-braun",
+      "Wernher von Braun, middleaged broad faced German-American engineer sweptback blond gray hair clean-shaven,1960s lightgray suit white shirt dark tie, small white Saturn V model held vertically, civilian no insignia."
+    ],
+    [
+      "jonas-salk",
+      "Jonas Salk, middleaged lean physician receding dark hair round spectacles blank skin behind lenses no eyes, white labcoat over dark suit and tie, small vaccine vial in one hand and notebook in other."
+    ],
+    [
+      "guillermo-gonzalez-camarena",
+      "Guillermo González Camarena, middleaged Mexican engineer dark wavy slickedback hair neat small moustache long oval face, mid20th century brown suit white shirt stripedtie, compact electronic component and schematic notebook."
+    ],
+    [
+      "luiz-inacio-lula-da-silva",
+      "Luiz Inácio Lula da Silva, elderly Brazilian man stocky build short white hair full closecropped white beard, navy suit white shirt red tie black shoes, standing friendly natural pose hands relaxed, missing left little finger if visible, no flags no slogans."
+    ],
+    [
+      "mark-zuckerberg",
+      "Mark Zuckerberg, adult technology entrepreneur short curly lightbrown hair clean-shaven youthful long oval face, plain gray crewneck tshirt blue jeans gray sneakers, relaxed standing holding closed laptop at side, no logos."
+    ]
+  ]
+}

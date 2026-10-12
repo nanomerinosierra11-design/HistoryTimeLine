@@ -1,0 +1,166 @@
+{
+  "mode": "builtin-imagegen",
+  "base": "Use case: illustration-story. Create ONE full-body historical avatar matching reference STYLE ONLY, not costume or identity. Slightly irregular black ink outlines, muted flat colors, sparse hard-edged shadows. Opaque pure WHITE background small gray ground shadow. Whole headwear feet props in frame ample margins. Natural adult proportions approximately seven heads tall. Visible EYEBROWS NOSE MOUTH but NO EYES pupils eyelids closed-eye lines or socket contours: completely smooth skin beneath eyebrows, including behind spectacles. Distinctive face hair physique. Exactly two anatomically correct arms and hands, correct prop grips. No text labels signatures watermark halos scenery additional people. Subject: ",
+  "subjects": [
+    [
+      "licurgo-esparta",
+      "Lycurgus of Sparta, legendary lawgiver, interpretive elderly vigorous Greek man long gray hair full beard, simple crimson wool mantle over cream chiton sandals, holding rolled laws, no crown."
+    ],
+    [
+      "arquiloco",
+      "Archilochus, mature sturdy archaic Greek poet soldier short curly dark hair beard, ochre short chiton dark red cloak sandals, sheathed sword at belt and small writing tablet in hands."
+    ],
+    [
+      "anacreonte",
+      "Anacreon, elderly Greek lyric poet bald crown white curls flowing beard, pale lavender himation over ivory tunic sandals, holding small ancient lyre."
+    ],
+    [
+      "protagoras",
+      "Protagoras, mature tall lean Greek sophist curly graying hair trimmed beard, blue-gray himation cream chiton sandals, holding scroll in one hand other hand explaining."
+    ],
+    [
+      "gorgias",
+      "Gorgias, elderly Greek orator slim hooked nose white wavy hair long neat beard, ochre gold-edged himation white chiton sandals, scroll."
+    ],
+    [
+      "isocrates",
+      "Isocrates, elderly Greek rhetorician bald crown sparse gray sidehair short white beard, muted green mantle ivory chiton sandals, writing tablets."
+    ],
+    [
+      "teofrasto",
+      "Theophrastus, older Greek philosopher broad forehead curly graying hair full short beard, earthy green himation cream chiton sandals, small leafy plant sprig and scroll."
+    ],
+    [
+      "apolonio-perge",
+      "Apollonius of Perga, mature Greek mathematician dark curls beard, muted blue himation ivory chiton sandals, tablet with simple conic curves and stylus."
+    ],
+    [
+      "antioco-iv-epifanes",
+      "Antiochus IV Epiphanes, mature clean-shaven Hellenistic king wavy dark hair white royal diadem ribbon, bronze muscle cuirass over ivory tunic purple cloak sandals, sheathed sword."
+    ],
+    [
+      "judas-macabeo",
+      "Judas Maccabeus, mature strong Judean commander dark curly hair full beard, Hellenistic-era scale corselet over brown tunic dark blue cloak leather sandals, upright spear held in one hand shield on other arm with hand hidden behind it, no medieval symbols."
+    ],
+    [
+      "tigranes-grande",
+      "Tigranes the Great of Armenia, mature strong king dark hair short beard, distinctive tall five-point Armenian tiara with star and eagle ornaments and ear flaps, patterned burgundy royal robe trousers boots, scepter."
+    ],
+    [
+      "posidonio",
+      "Posidonius, older Greek philosopher astronomer graying curls full beard, muted russet himation cream tunic sandals, small bronze armillary sphere held carefully."
+    ],
+    [
+      "hillel-anciano",
+      "Hillel the Elder, elderly Judean sage long white beard white hair modest cream headwrap, simple cream robe brown mantle sandals, Torah scroll held closed, ancient period not modern Hasidic clothing."
+    ],
+    [
+      "quinto-sertorio",
+      "Quintus Sertorius, mature athletic Roman commander short brown hair clean-shaven, scar on one brow but no eyes anywhere, Republican mail armor red tunic brown-red cloak boots, gladius sheathed."
+    ],
+    [
+      "caton-joven",
+      "Cato the Younger, mature austere Roman man short dark hair clean-shaven angular face, plain off-white Roman toga over tunic sandals, rolled scroll."
+    ],
+    [
+      "diodoro-siculo",
+      "Diodorus Siculus, mature Mediterranean historian curly brown hair rounded beard, tan Greek mantle ivory tunic sandals, several rolled papyrus scrolls cradled in arms."
+    ],
+    [
+      "filon-alejandria",
+      "Philo of Alexandria, older Hellenistic Jewish scholar long gray beard curly gray hair, ivory robe deep blue mantle sandals, holding papyrus scroll, no modern clothing."
+    ],
+    [
+      "plutarco-queronea",
+      "Plutarch of Chaeronea, older stocky Greek biographer balding head full gray curly beard, burgundy himation cream tunic sandals, bound writing tablets."
+    ],
+    [
+      "epicteto",
+      "Epictetus, elderly lean Stoic philosopher bald crown gray beard, humble rough brown cloak and simple tunic sandals, wooden walking staff and subtly uneven stance."
+    ],
+    [
+      "rabi-akiva",
+      "Rabbi Akiva, elderly Judean sage flowing gray beard cream headcloth, cream long robe striped brown mantle leather sandals holding closed scroll, ancient not modern dress."
+    ],
+    [
+      "simon-bar-kojba",
+      "Simon bar Kokhba, adult strong Judean rebel leader thick dark beard curly hair, practical scale corselet short tan tunic deep red cloak sandals, sheathed sword and round shield held correctly with hand hidden behind."
+    ],
+    [
+      "luciano-samosata",
+      "Lucian of Samosata, mature Syrian Greek satirist slim expressive angular face short curly dark hair neatly trimmed beard, ochre mantle pale tunic sandals, scroll."
+    ],
+    [
+      "dion-casio",
+      "Cassius Dio, mature Roman senator historian curly short gray hair neatly trimmed beard, white toga broad purple border over tunic red-brown shoes, scroll."
+    ],
+    [
+      "majencio",
+      "Maxentius Roman emperor, adult stocky broad face cropped dark hair stubble beard, late Roman ornate bronze cuirass cream tunic purple cloak red boots, sword sheathed."
+    ],
+    [
+      "amiano-marcelino",
+      "Ammianus Marcellinus, mature late Roman soldier historian angular face short dark graying hair beard, belted cream long-sleeve tunic dark red cloak trousers boots, writing tablet."
+    ],
+    [
+      "salomon-ibn-gabirol",
+      "Solomon ibn Gabirol Avicebron, young adult Andalusi Jewish poet philosopher lean long face short dark beard, modest cream turban brown robe muted green mantle slippers, book."
+    ],
+    [
+      "rashi",
+      "Rashi, older medieval French Jewish scholar long gray beard dark soft cap brown long wool robe cream mantle leather shoes, open manuscript in hands."
+    ],
+    [
+      "yehuda-halevi",
+      "Judah Halevi, mature Andalusi Jewish poet physician dark beard warm olive skin, pale turban rich muted blue robe brown cloak slippers, poetry manuscript."
+    ],
+    [
+      "abraham-ibn-ezra",
+      "Abraham ibn Ezra, older lean Andalusi Jewish polymath graying beard cream headwrap ochre robe dark blue mantle, small astrolabe in one hand book in other."
+    ],
+    [
+      "benjamin-tudela",
+      "Benjamin of Tudela, mature medieval Jewish traveler dark full beard soft brown cap ochre tunic long blue-gray cloak leather shoes small travel satchel shoulder strap, walking staff."
+    ],
+    [
+      "najmanides",
+      "Nachmanides, elderly Catalan Jewish scholar long white beard dark rounded cap burgundy long robe brown mantle leather shoes, thick manuscript."
+    ],
+    [
+      "gonzalo-berceo",
+      "Gonzalo de Berceo, mature medieval Castilian secular cleric clean-shaven tonsured head short brown sidehair, plain dark clerical robe brown hooded mantle leather shoes, manuscript and quill."
+    ],
+    [
+      "ramon-muntaner",
+      "Ramon Muntaner, older sturdy Catalan medieval chronicler graying short beard dark soft cap red-brown long tunic leather belt dark cloak boots, manuscript."
+    ],
+    [
+      "don-juan-manuel",
+      "Don Juan Manuel, mature Castilian medieval noble author short dark hair trimmed beard, burgundy patterned noble tunic gold belt blue mantle soft cap leather shoes, book and sheathed sword."
+    ],
+    [
+      "arcipreste-hita",
+      "Archpriest of Hita Juan Ruiz, mature stocky medieval Castilian cleric round face tonsure short dark sidehair clean shaven, dark brown clerical gown hood draped at shoulders, manuscript."
+    ],
+    [
+      "etienne-marcel",
+      "Étienne Marcel, mature medieval Parisian burgher short brown beard, red and blue chaperon hood brown fur-trimmed burgundy long gown leather belt shoes, documents."
+    ],
+    [
+      "pedro-iv-aragon",
+      "Peter IV of Aragon the Ceremonious, mature slim medieval king narrow face short brown hair neat beard gold crown, gold surcoat with four vertical red stripes over mail, crimson mantle leather boots, sheathed sword."
+    ],
+    [
+      "john-hawkwood",
+      "John Hawkwood, older English condottiere graying moustache beard short hair, late 14th century steel plate and mail dark red surcoat boots, helmet worn on head face uncovered, sword sheathed commander baton held."
+    ],
+    [
+      "juana-i-napoles",
+      "Joanna I of Naples, adult medieval queen fair skin auburn hair braided under delicate white veil gold crown, rich blue medieval gown gold fleurs-de-lis red gold-lined mantle, slender scepter."
+    ],
+    [
+      "enrique-ii-trastamara",
+      "Henry II of Castile Trastamara, mature stocky medieval king dark wavy hair full dark beard gold crown, mail armor red gold surcoat with castle and lion heraldic motifs dark burgundy mantle boots, sheathed sword."
+    ]
+  ]
+}

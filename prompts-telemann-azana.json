@@ -1,0 +1,174 @@
+{
+  "mode": "built-in imagegen",
+  "base": "Use case: illustration-story. Create ONE full-body historical avatar matching reference STYLE ONLY, not costume or identity. Slightly irregular black ink outlines, muted flat colors, sparse hard-edged shadows. Opaque pure WHITE background small gray ground shadow. Whole headwear feet props in frame ample margins. Natural adult proportions approximately seven heads tall unless subject is a teenager. Visible EYEBROWS NOSE MOUTH but NO EYES pupils eyelids closed-eye lines or socket contours: completely smooth skin beneath eyebrows, including behind spectacles. Distinctive face hair physique. Exactly two anatomically correct arms and hands, correct prop grips. No text labels signatures watermark halos scenery additional people. Subject: ",
+  "subjects": [
+    [
+      "georg-philipp-telemann",
+      "Georg Philipp Telemann, mature long face clean shaven powdered curled wig, dark brown eighteenth century coat cream waistcoat breeches white stockings buckle shoes, music score."
+    ],
+    [
+      "domenico-scarlatti",
+      "Domenico Scarlatti, mature full face clean shaven gray curled wig, burgundy eighteenth century coat gold trim white cravat cream breeches stockings buckle shoes, music sheets."
+    ],
+    [
+      "francois-quesnay",
+      "Francois Quesnay elderly French physician economist, long narrow face clean shaven powdered wig, black eighteenth century coat cream waistcoat breeches stockings, folded economic chart."
+    ],
+    [
+      "christoph-willibald-gluck",
+      "Christoph Willibald Gluck, mature stocky round face broad nose receding gray hair tied back, blue eighteenth century coat open white cravat buff waistcoat breeches stockings shoes, score."
+    ],
+    [
+      "conde-aranda",
+      "Count of Aranda Pedro Pablo Abarca de Bolea, mature clean shaven powdered side curls, navy Spanish eighteenth century court uniform gold embroidery red sash decorations breeches stockings buckle shoes, papers."
+    ],
+    [
+      "edmund-burke",
+      "Edmund Burke mature clean shaven full long face dark curled hair tied back, brown eighteenth century coat white cravat cream waistcoat knee breeches stockings buckle shoes, book."
+    ],
+    [
+      "gotthold-ephraim-lessing",
+      "Gotthold Ephraim Lessing mature clean shaven rounded face short curled powdered hair, green eighteenth century coat white cravat cream waistcoat breeches stockings, book."
+    ],
+    [
+      "jean-honore-fragonard",
+      "Jean Honore Fragonard mature round face clean shaven gray brown curls, ochre eighteenth century coat cream waistcoat breeches stockings, artists palette and brush."
+    ],
+    [
+      "jacques-necker",
+      "Jacques Necker mature stocky broad face clean shaven powdered side curls, blue eighteenth century coat white cravat cream waistcoat breeches stockings shoes, financial papers."
+    ],
+    [
+      "jose-antonio-alzate",
+      "Jose Antonio Alzate Mexican eighteenth century priest scientist, mature brown olive skin clean shaven short dark hair clerical tonsure, long black cassock white collar shoes, scientific notebook and small brass magnifier."
+    ],
+    [
+      "thomas-malthus",
+      "Thomas Malthus mature receding curly brown hair clean shaven long face, black early nineteenth century coat white cravat gray trousers black shoes, closed book."
+    ],
+    [
+      "john-dalton",
+      "John Dalton elderly broad face receding gray hair side curls clean shaven, simple brown Quaker coat white cravat gray trousers black shoes, notebook with simple colored atom circles."
+    ],
+    [
+      "manuel-godoy",
+      "Manuel Godoy adult broad face dark curled hair long sideburns clean chin, navy Spanish court military coat gold embroidery blue white sash medals white breeches tall boots, sheathed sword."
+    ],
+    [
+      "georges-cuvier",
+      "Georges Cuvier older stocky broad face receding gray hair long sideburns clean chin, dark green scholarly coat gold embroidery white cravat trousers shoes, small fossil and book."
+    ],
+    [
+      "andre-marie-ampere",
+      "Andre Marie Ampere mature gaunt long face high forehead tousled gray brown hair clean shaven, dark brown early nineteenth century coat white cravat waistcoat trousers shoes, scientific notebook."
+    ],
+    [
+      "alessandro-manzoni",
+      "Alessandro Manzoni older narrow face high forehead gray wavy hair long sideburns clean chin, dark frock coat cream waistcoat white cravat gray trousers shoes, book."
+    ],
+    [
+      "sacagawea",
+      "Sacagawea adult Shoshone woman brown skin long black braids, modest historically inspired tan hide dress leggings moccasins woven belt simple bead necklace, holding travel walking staff, no baby or extra people, no feather warbonnet."
+    ],
+    [
+      "charles-babbage",
+      "Charles Babbage older broad face receding gray hair thick gray sideburns clean chin, dark Victorian suit waistcoat white cravat black shoes, small brass gear and notebook."
+    ],
+    [
+      "percy-bysshe-shelley",
+      "Percy Bysshe Shelley young adult slender long face tousled wavy brown hair clean shaven, dark green Regency coat open white collar buff waistcoat beige trousers shoes, poetry manuscript."
+    ],
+    [
+      "john-keats",
+      "John Keats young adult short compact build rounded face auburn wavy hair sideburns clean chin, brown Regency coat white cravat cream waistcoat dark trousers shoes, small book."
+    ],
+    [
+      "leon-xiii",
+      "Pope Leo XIII very elderly slender long gaunt face prominent nose large ears white sparse hair clean shaven, white papal cassock white zucchetto red mozzetta gold cross red shoes, closed book, no halo."
+    ],
+    [
+      "robert-schumann",
+      "Robert Schumann mature broad round face brown swept wavy hair short sideburns clean chin, black nineteenth century frock coat waistcoat white shirt dark cravat trousers shoes, music score."
+    ],
+    [
+      "zeng-guofan",
+      "Zeng Guofan mature Chinese official long thin gray beard mustache, Qing black red official hat blue silk robe embroidered mandarin square court bead necklace black shoes, memorial scroll."
+    ],
+    [
+      "charlotte-bronte",
+      "Charlotte Bronte adult petite woman narrow face center parted brown hair side coils, modest brown Victorian long dress white lace collar fitted bodice long sleeves black shoes, small manuscript book. Single person."
+    ],
+    [
+      "emily-bronte",
+      "Emily Bronte adult tall slender woman long face center parted dark brown hair pinned back, modest muted green 1840s dress long full skirt high neck white small collar black shoes, poetry notebook. Single person."
+    ],
+    [
+      "anne-bronte",
+      "Anne Bronte adult slender woman oval soft face light brown center parted hair with side curls pinned back, modest pale blue gray 1840s long dress white collar long sleeves low shoes, closed book. Single person."
+    ],
+    [
+      "ivan-turguenev",
+      "Ivan Turgenev older tall broad man thick swept silver hair full white beard, dark brown Victorian suit waistcoat white shirt black tie shoes, book."
+    ],
+    [
+      "herman-melville",
+      "Herman Melville mature broad face swept wavy dark brown hair full dark beard, navy nineteenth century coat gray waistcoat white shirt dark bow tie trousers shoes, book."
+    ],
+    [
+      "walt-whitman",
+      "Walt Whitman elderly sturdy man long white beard and white hair, broad gray felt hat open collar pale shirt loose gray jacket brown trousers worn shoes, poetry book."
+    ],
+    [
+      "victor-manuel-ii-italia",
+      "Victor Emmanuel II Italy stocky middle aged man receding dark hair immense handlebar mustache thick sideburns clean chin, dark blue military tunic gold epaulettes blue sash medals gray trousers boots, sheathed saber."
+    ],
+    [
+      "antonio-canovas-castillo",
+      "Antonio Canovas del Castillo mature stocky bald crown dark gray side hair thick mustache beard round spectacles blank skin behind lenses, black frock coat waistcoat white shirt black tie trousers shoes, documents."
+    ],
+    [
+      "edgar-degas",
+      "Edgar Degas older man receding gray hair short gray beard, brown suit gray waistcoat white shirt dark cravat shoes, sketchbook and charcoal pencil."
+    ],
+    [
+      "caballo-loco",
+      "Crazy Horse Lakota warrior dignified interpretive adult likeness not a claimed photograph, lean brown skin long loose dark hair single small feather woven hair tie, tan hide shirt leggings moccasins simple blanket draped shoulder, wooden spear, no fantasy warbonnet."
+    ],
+    [
+      "ivan-pavlov",
+      "Ivan Pavlov elderly bald crown white side hair full white beard strong brows, gray three piece suit white shirt dark tie shoes, scientific notebook, no animals."
+    ],
+    [
+      "woodrow-wilson",
+      "Woodrow Wilson mature tall slender man elongated clean shaven face side parted short gray hair pince nez blank skin behind lenses, dark early twentieth century suit waistcoat white shirt tie black shoes, papers."
+    ],
+    [
+      "emile-durkheim",
+      "Emile Durkheim mature bald crown dark gray sides pointed gray beard mustache pince nez blank skin behind lenses, black suit waistcoat high white collar tie shoes, book."
+    ],
+    [
+      "miguel-unamuno",
+      "Miguel de Unamuno older lean face short gray hair pointed white beard mustache round spectacles blank skin behind lenses, dark blue jacket high collar gray trousers shoes, book."
+    ],
+    [
+      "serguei-rajmaninov",
+      "Sergei Rachmaninoff tall very slender long angular clean shaven face prominent cheekbones short neatly parted dark hair, black formal tailcoat white bow tie black trousers patent shoes, score."
+    ],
+    [
+      "antonio-machado",
+      "Antonio Machado mature stocky long face receding dark gray hair short mustache clean chin, worn brown suit white shirt dark tie shoes, poetry book and soft hat held."
+    ],
+    [
+      "sardar-patel",
+      "Vallabhbhai Sardar Patel elderly Indian man brown skin bald crown thin gray sides clean shaven broad lined face, white dhoti long white kurta cream shawl brown sandals, hands gently clasped."
+    ],
+    [
+      "manuel-de-falla",
+      "Manuel de Falla mature very slim man bald crown dark side hair neat mustache pointed small goatee, dark three piece suit white shirt dark bow tie black shoes, music manuscript."
+    ],
+    [
+      "manuel-azana",
+      "Manuel Azana mature stocky man rounded face receding dark hair clean shaven round spectacles blank skin behind lenses, dark gray three piece suit white shirt patterned dark tie black shoes, documents."
+    ]
+  ]
+}

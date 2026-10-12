@@ -1,0 +1,146 @@
+{
+  "mode": "built-in image_gen",
+  "base": "Use case: illustration-story. Create ONE full-body historical avatar matching reference STYLE ONLY, not costume or identity. Slightly irregular black ink outlines, muted flat colors, sparse hard-edged shadows. Opaque pure WHITE background small gray ground shadow. Whole headwear feet props in frame ample margins. Natural adult proportions approximately seven heads tall. Visible EYEBROWS NOSE MOUTH but NO EYES pupils eyelids closed-eye lines or socket contours: completely smooth skin beneath eyebrows, including behind spectacles. Distinctive face hair physique. Exactly two anatomically correct arms and hands, correct prop grips. No text labels signatures watermark halos scenery additional people. Subject: ",
+  "subjects": [
+    [
+      "kazuo-taoka",
+      "Kazuo Taoka, elderly Japanese man broad face short slicked-back graying hair, dark 1960s suit white shirt subdued tie, neutral documentary stance empty hands no weapons."
+    ],
+    [
+      "yoshio-kodama",
+      "Yoshio Kodama, older Japanese man round face receding slicked black-gray hair thin mustache, charcoal three-piece suit white shirt gray tie, neutral documentary stance empty hands."
+    ],
+    [
+      "kenichi-shinoda",
+      "Kenichi Shinoda, older Japanese man lean face thin mustache short gray hair, brown fedora gray tailored suit white shirt navy tie, neutral documentary stance empty hands."
+    ],
+    [
+      "roman-abramovich",
+      "Roman Abramovich, middle-aged man short salt-and-pepper hair close gray stubble narrow face, navy blazer white open-collar shirt gray trousers brown shoes."
+    ],
+    [
+      "alexei-mordashov",
+      "Alexei Mordashov, heavyset middle-aged man round face short light brown hair clean shaven, charcoal suit pale blue shirt burgundy tie."
+    ],
+    [
+      "vladimir-potanin",
+      "Vladimir Potanin, mature man broad face short silver hair receding temples clean shaven, navy suit white shirt blue tie."
+    ],
+    [
+      "igor-sechin",
+      "Igor Sechin, mature stocky man broad heavy face short brushed gray hair clean shaven, black suit white shirt burgundy tie."
+    ],
+    [
+      "mikhail-fridman",
+      "Mikhail Fridman, mature stocky man curly graying brown hair round face clean shaven, navy jacket pale blue open-collar shirt charcoal trousers."
+    ],
+    [
+      "alisher-usmanov",
+      "Alisher Usmanov, older very corpulent man round face receding dark-gray hair, thin metal clear spectacles over blank eyeless skin, dark suit white shirt burgundy tie."
+    ],
+    [
+      "alwaleed-bin-talal",
+      "Alwaleed bin Talal Al Saud, mature slender Saudi man long face groomed dark mustache short beard, white thobe white ghutra black agal tan bisht with narrow gold trim."
+    ],
+    [
+      "mohammed-bin-salman",
+      "Mohammed bin Salman, broad stocky adult Saudi man thick black beard, white thobe red-white checkered shemagh black agal brown bisht gold edging."
+    ],
+    [
+      "sulaiman-al-habib",
+      "Sulaiman Al Habib, older Saudi businessman gray mustache medium build, white thobe white ghutra black agal dark brown bisht narrow gold edging, clear spectacles over blank eyeless skin."
+    ],
+    [
+      "aristotle-onassis",
+      "Aristotle Onassis, older stocky Greek man strong nose heavy brows slicked-back silver hair, thick dark clear spectacle frames over blank eyeless skin, double-breasted navy suit white shirt gray tie."
+    ],
+    [
+      "larry-fink",
+      "Larry Fink, older man receding short gray hair long face, thin clear glasses over blank eyeless skin, dark navy suit white shirt blue patterned tie."
+    ],
+    [
+      "bernard-arnault",
+      "Bernard Arnault, older tall slender man swept-back silver hair long narrow face clean shaven, impeccably tailored navy suit white shirt dark blue tie."
+    ],
+    [
+      "richard-branson",
+      "Richard Branson, older man shoulder-length blond-white hair short white beard smiling mouth, navy blazer white open-collar shirt dark jeans brown shoes."
+    ],
+    [
+      "larry-page",
+      "Larry Page, middle-aged man short dark brown hair graying temples clean shaven elongated face, navy sweater over pale blue collared shirt charcoal trousers dark sneakers."
+    ],
+    [
+      "ray-dalio",
+      "Ray Dalio, older man wavy silver hair receding forehead long face clean shaven, navy blazer pale blue open-neck shirt gray trousers."
+    ],
+    [
+      "george-soros",
+      "George Soros, elderly man silver side-parted hair deep facial lines broad nose clean shaven, dark gray suit pale blue shirt muted burgundy tie."
+    ],
+    [
+      "grace-kelly",
+      "Grace Kelly as adult classic film star, swept-back blonde hair elegant low chignon delicate oval face, fully opaque pale blue long-sleeved floor-length formal gown with fitted waist and modest neckline, pearl necklace and white gloves, poised neutral standing portrait."
+    ],
+    [
+      "elizabeth-taylor",
+      "Elizabeth Taylor as mature adult film star, voluminous dark bouffant hair strong curved eyebrows rounded face, fully opaque emerald long-sleeved floor-length formal gown modest neckline small diamond earrings, dignified standing portrait."
+    ],
+    [
+      "sophia-loren",
+      "Sophia Loren as mature adult film star, chestnut swept-up hair arched eyebrows distinctive full mouth and cheekbones, fully opaque burgundy long-sleeved floor-length formal gown modest neckline gold earrings, poised standing portrait."
+    ],
+    [
+      "margot-robbie",
+      "Margot Robbie as adult actress, shoulder-length blonde softly waved hair center part broad smile defined jaw, opaque ivory tailored pantsuit with buttoned blazer and high-neck pale blouse, classic formal shoes neutral standing portrait."
+    ],
+    [
+      "scarlett-johansson",
+      "Scarlett Johansson as adult actress, short blonde swept-back bob rounded face full lips, opaque navy long-sleeved floor-length formal gown modest neckline small earrings, relaxed neutral standing pose."
+    ],
+    [
+      "ana-de-armas",
+      "Ana de Armas as adult actress, chestnut shoulder-length wavy hair center part rounded cheeks, opaque forest-green tailored pantsuit with cream high-neck blouse, understated formal shoes neutral standing pose."
+    ],
+    [
+      "angelina-jolie",
+      "Angelina Jolie as mature adult actress, long straight chestnut hair swept back high cheekbones angular jaw full lips, opaque black long-sleeved floor-length formal gown modest boat neckline, small gold earrings dignified neutral pose."
+    ],
+    [
+      "monica-bellucci",
+      "Monica Bellucci as mature adult actress, long dark center-parted waves oval face full lips, opaque deep burgundy long-sleeved floor-length formal gown high neckline, understated earrings neutral standing portrait."
+    ],
+    [
+      "salma-hayek",
+      "Salma Hayek as mature adult actress, petite stature dark wavy shoulder-length hair warm olive complexion rounded face, opaque royal-blue long-sleeved floor-length formal gown modest neckline gold earrings neutral standing portrait."
+    ],
+    [
+      "charlize-theron",
+      "Charlize Theron as mature adult actress tall stature short blonde pixie haircut defined cheekbones, opaque ivory long-sleeved tailored pantsuit pale high-neck blouse formal shoes neutral standing portrait."
+    ],
+    [
+      "halle-berry",
+      "Halle Berry as mature adult actress, warm brown complexion short dark pixie hair oval face, opaque plum long-sleeved floor-length formal gown modest neckline small silver earrings neutral standing portrait."
+    ],
+    [
+      "beyonce",
+      "Beyoncé as mature adult singer, warm brown complexion long honey-blonde wavy hair oval face, opaque gold long-sleeved floor-length formal gown modest high neckline, handheld microphone at waist neutral standing portrait."
+    ],
+    [
+      "miranda-kerr",
+      "Miranda Kerr as adult model, chestnut shoulder-length hair softly curled round cheeks dimpled smile, opaque powder-blue long-sleeved midi formal dress modest neckline nude formal shoes neutral standing portrait."
+    ],
+    [
+      "penelope-cruz",
+      "Penélope Cruz as mature adult actress, dark chestnut shoulder-length waves strong brows distinctive nose, opaque red long-sleeved floor-length formal gown modest neckline small gold earrings neutral standing portrait."
+    ],
+    [
+      "adriana-lima",
+      "Adriana Lima as mature adult model, long dark brown hair side part tan complexion high cheekbones, opaque dark teal tailored pantsuit with ivory high-neck blouse formal shoes neutral standing portrait."
+    ],
+    [
+      "megan-fox",
+      "Megan Fox as adult actress, long black wavy hair center part angular face arched brows full lips, opaque black tailored pantsuit burgundy high-neck blouse black formal shoes neutral standing portrait."
+    ]
+  ]
+}

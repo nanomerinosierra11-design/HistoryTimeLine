@@ -1,0 +1,166 @@
+{
+  "mode": "built-in imagegen",
+  "base": "Use case: illustration-story. Create ONE full-body historical avatar matching reference STYLE ONLY, not costume or identity. Slightly irregular black ink outlines, muted flat colors, sparse hard-edged shadows. Opaque pure WHITE background small gray ground shadow. Whole headwear feet props in frame ample margins. Natural adult proportions approximately seven heads tall unless subject is a teenager. Visible EYEBROWS NOSE MOUTH but NO EYES pupils eyelids closed-eye lines or socket contours: completely smooth skin beneath eyebrows, including behind spectacles. Distinctive face hair physique. Exactly two anatomically correct arms and hands, correct prop grips. No text labels signatures watermark halos scenery additional people. Subject: ",
+  "subjects": [
+    [
+      "sushruta",
+      "Sushruta, ancient Indian physician, mature brown skin, graying beard, tied hair, cream cotton dhoti and shoulder shawl, sandals, palm leaf manuscript and small closed medical instrument case."
+    ],
+    [
+      "eudoxo-cnido",
+      "Eudoxus of Cnidus, mature bearded Greek scholar, curly brown hair, cream chiton blue gray himation, sandals, holding geometric diagram tablet."
+    ],
+    [
+      "teocrito",
+      "Theocritus, Hellenistic poet, middle aged curly dark hair short beard, ochre chiton muted green mantle sandals, papyrus roll."
+    ],
+    [
+      "cayo-casio-longino",
+      "Gaius Cassius Longinus, lean middle aged Roman senator, short dark receding hair clean shaven angular face, white toga narrow purple border over tunic, leather shoes, scroll."
+    ],
+    [
+      "ban-gu",
+      "Ban Gu, Han Chinese historian, mature thin mustache long small beard, black scholar cap, brown and cream wide sleeved Han robes, bamboo manuscript."
+    ],
+    [
+      "quintiliano",
+      "Quintilian Roman rhetorician, middle aged broad face short graying curls clean shaven, white toga over russet tunic, scroll, Roman shoes."
+    ],
+    [
+      "marcial",
+      "Martial Roman poet, mature lean face short dark curls clean shaven, muted olive tunic cream mantle, sandals, small wax tablets."
+    ],
+    [
+      "antinoo",
+      "Antinous, adult young Greek man, abundant distinctive thick curly hair, clean shaven rounded handsome face, fully clothed cream chiton dark red mantle sandals, no nudity, relaxed standing."
+    ],
+    [
+      "apuleyo",
+      "Apuleius, North African Roman writer, brown olive skin curly black hair short beard, ivory tunic purple brown mantle, sandals, book roll."
+    ],
+    [
+      "nagarjuna",
+      "Nagarjuna, mature Indian Buddhist philosopher, brown skin shaved head, maroon and saffron monastic robes, palm leaf manuscript, no halo or supernatural elements."
+    ],
+    [
+      "galieno",
+      "Gallienus Roman emperor, mature curly dark hair short beard, gold laurel wreath, third century Roman muscle cuirass red cloak cream tunic boots, sheathed sword."
+    ],
+    [
+      "tao-yuanming",
+      "Tao Yuanming, mature Chinese poet with sparse beard mustache, simple cloth cap gray blue loose robes cloth belt shoes, small chrysanthemum sprig and manuscript."
+    ],
+    [
+      "al-masudi",
+      "Al-Masudi Arab historian traveler, mature brown skin dark beard white turban cream robe muted blue mantle leather shoes, rolled map."
+    ],
+    [
+      "juan-i-tzimisces",
+      "John I Tzimiskes Byzantine emperor, compact mature man reddish blond beard hair, Byzantine jeweled crown, red gold imperial tunic scale armor purple cloak boots, sword sheathed."
+    ],
+    [
+      "samuel-bulgaria",
+      "Samuel of Bulgaria, stocky mature king thick dark gray beard, medieval Bulgarian crown embroidered burgundy tunic gold belt heavy brown cloak boots, sheathed sword."
+    ],
+    [
+      "ouyang-xiu",
+      "Ouyang Xiu Song scholar official, older Chinese man thin gray beard mustache, black winged official hat muted red long robes black shoes, manuscript held in both hands."
+    ],
+    [
+      "romano-iv-diogenes",
+      "Romanos IV Diogenes, strong middle aged bearded Byzantine emperor, dark hair golden Byzantine crown, lamellar armor long blue tunic red cloak boots, sword sheathed."
+    ],
+    [
+      "vladimir-monomaco",
+      "Vladimir Monomakh, older Rus prince gray beard fur trimmed princely cap red embroidered long tunic blue mantle leather boots, staff."
+    ],
+    [
+      "zengi",
+      "Imad ad-Din Zengi, mature Turkic ruler dark beard wrapped turban over conical helmet, mail armor ochre kaftan green cloak boots, curved sword sheathed."
+    ],
+    [
+      "perotin",
+      "Perotin medieval Notre Dame composer, mature man tonsured hair clean shaven, simple brown clerical robe pale underrobe leather shoes, open music manuscript."
+    ],
+    [
+      "enrique-iii-inglaterra",
+      "Henry III of England, middle aged brown hair short beard golden crown, long red royal tunic gold trim blue mantle lined pale fur leather shoes, scroll."
+    ],
+    [
+      "celestino-v",
+      "Pope Celestine V, elderly thin man white short beard tonsure, humble pale papal robe red mantle simple medieval papal tiara, wooden cross held, no halo."
+    ],
+    [
+      "qutuz",
+      "Qutuz Mamluk sultan, powerful middle aged man dark mustache short beard, turban wrapped conical helmet mail armor long dark red kaftan gold belt leather boots, curved sword sheathed."
+    ],
+    [
+      "manfredo-sicilia",
+      "Manfred of Sicily, adult blond wavy hair short blond beard, gold crown medieval mail blue surcoat embroidered gold red mantle boots, sheathed sword."
+    ],
+    [
+      "conradino",
+      "Conradin of Hohenstaufen, adolescent medieval prince realistic teenage proportions, blond shoulder length hair clean shaven, simple gold circlet red tunic cream cloak medieval shoes, gloved hands relaxed."
+    ],
+    [
+      "eduardo-ii-inglaterra",
+      "Edward II of England, tall adult auburn wavy hair short beard, golden crown royal blue long tunic gold belt red mantle pale fur edging shoes, scepter."
+    ],
+    [
+      "kusunoki-masashige",
+      "Kusunoki Masashige, mature Japanese samurai small mustache beard wearing complete dark lacquered lamellar armor with muted green lacing, historically plausible kabuto helmet no giant fantasy decoration, swords sheathed."
+    ],
+    [
+      "guillaume-machaut",
+      "Guillaume de Machaut, older medieval French poet composer, clean shaven long narrow face gray hair under black hood, dark blue long scholar robe, music manuscript."
+    ],
+    [
+      "carlos-iv-luxemburgo",
+      "Charles IV of Luxembourg Holy Roman emperor, mature broad face dark beard shoulder length brown hair, jeweled imperial crown red gold robe blue mantle, orb in one hand scepter in other."
+    ],
+    [
+      "ladislao-ii-jagellon",
+      "Wladyslaw II Jagiello, older lean clean shaven face receding dark hair, medieval golden crown, dark red long royal tunic fur trimmed olive cloak leather shoes, sword sheathed."
+    ],
+    [
+      "zara-yaqob",
+      "Zara Yaqob Ethiopian emperor, mature dark African skin curly black hair beard, Ethiopian royal crown white long tunic red gold embroidered mantle leather sandals, Ethiopian processional hand cross."
+    ],
+    [
+      "carlos-vii-francia",
+      "Charles VII of France, slender mature man long nose clean shaven brown bobbed hair red brimmed cap, burgundy velvet knee length tunic gold embroidery black hose pointed shoes, belt purse."
+    ],
+    [
+      "palestrina",
+      "Giovanni Pierluigi da Palestrina, mature Italian composer receding dark gray hair short beard, black sixteenth century gown white small ruff, music manuscript."
+    ],
+    [
+      "caupolican",
+      "Caupolican Mapuche leader, muscular mature indigenous Chilean man brown skin long black hair woven headband, woven brown and red poncho over knee length cloth garment sandals, sturdy wooden spear, no fantasy headdress."
+    ],
+    [
+      "roberto-belarmino",
+      "Robert Bellarmine, elderly slender cardinal gray beard narrow face, red biretta red cardinal cassock white rochet red mozzetta pectoral cross shoes, closed theological book."
+    ],
+    [
+      "duque-lerma",
+      "Duke of Lerma Francisco Gomez de Sandoval, mature balding gray hair pointed beard mustache, black Spanish court doublet breeches large white ruff gold chain dark stockings shoes, sword sheathed."
+    ],
+    [
+      "tommaso-campanella",
+      "Tommaso Campanella, mature sturdy man shaved tonsure dark short beard, Dominican white tunic black mantle leather shoes, manuscript book."
+    ],
+    [
+      "pocahontas",
+      "Pocahontas depicted as adult woman about 21 in English portrait era, brown indigenous Virginian skin dark hair under tall black early seventeenth century hat, Jacobean embroidered cream fitted jacket red skirt white lace collar, holding feather fan, fully clothed dignified."
+    ],
+    [
+      "duque-marlborough",
+      "John Churchill Duke of Marlborough, mature clean shaven long face long brown curled seventeenth century wig, polished steel breastplate over red coat blue sash lace cravat cuffs buff breeches tall black boots, command baton."
+    ],
+    [
+      "robert-walpole",
+      "Robert Walpole, stocky mature clean shaven round face powdered curled wig, blue eighteenth century coat gold embroidery cream waistcoat knee breeches white stockings black buckle shoes, document."
+    ]
+  ]
+}

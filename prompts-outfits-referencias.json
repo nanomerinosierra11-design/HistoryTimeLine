@@ -1,0 +1,45 @@
+{
+  "mode": "built-in imagegen",
+  "images": [
+    {
+      "slug": "victoria-silvstedt",
+      "refs": [
+        "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/victoria-silvstedt-casual.png",
+        "/var/folders/l6/j53lk8kn5fj3c_sgzfzk_jp00000gn/T/codex-clipboard-157f9881-8b2b-4d29-990e-d8e0b792f0ce.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit image 1, the Victoria Silvstedt illustrated avatar. Image 2 is wardrobe reference only. Replace avatar outfit with the reference outfit: Silver strapless short dress with vertical beaded fringe, matching the supplied photo; small black clutch and silver heels. Hand resting on hip. Keep avatar identity, adult proportions, black ink outlines, muted flat-color illustration and sparse cel shadows. Draw a full-body avatar on pure WHITE background with small gray ground shadow. Visible eyebrows nose mouth, but NO EYES or eyelid lines: smooth blank skin below eyebrows. Exactly two anatomically correct arms and hands. No scenery, crowd, lettering or photographic background. This is a newly drawn illustration, not a retouched stock photograph. Do not copy watermarks or logos. Maintain generous margins."
+    },
+    {
+      "slug": "megan-fox",
+      "refs": [
+        "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/megan-fox-casual.png",
+        "/var/folders/l6/j53lk8kn5fj3c_sgzfzk_jp00000gn/T/codex-clipboard-bcc181b7-ec02-4993-9ef8-a3da936d0594.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit image 1, the Megan Fox illustrated avatar. Image 2 is wardrobe reference only. Replace avatar outfit with the reference outfit: Pink shimmering strapless sweetheart-neck dress, fitted silhouette and side slit as supplied. Complete cropped lower portion coherently as a long dress with pink heels. Long black hair swept over one shoulder. Keep avatar identity, adult proportions, black ink outlines, muted flat-color illustration and sparse cel shadows. Draw a full-body avatar on pure WHITE background with small gray ground shadow. Visible eyebrows nose mouth, but NO EYES or eyelid lines: smooth blank skin below eyebrows. Exactly two anatomically correct arms and hands. No scenery, crowd, lettering or photographic background. This is a newly drawn illustration, not a retouched stock photograph. Do not copy watermarks or logos. Maintain generous margins."
+    },
+    {
+      "slug": "adriana-lima",
+      "refs": [
+        "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/adriana-lima-casual.png",
+        "/var/folders/l6/j53lk8kn5fj3c_sgzfzk_jp00000gn/T/codex-clipboard-47907223-0eda-4663-b8cd-0f7af41e79bd.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit image 1, the Adriana Lima illustrated avatar. Image 2 is wardrobe reference only. Replace avatar outfit with the reference outfit: Red fashion runway ensemble shown in the supplied photo: red structured longline bra top and matching runway bottoms, very large red feather wings mounted behind the shoulders. Preserve this as a neutral fashion illustration, normal runway standing pose, no erotic framing. Red runway heels; keep entire wings and feet in frame. Keep avatar identity, adult proportions, black ink outlines, muted flat-color illustration and sparse cel shadows. Draw a full-body avatar on pure WHITE background with small gray ground shadow. Visible eyebrows nose mouth, but NO EYES or eyelid lines: smooth blank skin below eyebrows. Exactly two anatomically correct arms and hands. No scenery, crowd, lettering or photographic background. This is a newly drawn illustration, not a retouched stock photograph. Do not copy watermarks or logos. Maintain generous margins."
+    },
+    {
+      "slug": "monica-bellucci",
+      "refs": [
+        "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/monica-bellucci-casual.png",
+        "/var/folders/l6/j53lk8kn5fj3c_sgzfzk_jp00000gn/T/codex-clipboard-a7980aef-1531-4317-872f-1c01752fc801.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit image 1, the Monica Bellucci illustrated avatar. Image 2 is wardrobe reference only. Replace avatar outfit with the reference outfit: Black dress with white polka dots, square neckline, long sheer polka-dot sleeves, and matching narrow polka-dot neck scarf, matching the supplied outfit. Fitted midi skirt, black heels, small black clutch. Hair up with loose face-framing strands as photo. Keep avatar identity, adult proportions, black ink outlines, muted flat-color illustration and sparse cel shadows. Draw a full-body avatar on pure WHITE background with small gray ground shadow. Visible eyebrows nose mouth, but NO EYES or eyelid lines: smooth blank skin below eyebrows. Exactly two anatomically correct arms and hands. No scenery, crowd, lettering or photographic background. This is a newly drawn illustration, not a retouched stock photograph. Do not copy watermarks or logos. Maintain generous margins."
+    },
+    {
+      "slug": "ana-de-armas",
+      "refs": [
+        "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/ana-de-armas-casual.png",
+        "/var/folders/l6/j53lk8kn5fj3c_sgzfzk_jp00000gn/T/codex-clipboard-78823f77-8d45-45e6-89b6-44b044e87466.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit image 1, the Ana de Armas illustrated avatar. Image 2 is wardrobe reference only. Replace avatar outfit with the reference outfit: Black sparkling long dress with thin shoulder straps, scalloped neckline and side slit, silver pendant necklace and black open-toe heels, as supplied. Hair swept over one shoulder. Keep avatar identity, adult proportions, black ink outlines, muted flat-color illustration and sparse cel shadows. Draw a full-body avatar on pure WHITE background with small gray ground shadow. Visible eyebrows nose mouth, but NO EYES or eyelid lines: smooth blank skin below eyebrows. Exactly two anatomically correct arms and hands. No scenery, crowd, lettering or photographic background. This is a newly drawn illustration, not a retouched stock photograph. Do not copy watermarks or logos. Maintain generous margins."
+    }
+  ]
+}

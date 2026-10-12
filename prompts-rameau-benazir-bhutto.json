@@ -1,0 +1,126 @@
+{
+  "mode": "built-in image_gen",
+  "basePrompt": "Use case: illustration-story. Create ONE full-body historical avatar, matching attached image STYLE ONLY, not its identity or costume. Slightly irregular black ink contours, muted flat colors, sparse hard-edged shadows. Opaque pure WHITE background, small gray ground shadow. Whole headwear feet props within frame, ample margins, natural adult proportions about seven heads tall. Face must have visible EYEBROWS NOSE MOUTH but NO EYES, pupils, eyelids, closed-eye lines or socket contours: smooth blank skin below eyebrows. Distinctive hair facial shape and physique appropriate to subject. Exactly two plausible arms and hands with correct grips. No text labels signatures watermark halo scenery additional people. Subject: ",
+  "subjects": [
+    [
+      "jean-philippe-rameau",
+      "Jean-Philippe Rameau elderly slender French composer long narrow face prominent nose clean shaven powdered curled wig, brown eighteenth century coat cream waistcoat breeches stockings buckled shoes, musical manuscript."
+    ],
+    [
+      "canaletto",
+      "Canaletto mature Venetian painter rounded face short brown hair under dark tricorn, brown eighteenth century coat cream waistcoat breeches stockings, holding sketchbook with small architectural drawing and pencil."
+    ],
+    [
+      "william-hogarth",
+      "William Hogarth stocky middle aged English painter round face dark curled hair soft brown cap red brown eighteenth century coat cream waistcoat breeches stockings, palette and brush."
+    ],
+    [
+      "conde-buffon",
+      "Georges Louis Leclerc Comte de Buffon mature French naturalist powdered curled wig clean shaven broad face rich blue eighteenth century coat cream embroidered waistcoat breeches white stockings, botanical book."
+    ],
+    [
+      "turgot",
+      "Anne Robert Jacques Turgot mature stocky French statesman clean shaven receding powdered hair side curls, sober brown eighteenth century coat cream waistcoat breeches stockings, folded document."
+    ],
+    [
+      "thomas-gainsborough",
+      "Thomas Gainsborough mature slender painter high forehead gray powdered side curls clean shaven, dark blue eighteenth century coat cream waistcoat breeches stockings, palette brush."
+    ],
+    [
+      "tupac-katari",
+      "Tupac Katari indigenous Aymara adult leader brown skin long black hair simple dark broad brim hat, cream woven shirt dark knee breeches red patterned Andean poncho sandals, wooden staff."
+    ],
+    [
+      "antonio-narino",
+      "Antonio Narino mature Colombian independence statesman dark wavy hair long sideburns clean shaven chin, dark early nineteenth century frock coat white cravat cream waistcoat trousers boots, folded printed papers."
+    ],
+    [
+      "arthur-schopenhauer",
+      "Arthur Schopenhauer elderly broad high bald forehead distinctive white hair flaring sideways bushy white brows clean shaven face, black nineteenth century frock coat waistcoat white shirt cravat gray trousers shoes, book."
+    ],
+    [
+      "gioachino-rossini",
+      "Gioachino Rossini older very stocky Italian composer round face receding brown gray hair large sideburns clean shaven chin, dark nineteenth century suit cream waistcoat black bow tie, music score."
+    ],
+    [
+      "pedro-i-brasil",
+      "Pedro I Brazil young mature emperor curly dark brown hair long sideburns clean shaven chin, green imperial military uniform gold epaulettes white trousers tall black boots gold medals blue sash, sword sheathed, no crown."
+    ],
+    [
+      "felix-mendelssohn",
+      "Felix Mendelssohn young mature slender composer curly dark hair high receding forehead long sideburns clean shaven chin, black Romantic era tailcoat cream waistcoat white cravat dark trousers shoes, music manuscript."
+    ],
+    [
+      "cetshwayo",
+      "Cetshwayo adult Zulu king very stocky broad chest dark African skin short black hair short beard, traditional Zulu leopard skin mantle over shoulders hide waist wrap covering hips and thighs bead ornaments bare lower legs, oval cowhide shield hand hidden behind and upright spear."
+    ],
+    [
+      "emile-zola",
+      "Emile Zola older stocky French novelist short dark gray hair cropped beard mustache pince nez on nose blank skin behind lenses NO eyes, dark three piece nineteenth century suit bow tie pocket watch chain, book."
+    ],
+    [
+      "pierre-auguste-renoir",
+      "Pierre Auguste Renoir elderly thin French painter white beard mustache under soft beige hat, cream jacket shirt russet necktie brown trousers shoes, palette and brush."
+    ],
+    [
+      "antonin-dvorak",
+      "Antonin Dvorak mature Czech composer receding dark hair robust short beard mustache, charcoal nineteenth century suit waistcoat white shirt bow tie, music score."
+    ],
+    [
+      "wilhelm-rontgen",
+      "Wilhelm Rontgen mature German physicist thick dark hair full long dark beard streaked gray, dark three piece suit white shirt tie, holding small black radiographic plate with pale hand bone diagram."
+    ],
+    [
+      "gustav-mahler",
+      "Gustav Mahler thin middle aged composer high forehead swept dark hair wire round spectacles blank skin without eyes behind lenses, clean shaven, black formal tailcoat white shirt bow tie dark trousers, baton and score."
+    ],
+    [
+      "rainer-maria-rilke",
+      "Rainer Maria Rilke slender mature poet short brown hair receding high forehead fine mustache no beard, dark early twentieth century suit waistcoat white shirt tie, small poetry book."
+    ],
+    [
+      "maurice-ravel",
+      "Maurice Ravel older slender short composer swept silver hair prominent nose clean shaven, dark gray tailored suit white shirt patterned tie polished shoes, music score."
+    ],
+    [
+      "hermann-hesse",
+      "Hermann Hesse elderly slender bald writer short gray hair sides clean shaven round wire glasses NO eyes behind lenses, light cream suit white shirt brown tie, book."
+    ],
+    [
+      "erwin-schrodinger",
+      "Erwin Schrodinger mature physicist swept back dark gray hair high forehead clean shaven round wire spectacles NO eyes behind lenses, brown tweed three piece suit white shirt tie, notebook."
+    ],
+    [
+      "le-corbusier",
+      "Le Corbusier mature architect short receding dark gray hair clean shaven strong nose thick round black eyeglass frames NO eyes behind lenses, dark suit white shirt black bow tie, rolled architectural plans."
+    ],
+    [
+      "edwin-hubble",
+      "Edwin Hubble mature tall broad shouldered astronomer neatly parted brown hair small neat mustache, gray tweed suit waistcoat white shirt tie, notebook with simple galaxy sketch."
+    ],
+    [
+      "agustin-lara",
+      "Agustin Lara very slim mature Mexican composer elongated face slicked back dark hair thin mustache distinctive long cheek scar, elegant black tuxedo white shirt black bow tie, music manuscript."
+    ],
+    [
+      "friedrich-hayek",
+      "Friedrich Hayek elderly economist long narrow face receding gray hair clean shaven rimmed glasses NO eyes behind lenses, navy suit white shirt muted red tie, closed book."
+    ],
+    [
+      "jose-alfredo-jimenez",
+      "Jose Alfredo Jimenez mature Mexican singer composer robust physique rounded face slicked black hair fine mustache, black charro suit silver embroidery white shirt large red moño charro bow black boots, holding sombrero at side with one hand other relaxed."
+    ],
+    [
+      "elena-poniatowska",
+      "Elena Poniatowska elderly Mexican writer fair skin short silver hair softly waved, warm face visible brows but no eyes, long colorful embroidered Mexican blouse blue skirt low shoes, book and notebook."
+    ],
+    [
+      "wangari-maathai",
+      "Wangari Maathai mature Kenyan woman broad warm face dark African skin, colorful green orange patterned headwrap matching long African dress, holding small leafy seedling with root ball cradled securely in both hands, no scenery."
+    ],
+    [
+      "benazir-bhutto",
+      "Benazir Bhutto mature Pakistani woman fair brown skin oval face black hair partly visible beneath white dupatta scarf, emerald green shalwar kameez white scarf draped shoulders black flats, holding a closed document folder, poised stance."
+    ]
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "mode": "built-in image_gen",
+  "base": "Use case: illustration-story. Create ONE full-body historical avatar matching reference STYLE ONLY, not costume or identity. Slightly irregular black ink outlines, muted flat colors, sparse hard-edged shadows. Opaque pure WHITE background small gray ground shadow. Whole headwear feet props in frame ample margins. Natural adult proportions approximately seven heads tall. Visible EYEBROWS NOSE MOUTH but NO EYES pupils eyelids closed-eye lines or socket contours: completely smooth skin beneath eyebrows, including behind spectacles. Distinctive face hair physique. Exactly two anatomically correct arms and hands, correct prop grips. No text labels signatures watermark halos scenery additional people. Subject: ",
+  "subjects": [
+    [
+      "andrea-bocelli",
+      "Andrea Bocelli, mature Italian tenor, wavy silver hair, short gray beard, long oval face, black tuxedo white shirt black bow tie, microphone in right hand at waist, left hand open."
+    ],
+    [
+      "frank-sinatra",
+      "Frank Sinatra, lean mature man, narrow face prominent ears, short dark side-parted hair, charcoal fedora with black band, dark navy tailored suit white shirt slim black tie, holding vintage microphone."
+    ],
+    [
+      "luciano-pavarotti",
+      "Luciano Pavarotti, very corpulent tenor, round face, black curly hair receding at forehead thick dark beard, black tuxedo white bow tie white waistcoat, white handkerchief in right hand."
+    ],
+    [
+      "jose-carreras",
+      "José Carreras, mature tenor, compact build, short chestnut hair graying at temples neatly side parted, clean shaven, black tuxedo white shirt black bow tie, hands gently clasped at waist."
+    ],
+    [
+      "placido-domingo",
+      "Plácido Domingo, older tenor, swept-back silver hair full neatly trimmed white beard, broad face, black tailcoat white shirt white bow tie, burgundy silk scarf hanging loosely."
+    ],
+    [
+      "yanni",
+      "Yanni Greek composer, shoulder-length flowing dark hair thick dark mustache, white open-neck long sleeve shirt black trousers and black shoes, holding small closed music folio."
+    ],
+    [
+      "elton-john",
+      "Elton John, older stocky singer, short sandy hair, extravagant round blue spectacle frames with clear lenses over blank eyeless skin, purple sequined blazer white shirt black trousers platform shoes, standing with one hand on lapel."
+    ],
+    [
+      "phil-collins",
+      "Phil Collins, mature compact stocky man, bald crown short gray hair at sides, clean shaven round face, dark navy polo shirt gray trousers casual black shoes, holding two drumsticks together in right hand."
+    ],
+    [
+      "julio-iglesias",
+      "Julio Iglesias, mature singer, deep tan olive complexion, thick swept-back dark hair graying temples, long face clean shaven, navy suit unbuttoned white shirt no tie, handheld microphone down at side."
+    ],
+    [
+      "stanley-kubrick",
+      "Stanley Kubrick, middle-aged filmmaker, balding top disheveled dark hair at sides full dark beard, olive field jacket dark shirt brown trousers practical shoes, folded screenplay under left arm."
+    ],
+    [
+      "alfred-hitchcock",
+      "Alfred Hitchcock, elderly very rotund man, bald dome sparse gray sides, distinctive heavy jowls and long downturned mouth, charcoal suit white shirt dark tie black shoes, hands resting together in front."
+    ],
+    [
+      "martin-scorsese",
+      "Martin Scorsese, older short filmmaker, silver swept-back hair very thick dark eyebrows, large black framed clear spectacles with absolutely blank eyeless skin behind, navy suit white shirt blue tie, small closed notebook."
+    ],
+    [
+      "steven-spielberg",
+      "Steven Spielberg, mature filmmaker, short gray beard, navy baseball cap, thin round clear glasses over blank eyeless skin, beige jacket pale blue shirt dark jeans brown walking shoes, casually holding folded script."
+    ],
+    [
+      "quentin-tarantino",
+      "Quentin Tarantino, middle-aged tall filmmaker, long face large chin high forehead short dark hair, black blazer black T-shirt charcoal trousers dark shoes, folded script at side."
+    ],
+    [
+      "francis-ford-coppola",
+      "Francis Ford Coppola, elderly stocky filmmaker with thick white beard receding silver hair, round dark-rim clear glasses over blank eyeless skin, beige linen jacket pale shirt burgundy scarf brown trousers, notebook in hand."
+    ],
+    [
+      "lucky-luciano",
+      "Lucky Luciano, neutral documentary portrait, mature slim man slicked back dark hair long angular clean-shaven face, charcoal double-breasted 1930s suit white shirt patterned muted tie black shoes. Empty hands relaxed. No weapons money or glamorization."
+    ],
+    [
+      "vito-corleone",
+      "Fictional Vito Corleone in iconic elderly Marlon Brando portrayal, slicked-back graying hair rounded heavy jowls faint pencil mustache, black tuxedo white shirt black bow tie red rose on lapel, relaxed hands, solemn neutral stance. No weapons."
+    ],
+    [
+      "al-capone",
+      "Al Capone, neutral documentary portrait, heavyset middle-aged man broad face dark slicked-back receding hair faint left cheek scar, gray pinstripe 1930s suit cream shirt dark tie black shoes, arms naturally down. No weapons money cigars or glamorization."
+    ],
+    [
+      "eliot-ness",
+      "Eliot Ness, 1930s federal agent, slender clean-shaven long face neatly parted brown hair, dark gray three-piece suit white shirt navy tie, brown fedora worn, brown document folder held at side. No weapon."
+    ],
+    [
+      "pablo-escobar",
+      "Pablo Escobar neutral documentary portrait, stocky middle-aged man, thick short curly dark hair broad face heavy black mustache, pale beige short-sleeve shirt brown trousers plain dark shoes, empty hands relaxed. No drugs guns money or glamorization."
+    ],
+    [
+      "miguel-angel-felix-gallardo",
+      "Miguel Ángel Félix Gallardo neutral documentary portrait in middle age, tall slim build, long angular face dark swept-back hair short dark mustache, beige blazer pale shirt brown trousers, empty relaxed hands. No weapons money drugs or glamorization."
+    ],
+    [
+      "rafael-caro-quintero",
+      "Rafael Caro Quintero neutral documentary portrait in middle age, medium build black curly hair large dark mustache, tan long-sleeve collared shirt dark brown trousers plain boots, empty hands. No weapons money drugs or glamorization."
+    ],
+    [
+      "ismael-el-mayo-zambada",
+      "Ismael El Mayo Zambada neutral documentary portrait, older stocky man broad face prominent thick dark mustache graying short hair, plain beige baseball cap, pale blue buttoned shirt navy trousers plain shoes, empty relaxed hands. No drugs money guns or glamorization."
+    ],
+    [
+      "joaquin-el-chapo-guzman",
+      "Joaquín El Chapo Guzmán neutral documentary portrait, short stocky middle-aged man round face short dark hair small dark mustache, plain light gray long-sleeve collared shirt black trousers dark shoes, empty hands at sides. No weapons drugs money or glamorization."
+    ],
+    [
+      "salvatore-toto-riina",
+      "Salvatore Totò Riina neutral documentary portrait, elderly short stocky man round broad face receding gray combed hair clean shaven, plain dark brown suit pale shirt muted tie black shoes, empty hands. No weapons money or glamorization."
+    ],
+    [
+      "matteo-messina-denaro",
+      "Matteo Messina Denaro neutral documentary portrait, older man lean angular face receding short gray hair clean shaven, rectangular dark-rim clear spectacles over blank eyeless skin, navy quilted jacket gray sweater brown trousers plain shoes, empty hands. No weapons money or glamorization."
+    ],
+    [
+      "vito-cascio-ferro",
+      "Vito Cascio Ferro neutral documentary portrait, tall older Sicilian man long dark-gray mustache and pointed beard receding combed hair, late nineteenth-century dark three-piece suit long coat white high collar black tie, empty hands. No weapons money or glamorization."
+    ],
+    [
+      "frank-costello",
+      "Frank Costello neutral documentary portrait, middle-aged man rounded face prominent nose receding slicked dark hair clean shaven, 1940s brown double-breasted suit white shirt patterned restrained tie polished dark shoes, empty hands. No weapons money or glamorization."
+    ],
+    [
+      "john-gotti",
+      "John Gotti neutral documentary portrait, older broad shouldered man square face swept-back silver hair, charcoal double-breasted suit white shirt muted burgundy tie black shoes, empty hands relaxed. No weapons money or glamorization."
+    ],
+    [
+      "joseph-bonanno",
+      "Joseph Bonanno neutral documentary portrait, older man lean oval face receding slicked-back silver hair prominent nose clean shaven, dark gray three-piece suit white shirt burgundy tie black shoes, empty hands naturally relaxed. No weapons money or glamorization."
+    ]
+  ]
+}

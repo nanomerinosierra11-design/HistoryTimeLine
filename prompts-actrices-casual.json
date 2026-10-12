@@ -1,0 +1,90 @@
+{
+  "mode": "built-in imagegen",
+  "note": "Adaptaciones ilustradas inspiradas en looks documentados; no reproducciones exactas de fotografías.",
+  "images": [
+    {
+      "slug": "margot-robbie",
+      "source": "https://www.vogue.com/article/margot-robbie-trades-baggy-outfit",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/margot-robbie.png",
+      "prompt": "Edit the attached Margot Robbie avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Oversized red-and-white striped cotton button-up shirt, relaxed blue baggy jeans, white sneakers. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "scarlett-johansson",
+      "source": "https://www.vogue.co.uk/article/scarlett-johansson-gingham-dress",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/margot-robbie.png",
+      "prompt": "Create a new full-body Scarlett Johansson avatar. Reference is STYLE ONLY; do NOT copy Margot's identity or clothes. Outfit inspired by documented everyday clothing: Casual black-and-white gingham cotton midi sundress and black ballet flats. Blonde shoulder-length hair, distinctive rounded cheekbones and full lips. Relaxed everyday standing pose. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "ana-de-armas",
+      "source": "https://www.vogue.com/article/tom-cruise-ana-de-armas-travel-style",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/ana-de-armas.png",
+      "prompt": "Edit the attached Ana de Armas avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Open black trench coat over plain white crew-neck T-shirt, blue jeans and white sneakers. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "angelina-jolie",
+      "source": "https://www.vogue.mx/articulo/como-llevar-jeans-de-ruedo-doblado-con-botines-negros-como-angelina-jolie",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/angelina-jolie.png",
+      "prompt": "Edit the attached Angelina Jolie avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Simple black knit sweater, blue jeans with turned-up cuffs, black ankle boots. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "monica-bellucci",
+      "source": "https://www.vogue.com/article/monica-bellucci-dior-couture-red-dress-street-style",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/monica-bellucci.png",
+      "prompt": "Edit the attached Monica Bellucci avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Burgundy suede day dress-coat belted at waist ending at knees, black knee-high leather boots. No evening fabric or train. Small black saddle handbag. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "salma-hayek",
+      "source": "https://peopleenespanol.com/gallery/woman-style/",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/salma-hayek.png",
+      "prompt": "Edit the attached Salma Hayek avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Blue flared jeans, cream casual knit top, patterned burgundy scarf loosely around neck, brown ankle boots. Small everyday shoulder bag. Remove large evening earrings. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "charlize-theron",
+      "source": "https://www.womanandhome.com/fashion/fashion-news/charlize-theron-wide-leg-turn-up-jeans/",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/charlize-theron.png",
+      "prompt": "Edit the attached Charlize Theron avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Plain white short-sleeve crew-neck T-shirt tucked into wide-leg blue jeans with wide turned-up hems, white low-top sneakers. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "halle-berry",
+      "source": "https://www.whowhatwear.com/fashion/airport-style/autumn-airport-outfits-2026",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/halle-berry.png",
+      "prompt": "Edit the attached Halle Berry avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Black casual crew-neck top, blue jeans, black ankle boots and open leopard-print casual coat ending mid-thigh. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "beyonce",
+      "source": "https://www.vogue.com/article/beyonce-alessandra-rich-double-denim",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/beyonce.png",
+      "prompt": "Edit the attached Beyonce avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Blue denim jacket and matching blue jeans, cream ribbed top beneath jacket, black-and-white pumps. Remove microphone and relax hand naturally. Small crossbody camera bag. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "miranda-kerr",
+      "source": "https://www.vogue.es/moda/tendencias/articulos/el-unico-look-que-necesitas-es-vaqueros-camiseta-de-rayas-y-cazadora-de-cuero/24524",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/miranda-kerr.png",
+      "prompt": "Edit the attached Miranda Kerr avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Black leather biker jacket open over white/navy striped Breton T-shirt, high-waisted blue jeans, red low heels. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "penelope-cruz",
+      "source": "https://www.vogue.es/moda/tendencias/articulos/penelope-cruz-vaqueros-zapatillas-cardigan-primavera-2019/39392",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/penelope-cruz.png",
+      "prompt": "Edit the attached Penelope Cruz avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Blue-and-gray knit button cardigan open over white T-shirt, straight high-rise blue jeans, white sneakers. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "adriana-lima",
+      "source": "https://www.hola.com/us/celebrities/20260923925102/adriana-lima-latest-appearance-has-fans-comparing-her-early-2000s-look/",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/adriana-lima.png",
+      "prompt": "Edit the attached Adriana Lima avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Fitted black leather zip jacket over plain white tee, relaxed blue jeans, black ankle boots. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "megan-fox",
+      "source": "https://www.elle.com/culture/celebrities/a40207385/megan-fox-crop-top-jeans-machine-gun-kelly-lunch-date-outfit-2022/",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/megan-fox.png",
+      "prompt": "Edit the attached Megan Fox avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Brown casual cotton cropped T-shirt with high-waisted blue jeans, black casual ankle boots and black shoulder bag. Everyday streetwear. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    },
+    {
+      "slug": "victoria-silvstedt",
+      "source": "https://www.svenskdam.se/vimmel/grattis-victoria-silvstedt-du-ar-veckans-vimlare/5573943",
+      "path": "/Users/josemerino/Documents/Codex/2026-08-30/est/outputs/victoria-silvstedt.png",
+      "prompt": "Edit the attached Victoria Silvstedt avatar. Preserve identity, facial shape, hair, body type, pose and illustration style. Change clothing and footwear only, with minimal pose adaptation if accessories require it. Outfit inspired by documented everyday clothing: Light gray relaxed hoodie, opaque black athletic leggings and white running sneakers. Casual daytime outfit, no formal jewelry. Preserve the series: slightly irregular black ink outlines, flat muted colors and sparse hard-edge shadows. Pure opaque WHITE background with small gray foot shadow. Entire body and feet within frame. Natural adult head/body proportions. Visible eyebrows, nose and mouth but absolutely NO EYES, no pupils, eyelids or closed-eye lines, smooth skin beneath brows. Exactly two anatomically correct hands and arms. No text, watermarks, scenery or other people. No gala gowns, suits or blazers."
+    }
+  ]
+}

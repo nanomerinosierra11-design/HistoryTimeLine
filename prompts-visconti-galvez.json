@@ -1,0 +1,166 @@
+{
+  "mode": "builtin-imagegen",
+  "base": "Use case: illustration-story. Create ONE full-body historical avatar matching reference STYLE ONLY, not costume or identity. Slightly irregular black ink outlines, muted flat colors, sparse hard-edged shadows. Opaque pure WHITE background small gray ground shadow. Whole headwear feet props in frame ample margins. Natural adult proportions approximately seven heads tall. Visible EYEBROWS NOSE MOUTH but NO EYES pupils eyelids closed-eye lines or socket contours: completely smooth skin beneath eyebrows, including behind spectacles. Distinctive face hair physique. Exactly two anatomically correct arms and hands, correct prop grips. No text labels signatures watermark halos scenery additional people. Subject: ",
+  "subjects": [
+    [
+      "gian-galeazzo-visconti",
+      "Gian Galeazzo Visconti, mature slim Italian duke long narrow clean-shaven face dark shoulder-length hair, late medieval burgundy brocade robe fur trim dark cap, belt and sheathed sword, document."
+    ],
+    [
+      "segismundo-luxemburgo",
+      "Sigismund of Luxembourg, elderly imperial ruler long reddish gray beard long hair, fur hat with jewels as in period portrait, gold brocade robe red mantle, scepter."
+    ],
+    [
+      "gattamelata",
+      "Gattamelata Erasmo da Narni, mature stocky stern clean-shaven man short graying hair, 15th-century Italian steel plate armor, bare head, command baton and sheathed sword, no horse."
+    ],
+    [
+      "tomas-kempis",
+      "Thomas à Kempis, elderly thin clean-shaven tonsured man short gray side hair, black Augustinian canon habit white undergarment, book held in hands, no halo."
+    ],
+    [
+      "alfonso-v-aragon",
+      "Alfonso V of Aragon the Magnanimous, mature clean-shaven long face short dark hair, gold crown steel plate armor red gold royal mantle, sheathed sword."
+    ],
+    [
+      "ausias-march",
+      "Ausiàs March, mature slim Valencian poet knight dark chin-length hair clean-shaven, 15th-century dark green doublet brown hose soft dark cap, poetry manuscript sword sheathed."
+    ],
+    [
+      "nicolas-cusa",
+      "Nicholas of Cusa, older round clean-shaven face tonsure gray hair, red cardinal robe red cap, scholarly book and small brass sphere."
+    ],
+    [
+      "pio-ii",
+      "Pope Pius II Enea Silvio Piccolomini, elderly lean long nose clean-shaven gray sidehair, Renaissance papal white alb red gold cope papal tiara, book, no halo."
+    ],
+    [
+      "viracocha-inca",
+      "Viracocha Inca historical ruler NOT deity, mature Andean brown-skinned man straight black hair clean-shaven, red royal fringe headband gold earspools patterned geometric uncu tunic red mantle sandals, gold-topped staff."
+    ],
+    [
+      "jorge-manrique",
+      "Jorge Manrique, young adult Castilian poet knight brown shoulder-length hair clean-shaven, late 15th century steel breastplate over dark red doublet hose boots, manuscript and sheathed sword."
+    ],
+    [
+      "ludovico-sforza",
+      "Ludovico Sforza Il Moro, mature stocky broad clean-shaven face long straight dark hair rounded fringe, black Renaissance cap rich black gold brocade robe burgundy sleeves, document."
+    ],
+    [
+      "beatriz-galindo",
+      "Beatriz Galindo la Latina, mature Spanish female humanist, dark hair under modest white headdress black veil, dark burgundy late 15th-century gown high neckline, open book."
+    ],
+    [
+      "isabel-este",
+      "Isabella d'Este, mature Renaissance Italian noblewoman full face dark hair under elaborate rounded balzo headdress, deep blue velvet gown gold embroidery cream sleeves, book."
+    ],
+    [
+      "hernando-colon",
+      "Hernando Colón, mature Spanish Renaissance bibliophile long brown hair short beard, black cap black scholarly robe brown sleeves white collar, two books held naturally."
+    ],
+    [
+      "jacques-cartier",
+      "Jacques Cartier, mature French navigator dark full beard short hair black cap, dark burgundy 16th-century doublet fur-trimmed coat breeches stockings leather shoes, rolled chart."
+    ],
+    [
+      "juan-luis-vives",
+      "Juan Luis Vives, mature slim scholar long clean-shaven face dark chin-length hair black soft cap, black Renaissance robe fur collar, book."
+    ],
+    [
+      "san-juan-avila",
+      "Saint John of Avila, mature thin Spanish priest short dark hair tonsure trimmed dark beard, plain black cassock white collar leather shoes, small crucifix and book no halo."
+    ],
+    [
+      "san-francisco-borja",
+      "Saint Francis Borgia, older Spanish Jesuit receding gray hair short gray beard, black cassock white collar, holding book, ducal coronet resting visibly on closed book, no halo."
+    ],
+    [
+      "pedro-menendez-aviles",
+      "Pedro Menéndez de Avilés, mature sturdy Spanish naval commander short dark hair full pointed beard, steel breastplate black doublet small white ruff dark breeches boots, sword sheathed navigation chart."
+    ],
+    [
+      "toribio-mogrovejo",
+      "Saint Turibius of Mogrovejo, older Spanish bishop gray beard receding hair under episcopal mitre, white rochet purple cassock ornate cope, crozier held correctly no halo."
+    ],
+    [
+      "henry-hudson",
+      "Henry Hudson, mature lean English navigator brown hair pointed beard moustache, black broad-brim felt hat brown early17c coat white collar breeches stockings boots, rolled chart."
+    ],
+    [
+      "samuel-champlain",
+      "Samuel de Champlain, mature French explorer brown shoulderlength hair moustache pointed beard, dark broad-brim hat brown doublet dark blue cloak breeches boots, map."
+    ],
+    [
+      "san-martin-porres",
+      "Saint Martin de Porres, adult Afro-Peruvian friar brown skin short curly black tonsured hair clean-shaven, Dominican white habit black scapular cape, sandals holding broom with bristles resting on floor, no halo no animals."
+    ],
+    [
+      "san-pedro-claver",
+      "Saint Peter Claver, older lean Spanish Jesuit receding dark gray short hair short beard, plain black cassock white collar, simple wooden crucifix held near chest no halo."
+    ],
+    [
+      "santa-rosa-lima",
+      "Saint Rose of Lima, young adult Peruvian woman olive skin, white Dominican tertiary habit black veil rosary belt modest white wimple, small roses held in both hands, no halo no infant."
+    ],
+    [
+      "catalina-erauso",
+      "Catalina de Erauso la Monja Alférez, adult Basque person represented in historical masculine soldier attire, strong clean-shaven angular face short dark hair, 17th century steel cuirass brown doublet white collar breeches tall boots black hat, sword sheathed."
+    ],
+    [
+      "abel-tasman",
+      "Abel Tasman, mature Dutch navigator long wavy brown hair moustache small pointed beard, black broad brim hat black 1640s coat white flat collar dark breeches stockings shoes, sea chart."
+    ],
+    [
+      "antonio-vieira",
+      "Father António Vieira, elderly Portuguese Jesuit long narrow face bald crown gray sidehair small gray moustache beard, plain black cassock white collar black skullcap, sermon manuscript no halo."
+    ],
+    [
+      "robert-la-salle",
+      "Robert de La Salle, mature French explorer long curly dark hair small moustache, late17c blue coat tan waistcoat breeches leather tall boots broad brim hat, rolled map."
+    ],
+    [
+      "vitus-bering",
+      "Vitus Bering, mature sturdy Danish navigator in Russian service, light brown shoulderlength hair clean-shaven broad face, early18c dark blue naval coat red cuffs waistcoat breeches boots tricorne, navigation chart."
+    ],
+    [
+      "blas-lezo",
+      "Blas de Lezo, mature Spanish admiral broad face dark wig moustache, navy18c coat red cuffs gold trim tricorne, black eyepatch over left eye and NO visible eye on other side, left leg amputated below knee wooden peg prosthesis, right arm visibly impaired resting in sling, remaining left hand holding command baton. Anatomically coherent no extra limbs."
+    ],
+    [
+      "anne-bonny",
+      "Anne Bonny, adult Irish pirate woman red wavy hair strong face, practical early18c brown pirate coat cream shirt red waist sash breeches tall boots tricorn, sheathed cutlass no sexualization."
+    ],
+    [
+      "jorge-juan",
+      "Jorge Juan y Santacilia, mature clean-shaven Spanish naval scientist powdered tied hair, navy18c officer coat red cuffs gold trim pale waistcoat breeches stockings buckle shoes, brass sextant."
+    ],
+    [
+      "jose-galvez",
+      "José de Gálvez, mature Spanish statesman clean-shaven long face powdered white wig, ornate burgundy18c coat gold embroidery cream waistcoat breeches white stockings buckle shoes, document."
+    ],
+    [
+      "conde-floridablanca",
+      "Count of Floridablanca José Moñino, older long clean-shaven face gray powdered wig, elegant red18c court coat gold embroidery white waistcoat breeches stockings buckle shoes pale blue sash, papers."
+    ],
+    [
+      "jose-celestino-mutis",
+      "José Celestino Mutis, older Spanish botanist priest clean-shaven receding gray hair, black clerical cassock white collar, holding botanical folio and flowering sprig."
+    ],
+    [
+      "paul-revere",
+      "Paul Revere, mature sturdy American silversmith dark hair tied back clean-shaven round face, brown18c waistcoat white shirt sleeves blue breeches leather apron buckle shoes, holding silver teapot."
+    ],
+    [
+      "patrick-henry",
+      "Patrick Henry, mature slim American orator receding reddish brown tied hair clean-shaven, brown18c coat cream waistcoat breeches stockings shoes, document one hand other raised naturally."
+    ],
+    [
+      "segundo-conde-revillagigedo",
+      "Juan Vicente de Güemes second Count of Revillagigedo, mature clean-shaven Spanish viceroy powdered gray wig, blue18c court uniform red waistcoat gold embroidery sash breeches white stockings buckle shoes, command baton."
+    ],
+    [
+      "bernardo-galvez",
+      "Bernardo de Gálvez, adult Spanish military commander clean-shaven long face brown powdered tied hair, navy18c coat red facings gold epaulettes white waistcoat breeches black boots tricorn, sword sheathed command baton."
+    ]
+  ]
+}

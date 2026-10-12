@@ -1,0 +1,86 @@
+{
+  "mode": "builtin-imagegen",
+  "base": "Use case: illustration-story. Create ONE full-body historical avatar matching reference STYLE ONLY, not costume or identity. Slightly irregular black ink outlines, muted flat colors, sparse hard-edged shadows. Opaque pure WHITE background small gray ground shadow. Whole headwear feet props in frame ample margins. Natural adult proportions approximately seven heads tall. Visible EYEBROWS NOSE MOUTH but NO EYES pupils eyelids closed-eye lines or socket contours: completely smooth skin beneath eyebrows, including behind spectacles. Distinctive face hair physique. Exactly two anatomically correct arms and hands, correct prop grips. No text labels signatures watermark halos scenery additional people. Subject: ",
+  "subjects": [
+    [
+      "juan-ramon-jimenez",
+      "Juan Ramón Jiménez, older Spanish poet, slim, bald crown gray side hair, pointed full gray beard, black suit white shirt dark tie, holding poetry book."
+    ],
+    [
+      "alfonso-xiii",
+      "Alfonso XIII of Spain, adult tall slim long face prominent nose, short dark slick hair small upturned moustache, olive military dress uniform gold epaulettes blue white sash, riding boots, hand resting on sheathed saber."
+    ],
+    [
+      "marc-chagall",
+      "Marc Chagall, older slim artist distinctive long curved nose, receding curly gray hair clean shaven, blue work jacket gray trousers, palette and paintbrush."
+    ],
+    [
+      "ts-eliot",
+      "T. S. Eliot, mature tall slender long angular clean-shaven face short neatly side-parted dark hair, dark three-piece suit tie, poetry manuscript."
+    ],
+    [
+      "martin-heidegger",
+      "Martin Heidegger, older stocky man broad face short receding gray hair small moustache, brown rustic jacket and trousers, book."
+    ],
+    [
+      "dolores-ibarruri",
+      "Dolores Ibárruri, mature Spanish woman strong long face dark hair tightly pulled into bun, austere long black dress low black shoes, holding papers."
+    ],
+    [
+      "bertolt-brecht",
+      "Bertolt Brecht, mature lean angular clean-shaven face cropped dark hair, round wire glasses with no eyes behind, gray worker-style jacket matching trousers, script."
+    ],
+    [
+      "rene-magritte",
+      "René Magritte, mature stocky clean-shaven rounded face, black bowler hat dark suit white shirt red tie, hands naturally relaxed. Do not obscure face with apple."
+    ],
+    [
+      "luis-bunuel",
+      "Luis Buñuel, older sturdy broad face receding gray hair clean shaven, brown blazer gray trousers, holding a film script."
+    ],
+    [
+      "miguel-aleman-valdes",
+      "Miguel Alemán Valdés, mature Mexican man dark slick sidepart hair neatly trimmed moustache broad face, elegant charcoal double-breasted suit white shirt tie, papers."
+    ],
+    [
+      "louis-armstrong",
+      "Louis Armstrong, mature Black American musician stocky smiling broad face short dark hair, navy suit white shirt bow tie, brass trumpet held naturally with both hands."
+    ],
+    [
+      "karl-popper",
+      "Karl Popper, elderly slim man receding short white hair clean shaven long face prominent ears, dark suit tie, book."
+    ],
+    [
+      "john-von-neumann",
+      "John von Neumann, mature stocky man balding crown dark hair on sides clean shaven round face, dark three-piece suit tie, notebook."
+    ],
+    [
+      "dmitri-shostakovich",
+      "Dmitri Shostakovich, mature slim narrow clean-shaven face short sidepart brown hair, round spectacles no eyes behind, gray suit tie holding musical score."
+    ],
+    [
+      "aleksandr-solzhenitsyn",
+      "Aleksandr Solzhenitsyn, older robust man receding swept brown-gray hair very prominent long full graying beard, brown belted jacket dark trousers holding manuscript."
+    ],
+    [
+      "yukio-mishima",
+      "Yukio Mishima, adult Japanese man athletic compact physique short neat black hair clean shaven angular face, white shirt dark tailored trousers and dark blazer, book, calm literary portrait."
+    ],
+    [
+      "andy-warhol",
+      "Andy Warhol, mature slender pale man distinctive shaggy silver-white wig, black turtleneck black trousers black shoes, holding small sketchbook."
+    ],
+    [
+      "umberto-eco",
+      "Umberto Eco, older stocky bald man gray short beard moustache round glasses with no eyes behind, brown tweed jacket dark trousers, thick book."
+    ],
+    [
+      "bob-dylan",
+      "Bob Dylan, young adult slim man curly dark hair clean-shaven narrow face, brown suede jacket dark trousers boots, acoustic guitar on shoulder strap held anatomically correctly."
+    ],
+    [
+      "ayrton-senna",
+      "Ayrton Senna, adult lean athletic Brazilian man wavy dark hair clean-shaven distinctive long face, red and white Formula One racing overalls racing shoes, holding iconic yellow helmet with green and blue stripes at hip, no car."
+    ]
+  ]
+}

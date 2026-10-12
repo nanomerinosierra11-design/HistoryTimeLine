@@ -1,0 +1,142 @@
+{
+  "mode": "built-in image_gen",
+  "base": "Use case: illustration-story. Create ONE full-body historical avatar matching reference STYLE ONLY, not costume or identity. Slightly irregular black ink outlines, muted flat colors, sparse hard-edged shadows. Opaque pure WHITE background small gray ground shadow. Whole headwear feet props in frame ample margins. Natural adult proportions approximately seven heads tall. Visible EYEBROWS NOSE MOUTH but NO EYES pupils eyelids closed-eye lines or socket contours: completely smooth skin beneath eyebrows, including behind spectacles. Distinctive face hair physique. Exactly two anatomically correct arms and hands, correct prop grips. No text labels signatures watermark halos scenery additional people. Subject:  For musicians and athletes preserve distinctive face, physique, hairstyle and iconic stage or playing attire. Jersey numbers allowed; otherwise no lettering. ",
+  "subjects": [
+    [
+      "marilyn-monroe",
+      "Marilyn Monroe, adult blonde short platinum waves beauty mark red lips, elegant white pleated halter dress skirt resting naturally below knees white heels, poised standing."
+    ],
+    [
+      "victoria-silvstedt",
+      "Victoria Silvstedt, adult tall blonde woman long voluminous platinum hair, elegant floorlength black evening gown with tasteful neckline and black feather stole heels, red carpet pose."
+    ],
+    [
+      "hugh-hefner",
+      "Hugh Hefner, elderly grayhaired clean-shaven man, burgundy velvet smoking jacket black silk trousers slippers, relaxed standing."
+    ],
+    [
+      "taylor-swift",
+      "Taylor Swift, adult tall slender singer blonde hair bangs red lips, sparkling gold knee length stage dress and gold ankle boots holding microphone."
+    ],
+    [
+      "jerry-jones",
+      "Jerry Jones, elderly broad face swept white hair clean-shaven, navy business suit white shirt blue tie, hands relaxed."
+    ],
+    [
+      "tom-landry",
+      "Tom Landry, mature slender clean-shaven angular face, gray fedora charcoal suit white shirt dark tie black shoes, folded arms coaching pose."
+    ],
+    [
+      "roger-staubach",
+      "Roger Staubach in playing prime, clean-shaven short brown hair, Dallas Cowboys white jersey number 12 blue detailing silverblue padded pants white socks cleats, bareheaded holding football."
+    ],
+    [
+      "troy-aikman",
+      "Troy Aikman playing prime tall athletic blond short hair clean-shaven square face, Dallas white number 8 jersey silverblue padded pants cleats bareheaded football."
+    ],
+    [
+      "joe-montana",
+      "Joe Montana playing prime lean athletic lightbrown hair clean-shaven, San Francisco red jersey white number 16 gold padded pants white socks cleats, bareheaded football."
+    ],
+    [
+      "emmitt-smith",
+      "Emmitt Smith playing prime muscular stocky Black athlete short black hair moustache, Dallas white number 22 jersey silverblue padded pants cleats bareheaded football tucked under arm."
+    ],
+    [
+      "tom-brady",
+      "Tom Brady playing prime tall athletic short brown hair clean-shaven angular jaw, New England navy jersey white number 12 red piping silver padded pants cleats bareheaded football."
+    ],
+    [
+      "john-madden",
+      "John Madden older large heavyset man gray hair clean-shaven, beige sports blazer blue shirt darktie brown trousers black shoes holding broadcast headset."
+    ],
+    [
+      "michael-jordan",
+      "Michael Jordan playing prime tall muscular Black athlete shaved head, Chicago red basketball jersey number23 matching red shorts white socks redblack basketball shoes holding basketball."
+    ],
+    [
+      "jack-destripador",
+      "Fictional anonymous representation of Jack the Ripper, not a known real portrait, Victorian adult man dark sidewhiskers black top hat dark overcoat gray waistcoat trousers boots gloved hands at sides, mysterious reserved pose, no weapon blood victim violence."
+    ],
+    [
+      "muhammad-ali",
+      "Muhammad Ali playing prime tall muscular Black boxer short black hair clean-shaven, bare athletic torso white boxing trunks black waistband red boxing gloves white high boxing boots relaxed guard."
+    ],
+    [
+      "george-foreman",
+      "George Foreman mature comeback era large muscular broad Black boxer bald clean-shaven, bare athletic torso red trunks blue gloves white boxing boots relaxed guard."
+    ],
+    [
+      "babe-ruth",
+      "Babe Ruth playing prime stocky broad face clean-shaven, vintage New York white pinstripe baseball uniform navy cap baseball socks black cleats wooden baseball bat vertical tip on ground."
+    ],
+    [
+      "canelo-alvarez",
+      "Saul Canelo Alvarez adult Mexican boxer muscular light skin short reddish hair trimmed red beard, bare athletic torso greenwhite boxing trunks red gloves white boxing boots relaxed guard."
+    ],
+    [
+      "jim-morrison",
+      "Jim Morrison young adult singer long wavy darkbrown hair clean-shaven, black leather trousers boots white open-collar shirt dark leather belt holding wired microphone."
+    ],
+    [
+      "paul-mccartney",
+      "Paul McCartney young adult Beatles era dark mop hair clean-shaven, charcoal1960s suit white shirt narrowtie Chelsea boots playing left-handed violin-shaped bass on shoulder strap."
+    ],
+    [
+      "jon-bon-jovi",
+      "Jon Bon Jovi young adult Livin on a Prayer era voluminous long highlighted brown hair clean-shaven,1980s black leather vest over red sleeveless shirt fitted blue jeans boots microphone."
+    ],
+    [
+      "axl-rose",
+      "Axl Rose young adult singer long straight red hair red bandana clean-shaven white sleeveless top black leather pants boots microphone tattoos."
+    ],
+    [
+      "slash",
+      "Slash adult guitarist long curly black hair black top hat sunglasses hiding all eyes, black sleeveless shirt black leather pants boots, sunburst singlecut electric guitar on strap correct hands."
+    ],
+    [
+      "james-hetfield",
+      "James Hetfield adult1991 era long sandyblond hair moustache goatee, black sleeveless shirt blackjeans boots white angular Explorer electric guitar on strap."
+    ],
+    [
+      "kirk-hammett",
+      "Kirk Hammett adult guitarist long curly blackhair slim face, black sleeveless shirt blackjeans boots dark superstrat electric guitar on strap."
+    ],
+    [
+      "freddie-mercury",
+      "Freddie Mercury adult1986 era short blackhair thick moustache, yellow military style stage jacket white trousers redgold side stripes white trainers holding microphone with short stand."
+    ],
+    [
+      "cat-stevens",
+      "Cat Stevens young adult1970s singer long wavy darkhair full darkbeard, brown corduroy jacket cream shirt darktrousers boots acoustic guitar on strap."
+    ],
+    [
+      "bono",
+      "Bono adult U2 singer short darkhair slight stubble tinted wrap sunglasses no visibleeyes, black leatherjacket blacktshirt jeans boots microphone."
+    ],
+    [
+      "mick-jagger",
+      "Mick Jagger adult1970s slim singer shaggy brown shoulderhair clean-shaven prominent lips, purple fitted stagejacket colorful shirt slimblack trousers boots microphone."
+    ],
+    [
+      "stevie-nicks",
+      "Stevie Nicks adult1970s singer long blonde waves bangs, flowing black layered anklelength dress black fringed shawl platform boots tambourine with ribbons."
+    ],
+    [
+      "robert-plant",
+      "Robert Plant adult1970s tall lean singer long curly goldenblondhair clean-shaven, open lightblue shirt blue flared jeans boots holding microphone."
+    ],
+    [
+      "kurt-cobain",
+      "Kurt Cobain adult singer shoulderlength blondhair scruffy beard, olivegreen cardigan stripedtshirt fadedjeans sneakers electric offset guitar on strap."
+    ],
+    [
+      "debbie-harry",
+      "Debbie Harry adult1970s singer platinumblonde bob darkroots redlips, black fitted knee length stage dress ankleboots holding microphone."
+    ],
+    [
+      "bruce-springsteen",
+      "Bruce Springsteen adult1980s short dark wavyhair lightstubble red bandana around forehead, white tshirt bluejeans brownboots tan Telecaster electric guitar on shoulderstrap."
+    ]
+  ]
+}
